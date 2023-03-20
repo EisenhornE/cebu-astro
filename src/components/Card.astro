@@ -3,9 +3,10 @@ export interface Props {
 	title: string;
 	body: string;
 	href: string;
+	imageUrl: string;
 }
 
-const { href, title, body } = Astro.props;
+const { href, title, body,imageUrl } = Astro.props as Props;
 ---
 
 <li class="link-card">
