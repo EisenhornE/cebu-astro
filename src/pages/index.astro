@@ -1,47 +1,58 @@
 ---
-import Layout from "../layouts/Layout.astro"
-
+import Layout from "../layouts/Layout.astro";
+const pageTitle = "Welcome to Cebu";
 ---
 
-<Layout title="Welcome to Cebu">
-	<h1>Cebu</h1>
-	<h1>Cebu Landing Page</h1>
+<Layout pagetitle={pageTitle}>
+  <br />
 
-	<br><br>
+  <section class="relative">
+    <div class="h-[600px] relative">
+      	<img class="w-full h-full object-cover flex justify-center rounded-br-[350px] mb-4" src="https://photos.tpn.to/oi/gi/eq/jt/1600x900.webp" alt="Cebu Beach" />
+    	<article class="absolute top-[200px] left-[30px] transform translate-y-[250px] bg-[#2B5F8F] pb-[30px] rounded-tr-[125px] max-w-[1000px]">
+      		<h1 class="flex justify-center text-2xl py-2 text-white">Welcome to Cebu!</h1>
+	  		<p class="text-sm text leading-4 mx-auto w-3/4 text-white">
+				Welcome to Cebu, a province in the Philippines known for its stunning natural beauty, rich cultural heritage, 
+				and warm hospitality. Located in the heart of the Visayas region, Cebu boasts a diverse array of attractions, 
+				from pristine beaches and breathtaking natural wonders to vibrant festivals and historical landmarks. 
+				Whether you're looking to relax on white sand beaches, explore ancient ruins, or savor local delicacies, 
+				Cebu has something for everyone. So come and discover the beauty and wonder of Cebu – the Queen City of the South.
+			</p>	
+    	</article>
+	</div>
+  </section>
 
-	<h1 class="font-bold">Welcome to Cebu!</h1>
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor nunc ac urna pulvinar pellentesque. 
-		Nam vehicula semper lectus at aliquet. In vel nulla pulvinar, interdum elit non, dictum tortor. 
-		Aenean laoreet posuere ex, at commodo tortor convallis in. Sed faucibus dictum quam sit amet sodales. 
-		Nulla facilisi. Vivamus pellentesque consequat vulputate.
-	</p>
+  <br /><br />
 
-	<br><br>
+  <section class="ml-[8rem] mr-8">
+	<div class="bg-[#2B5F8F]">
+		<article>
+			<p class="text-white">Trending!</p>
+		</article>
+	</div>
+  </section>
 
-	<h1 class="font-bold text-3xl">Trending</h1>
+  <br /><br />
 
-	<br><br>
+  <h1 class="text-8xl">Best in 2023</h1>
 
-	<h1 class="text-8xl">Best in 2023</h1>
+  <br /><br />
 
-	<br><br>
+  <h2>Explore Cebu</h2>
 
-	<h2>Explore Cebu</h2>
+  <br /><br />
 
-	<br><br>
+  <h2>Upcoming Events in:</h2>
 
-	<h2>Upcoming Events in: </h2>
+  <br /><br />
 
-	<br><br>
+  <h2>Videos of Cebu</h2>
 
-	<h2>Videos of Cebu</h2>
+  <br /><br />
 
-	<br><br>
+  <h2>Itinerary</h2>
 
-	<h2>Itinerary</h2>
+  <br /><br />
 
-	<br><br>
-
-	<h2>Gallery of Cebu</h2>
+  <h2>Gallery of Cebu</h2>
 </Layout>

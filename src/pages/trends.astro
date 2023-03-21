@@ -1,30 +1,10 @@
 ---
+import Layout from "../layouts/Layout.astro";
+const pageTitle = "Trending"
 ---
 
-<html lang="en">
-
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} >
-		<title>Places to Go</title>
-	</head>
-
-	<body>
-		<header>
-			<h1 class="font-bold">
-				<a href="/">Home</a>
-				<a href="/trends">Trending</a>
-				<a href="/explore">Explore</a>
-				<a href="/events">Events</a>
-				<a href="/videos">Videos</a>
-				<a href="/itinerary">Itinerary</a>
-				<a href="/gallery">Gallery</a>
-			</h1>
-        </header>
-
-
+<Layout pagetitle={pageTitle}>
+    
 		<h1 class="font-bold">Don't Know where to go?</h1>
         <h2>Here are our recommendations.</h2>
         <h3 class="font-bold">Magellan's Cross</h3>
@@ -70,5 +50,4 @@
         </p>
 
         <h2>There are more places to go in Cebu City!</h2>
-    </body>
-</html>
+</Layout>

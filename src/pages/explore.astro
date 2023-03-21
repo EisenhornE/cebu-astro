@@ -1,26 +1,9 @@
-<html lang="en">
+---
+import Layout from "../layouts/Layout.astro";
+const pageTitle = "Explore Cebu"
+---
 
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} >
-		<title>Cebu</title>
-	</head>
-
-	<body>
-
-		<header>
-			<h1 class="font-bold">
-				<a href="/">Home</a>
-				<a href="/trends">Trending</a>
-				<a href="/explore">Explore</a>
-				<a href="/events">Events</a>
-				<a href="/videos">Videos</a>
-				<a href="/itinerary">Itinerary</a>
-				<a href="/gallery">Gallery</a>
-			</h1>
-        </header>
+<Layout pagetitle={pageTitle}>
 
 		<h1 class="font-bold">Things to do</h1>
 		<h1>
@@ -65,5 +48,4 @@
             You can go on a city tour to explore its landmarks, shopping destinations, and parks.
         </p>
 
-    </body>
-</html>
+</Layout>
