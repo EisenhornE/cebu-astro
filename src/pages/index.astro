@@ -36,7 +36,7 @@ const pageTitle = "Welcome to Cebu";
   <br /><br />
 
   <section
-    class="relative w-3/4 mx-auto rounded-tl-[5rem] overflow-hidden px-24 py-24"
+    class="relative w-3/4 mx-auto rounded-tl-[5rem] overflow-hidden px-24 py-12"
   >
     <!-- Background -->
     <div
@@ -47,15 +47,15 @@ const pageTitle = "Welcome to Cebu";
         <h1 class="text-white mx-8 pl-20 pt-8 text-4xl">Trending Now</h1>
       </header>
     </div>
-    <section class="relative">
+    <section class="relative mt-12">
       <!-- Picture -->
       <img
-        class="h-[60%] w-[1000px] pl-5 pb-12"
+        class="h-[600px] w-[1000px] pl-5 pb-24 rounded-tl-[10%]"
         src="https://gttp.imgix.net/198519/x/0/osmena-peak.jpg"
         alt="Osmeña Peak"
       />
       <div
-        class="h-full w-[60%] bg-[#2B5F8F] max-h-[615px] pb-[450px] absolute z-10 top-0 right-[0.1px]"
+        class="h-[84%] w-[60%] bg-[#2B5F8F] max-h-[615px] pb-[200px] absolute z-10 top-0 right-[0.1px]"
       >
         <header class="ml-40 pt-8 text-5xl">Best in 2023</header>
         <p class="pt-8 pl-10">Osmeña Peak</p>
@@ -69,17 +69,93 @@ const pageTitle = "Welcome to Cebu";
     </section>
   </section>
 
-  <br /><br />
+  <!-- Locations -->
+  <section class="flex flex-wrap flex-row gap-4 mx-32 my-8">
+    <div class="flex-1">
+      <img
+        class="w-full h-full object-cover"
+        src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1620,h_1080,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ukz9ogtqkfqiymk5jkkv/CebuOceanParkTicket-KlookPhilippines.jpg"
+        alt="Cebu Ocean Park"
+      />
+      <div class="text-center">Cebu Ocean Park</div>
+    </div>
+    <div class="flex-1">
+      <img
+        class="w-full h-full object-cover"
+        src="https://res.klook.com/image/upload/c_fill,w_843,h_474/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ch1ecatcmettcu5agdcp.webp"
+        alt="Badian"
+      />
+      <div class="text-center">Badian Canyoneering</div>
+    </div>
+    <div class="flex-1">
+      <img
+        class="w-full h-full object-cover"
+        src="https://res.klook.com/image/upload/c_fill,w_843,h_474/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ksyua98zjl4k8jxn5vsd.webp"
+        alt="Anjo World"
+      />
+      <div class="text-center">Anjo World</div>
+    </div>
+  </section>
 
-  <br /><br />
+  <!-- Explore Cebu -->
+  <section class="p-12 text-[24px]">
+    <!-- Header  -->
+    <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
+      <h1>Explore Cebu</h1>
+    </header>
+    <div class="flex flex-wrap flex-row gap-4 px-1 py-2">
+      <div class="flex-1">
+        <img
+          class="w-full h-[300px] object-cover"
+          src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/326487447_738684291224880_6214457149661238119_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ZddBNJQ6lz8AX-fgkvC&_nc_ht=scontent.fceb2-1.fna&oh=00_AfDa6pz8xXrj8xHQn22NzCXsNGanMhG8qhuje4PADHe9ig&oe=641EEAF2"
+          alt="Beach Resort"
+        />
+        <div class="text-center">Explore Cebu Island</div>
+      </div>
+      <div class="flex-1">
+        <img
+          class="w-full h-[300px] object-cover"
+          src="https://lp-cms-production.imgix.net/2019-06/6941db7cfc5a9708afb193d52005bc8d-magellan-s-cross.jpg"
+          alt="Magellan's Cross"
+        />
+        <div class="text-center">Culture & Heritage</div>
+      </div>
+      <div class="flex-1">
+        <img
+          class="w-full h-[300px] object-cover"
+          src="https://gttp.imgix.net/222711/x/0/"
+          alt="Sinulog"
+        />
+        <div class="text-center">Festivals & Events</div>
+      </div>
+      <div class="flex-1">
+        <img
+          class="w-full h-[300px] object-cover"
+          src="https://cdn.phonebooky.com/blog/wp-content/uploads/2020/02/06095332/cover-1.jpg"
+          alt="lechon"
+        />
+        <div class="text-center">Local Food & Cuisine</div>
+      </div>
+      <div class="flex-1">
+        <img
+          class="w-full h-[300px] object-cover"
+          src="https://www.madmonkeyhostels.com/wp-content/uploads/2019/07/shutterstock_129186500-min-1024x683.jpg"
+          alt="Fort"
+        />
+        <div class="text-center">Historical landmarks</div>
+      </div>
+    </div>
+  </section>
 
-  <h2>Explore Cebu</h2>
-
-  <br /><br />
-
-  <h2>Upcoming Events in:</h2>
-
-  <br /><br />
+  <!-- Events -->
+  <!-- Must create using CSR -->
+  <section class="p-12 text-[24px]">
+    <!-- Header -->
+    <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
+      <h1>Upcoming Events in</h1>
+    </header>
+    <div></div>
+  </section>
 
   <h2>Videos of Cebu</h2>
 
@@ -91,8 +167,3 @@ const pageTitle = "Welcome to Cebu";
 
   <h2>Gallery of Cebu</h2>
 </Layout>
-
-<!-- // padding-top: 2rem;
-    // padding-left: 3rem;
-    // font-size: 3.75rem;
-    // line-height: 1; -->
