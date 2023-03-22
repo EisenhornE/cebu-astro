@@ -4,8 +4,6 @@ const pageTitle = "Welcome to Cebu";
 ---
 
 <Layout pagetitle={pageTitle}>
-  <br />
-
   <section class="relative">
     <div class="h-[600px] relative">
       <img
@@ -153,16 +151,51 @@ const pageTitle = "Welcome to Cebu";
   </section>
 
   <!-- Events -->
-  <!-- Must create using CSR -->
+  <!-- TODO: Must create script using CSR -->
   <section class="p-12 text-[24px]">
     <!-- Header -->
     <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
       <h1>Upcoming Events in</h1>
     </header>
-    <div></div>
+    <div>
+      <!-- TODO: add CSR script here -->
+    </div>
   </section>
 
-  <h2>Videos of Cebu</h2>
+  <!-- Videos -->
+  <section class="grid grid-rows-4 grid-flow-col gap-4 p-12 text-[24px]">
+    <header class="">
+      <div class="border-b-4 inline-block w-fit-content ml-20">
+        Videos of Cebu
+      </div>
+    </header>
+
+    <!-- Video -->
+    <div class="ml-20 max-h-[800px] h-[600px] w-3/4">
+      <iframe
+        class="pt-12 mx-48 h-full"
+        width="796"
+        height="448"
+        src="https://www.youtube.com/embed/I8zv3prp6MA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      >
+      </iframe>
+      <div class="ml-20 max-h-[800px] h-[600px] w-3/4">
+        <iframe
+          class="pt-12 mx-48 h-full"
+          width="796"
+          height="448"
+          src="https://www.youtube.com/embed/KGzI69BGOL8"
+          title="YouTube video player"
+          frameborder=""
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
 
   <br /><br />
 
