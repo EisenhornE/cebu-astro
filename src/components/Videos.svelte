@@ -4,7 +4,7 @@
 
 <section class="">
   <!-- Iframe -->
-  <div class="video-container w-1/2 mx-auto">
+  <div class="video-container w-1/2 mx-auto pl-16">
     <iframe
       title="test"
       width="560"
@@ -17,7 +17,7 @@
   </div>
 
   <!-- Select Video -->
-  <div class="w-1/4 mx-auto pt-3 flex gap-4">
+  <div class="w-1/4 mx-auto pl-5 pt-3 flex gap-4">
     <button
       class="px-4 py-2 bg-blue-500"
       on:click={() => (selectedUrl = "G7AFWdH3Qzg")}
