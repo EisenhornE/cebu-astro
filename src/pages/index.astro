@@ -1,4 +1,5 @@
 ---
+import Videos from "../components/Videos.svelte";
 import Layout from "../layouts/Layout.astro";
 const pageTitle = "Welcome to Cebu";
 ---
@@ -101,7 +102,7 @@ const pageTitle = "Welcome to Cebu";
   </section>
 
   <!-- Explore Cebu -->
-  <section class="p-12 text-[24px]">
+  <section class="py-12 px-12 text-[24px]">
     <!-- Header  -->
     <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
       <h1>Explore Cebu</h1>
@@ -152,31 +153,25 @@ const pageTitle = "Welcome to Cebu";
 
   <!-- Events -->
   <!-- TODO: Must create script using CSR -->
-  <section class="p-12 text-[24px]">
+  <section class="py-12 pb-12 pt-4 text-[24px]">
     <!-- Header -->
-    <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
+    <header class="border-b-4 inline-block w-fit-content mb-4 ml-32">
       <h1>Upcoming Events in</h1>
     </header>
     <div>
       <!-- TODO: add CSR script here -->
     </div>
   </section>
-
   <!-- Videos -->
-  <section class="grid grid-rows-4 grid-flow-col gap-4 p-12 text-[24px]">
-    <header class="">
-      <div class="border-b-4 inline-block w-fit-content ml-20">
-        Videos of Cebu
-      </div>
+  <Videos />
+  <!-- Itinerary -->
+  <section>
+    <!-- Header  -->
+    <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
+      <h1>Explore Cebu</h1>
     </header>
-
-    <!-- Video -->
   </section>
 </Layout>
-
-<br /><br />
-
-<h2>Itinerary</h2>
 
 <br /><br />
 
