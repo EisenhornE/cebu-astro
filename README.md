@@ -36,4 +36,4 @@ This section will show the important files in the project
 
 # Want to discuss something?
 
-Feel free to contact me [EisenhornE](https://github.com/EisenhornE) through Discord Eisenhorn#6232 or at the workplace if you have any suggestions or you want to give me any advice.
+Feel free to contact me [EisenhornE](https://github.com/EisenhornE) through Discord Eisenhorn#6232 or at the workplace if you have any suggestions or you want to give me any advice. You can also directly talk to me at the workplace
