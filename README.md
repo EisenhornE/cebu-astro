@@ -33,6 +33,10 @@ This section will show the important files in the project
 | :---------------------------- | :-------------------------------------------------------------------- |
 | `npm install`                 | Installs dependencies                                                 |
 | `npm run dev`                 | Starts local dev server at `localhost:3000`                           |
+| `npm run build`               | Creates a production build of the website                             |
+| `npm install -g wrangler`     | Installs Wrangler CLI globally into your device for website deployment|
+| `wrangler pages publish dist` | Publishes the website. Will use the documents that is in the dist     |
+|                               | folder                                                                |
 
 # Want to discuss something?
 
