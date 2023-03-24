@@ -1,5 +1,5 @@
 <script lang="ts">
-  let selectedUrl: string = "KGzI69BGOL8";
+  let selectedUrl: string = "I8zv3prp6MA";
 </script>
 
 <section class="">
@@ -20,7 +20,7 @@
   <div class="w-1/4 mx-auto pl-5 pt-3 flex gap-4">
     <button
       class="px-4 py-2 bg-blue-500"
-      on:click={() => (selectedUrl = "G7AFWdH3Qzg")}
+      on:click={() => (selectedUrl = "I8zv3prp6MA")}
       >1st
     </button>
     <button
