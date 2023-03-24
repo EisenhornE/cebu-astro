@@ -1,0 +1,59 @@
+---
+---
+
+<section>
+  <ul>
+    <li>
+      <p></p> Events in the month of:
+      <ul class="dropdown">
+        <li>January</li>
+        <li>February</li>
+        <li>March</li>
+        <li>April</li>
+        <li>May</li>
+        <li>June</li>
+        <li>July</li>
+        <li>August</li>
+        <li>September</li>
+        <li>October</li>
+        <li>November</li>
+        <li>December</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+  }
+  ul {
+    list-style: none;
+    background: #22438c;
+  }
+  ul li {
+    display: inline-block;
+    position: relative;
+  }
+  li {
+    color: #fff;
+  }
+  ul li ul.dropdown li {
+    display: block;
+  }
+  ul li ul.dropdown {
+    width: 100%;
+    background: #22438c;
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+  ul li:hover {
+    background: #112c66;
+  }
+  ul li:hover ul.dropdown {
+    display: block;
+  }
+</style>

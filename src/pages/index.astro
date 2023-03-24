@@ -2,6 +2,7 @@
 import Videos from "../components/Videos.svelte";
 import Layout from "../layouts/Layout.astro";
 import Gallery from "../layouts/Gallery.astro";
+import Events from "../components/Events.astro";
 const pageTitle = "Welcome to Cebu";
 ---
 
@@ -154,15 +155,7 @@ const pageTitle = "Welcome to Cebu";
 
   <!-- Events -->
   <!-- TODO: Must create script using CSR -->
-  <section class="py-12 pb-12 pt-4 text-[24px]">
-    <!-- Header -->
-    <header class="border-b-4 inline-block w-fit-content mb-4 ml-32">
-      <h1>Upcoming Events in</h1>
-    </header>
-    <div>
-      <!-- TODO: add CSR script here -->
-    </div>
-  </section>
+  <Events />
 
   <!-- Videos -->
   <Videos client:load />
