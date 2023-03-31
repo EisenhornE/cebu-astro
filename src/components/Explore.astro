@@ -1,0 +1,25 @@
+---
+import exploreJson from "../../data/explore.json";
+---
+
+<section class="py-12 px-12 text-[24px]">
+  <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
+    <h1>Explore Cebu</h1>
+  </header>
+  <div class="flex gap-4 px-1 py-2">
+    {
+      exploreJson.contents.map((item) => {
+        return (
+          <div class="flex-1">
+            <img
+              src={item.imageUrl}
+              alt={item.alt}
+              class="w-full h-[300px] object-cover"
+            />
+            <div class="text-center">{item.name}</div>
+          </div>
+        );
+      })
+    }
+  </div>
+</section>

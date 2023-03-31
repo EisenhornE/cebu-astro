@@ -1,0 +1,29 @@
+{
+    "contents": [
+      {
+        "name": "Explore Cebu Island",
+        "imageUrl": "https://gttp.imgix.net/316654/x/0/20-best-beachfront-resorts-in-cebu-mactan-moalboal-oslob-malapascua-7.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883",
+        "alt": "Explore Cebu Island"
+      },
+      {
+        "name": "Magellan's Cross",
+        "imageUrl": "https://lp-cms-production.imgix.net/2019-06/6941db7cfc5a9708afb193d52005bc8d-magellan-s-cross.jpg",
+        "alt": "Magellan's Cross"
+      },
+      {
+        "name": "Festivals and Events",
+        "imageUrl": "https://gttp.imgix.net/222711/x/0/",
+        "alt": "Sinulog Festival"
+      },
+      {
+        "name": "Local Food and Cuisine",
+        "imageUrl": "https://cdn.phonebooky.com/blog/wp-content/uploads/2020/02/06095332/cover-1.jpg",
+        "alt": "Cuisine"
+      },
+      {
+        "name": "Historical Landmarks",
+        "imageUrl": "https://www.madmonkeyhostels.com/wp-content/uploads/2019/07/shutterstock_129186500-min-1024x683.jpg",
+        "alt": "Fort"
+      }
+    ]
+  }

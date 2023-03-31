@@ -1,0 +1,20 @@
+---
+import trendingJSON from "../../data/trending.json";
+---
+
+<section class="flex gap-4 mx-32 my-8">
+  {
+    trendingJSON.contents.map((trending) => {
+      return (
+        <div class="flex-1">
+          <img
+            src={trending.imageUrl}
+            alt={trending.alt}
+            class="w-full h-full object-cover"
+          />
+          <div class="text-center pt-3 text-xl">{trending.name}</div>
+        </div>
+      );
+    })
+  }
+</section>
