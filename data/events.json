@@ -1,9 +1,12 @@
 {
-    "contents": [
+    "contents": 
+    [
         {
-            "Image1":"https://www.cebutours.ph/wp-content/uploads/2015/01/Sinulog-Festival-in-Cebu.jpg",
-            "Image2":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Sinulog_Festival%2C_Pit_Se%C3%B1or%21.jpg/420px-Sinulog_Festival%2C_Pit_Se%C3%B1or%21.jpg",
+            "festival":"Sinulog Festival",
+            "Image1":"https://hicaps.com.ph/wp-content/uploads/2023/01/sinulog-festival.jpg",
+            "Image2":"https://www.rappler.com/tachyon/2023/01/Sinulog-Launching-Parade03_Cebu010623_JHernandez-scaled.jpg",
             "Image3":"https://www.rappler.com/tachyon/r3-assets/DFFEC1A7C6674877B1EE700EAD46CD3F/img/55A27B8BD8FC4F95AF8D0A37F427BCEC/Sinulog-Festival-parade-1-January-20-2019-38.jpg",
-            "Description":"Sinulog Festival is a well-known festival in Cebu held every third Sunday of January to honor the Sto. Niño (Child Jesus)."        }
+            "Description":"Sinulog Festival is a well-known festival in Cebu held every third Sunday of January to honor the Sto. Niño (Child Jesus) and commemorates the acceptance of Christianity by the Cebuanos. The festival features a grand parade with colorful costumes, street dancing, and loud drumbeats."        
+        }
     ]
 }
