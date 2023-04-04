@@ -19,6 +19,7 @@
 
   let showDropdown = false;
   let selectedOption = "";
+  let carousel;
 
   function toggleDropdown() {
     showDropdown = !showDropdown;
@@ -27,6 +28,16 @@
   function selectOption(option) {
     selectedOption = option;
     showDropdown = false;
+  }
+
+  function nextSlide(move = true) {
+    if (!carousel) return;
+
+    if (move) {
+      carousel.scrollLeft += carousel.offsetWidth;
+    } else {
+      carousel.scrollLeft -= carousel.offsetWidth;
+    }
   }
 </script>
 
@@ -60,115 +71,62 @@
   </div>
 </section>
 
-<section class="relative py-6 my-6 mx-8 border-4 border-black w-50">
-  {#each eventsJson.contents as events}
+<section class="relative py-6 px-8 my-6 mx-8 border-4 border-black w-50">
+  {#each eventsJson.contents as event}
     {#if selectedOption === "January" || month === "January"}
       <div class="flex">
-        <div class="w-[2000px] h-[500px] ml-16">
+        <div class="w-1/2">
           <img
-            src={events.featureImg}
+            src={event.featureImg}
             alt="Sinulog"
             class="w-full h-full object-cover rounded-lg"
           />
         </div>
-        <ul class="flex gap-4 overflow-auto">
-          <li class="justify-center mt-4 w-full shrink-0">
-            <figure class="">
-              <div class="flex mr-4">
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[0].image1}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[0].image2}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-              </div>
-              <figcaption class="mx-4 my-16 text-left">
-                <h1 class="pb-2 font-semibold">{events.festivals[0].name}</h1>
-                <p>{events.festivals[0].description}</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="justify-center mt-4 w-full shrink-0">
-            <figure class="">
-              <div class="flex mr-4">
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[1].image1}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[1].image2}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-              </div>
-              <figcaption class="mx-4 my-16 text-left">
-                <h1 class="pb-2 font-semibold">{events.festivals[1].name}</h1>
-                <p>{events.festivals[1].description}</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="justify-center mt-4 w-full shrink-0">
-            <figure class="">
-              <div class="flex mr-4">
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[2].image1}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[2].image2}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-              </div>
-              <figcaption class="mx-4 my-16 text-left">
-                <h1 class="pb-2 font-semibold">{events.festivals[2].name}</h1>
-                <p>{events.festivals[2].description}</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="justify-center mt-4 w-full shrink-0">
-            <figure class="">
-              <div class="flex mr-4">
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[3].image1}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                  <img
-                    src={events.festivals[3].image2}
-                    alt="Sinulog"
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-              </div>
-              <figcaption class="mx-4 my-16 text-left">
-                <h1 class="pb-2 font-semibold">{events.festivals[3].name}</h1>
-                <p>{events.festivals[3].description}</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+        <section class="w-1/2 relative">
+          <ul
+            bind:this={carousel}
+            class="flex gap-4 overflow-hidden scroll-smooth snap-x"
+          >
+            {#each event.festivals as festival}
+              <li class="snap-start justify-center mt-4 w-full shrink-0">
+                <figure class="">
+                  <div class="flex mr-4">
+                    <div class="w-[75%] h-60 ml-4 overflow-hidden">
+                      <img
+                        src={festival.image1}
+                        alt="Sinulog"
+                        class="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
+                    <div class="w-[75%] h-60 ml-4 overflow-hidden">
+                      <img
+                        src={festival.image2}
+                        alt="Sinulog"
+                        class="w-full h-full object-cover rounded-full"
+                      />
+                    </div>
+                  </div>
+                  <figcaption class="mx-4 my-16 text-left">
+                    <h1 class="pb-2 font-semibold">{festival.name}</h1>
+                    <p>{festival.description}</p>
+                  </figcaption>
+                </figure>
+              </li>
+            {/each}
+          </ul>
+          <button
+            on:click={() => nextSlide(false)}
+            class="absolute top-1/2 -translate-y-1/2 left-0"
+          >
+            Prev
+          </button>
+          <button
+            on:click={nextSlide}
+            class="absolute top-1/2 -translate-y-1/2 right-0"
+          >
+            Next
+          </button>
+        </section>
       </div>
     {/if}
   {/each}
