@@ -77,7 +77,7 @@
     <div class="w-1/2">
       <img
         src={selectedData.featureImg}
-        alt="Sinulog"
+        alt={selectedData.altFeatured}
         class="w-full h-full object-cover rounded-lg"
       />
     </div>
@@ -93,14 +93,14 @@
                 <div class="w-[75%] h-60 ml-4 overflow-hidden">
                   <img
                     src={festival.image1}
-                    alt="Sinulog"
+                    alt={festival.alt1}
                     class="w-full h-full object-cover rounded-full"
                   />
                 </div>
                 <div class="w-[75%] h-60 ml-4 overflow-hidden">
                   <img
                     src={festival.image2}
-                    alt="Sinulog"
+                    alt={festival.alt2}
                     class="w-full h-full object-cover rounded-full"
                   />
                 </div>
@@ -113,18 +113,22 @@
           </li>
         {/each}
       </ul>
-      <button
-        on:click={() => nextSlide(false)}
-        class="absolute top-1/2 -translate-y-1/2 left-0"
-      >
-        Prev
-      </button>
-      <button
-        on:click={nextSlide}
-        class="absolute top-1/2 -translate-y-1/2 right-0"
-      >
-        Next
-      </button>
+      {#if selectedData.festivals.length > 1}
+        <button
+          on:click={() => nextSlide(false)}
+          class="absolute top-1/2 -translate-y-1/2 left-0"
+        >
+          Prev
+        </button>
+        <button
+          on:click={nextSlide}
+          class="absolute top-1/2 -translate-y-1/2 right-0"
+        >
+          Next
+        </button>
+      {:else}
+        <div class="hidden" />
+      {/if}
     </section>
   </div>
 </section>

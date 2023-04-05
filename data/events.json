@@ -3,36 +3,46 @@
     {
       "month": "January",
       "featureImg": "https://hicaps.com.ph/wp-content/uploads/2023/01/sinulog-festival.jpg",
+      "altFeatured": "Sinulog Festival",
       "festivals": [
         {
           "name": "Sinulog Festival",
           "description": "Sinulog Festival is a well-known festival in Cebu held every third Sunday of January to honor the Sto. Niño (Child Jesus) and commemorates the acceptance of Christianity by the Cebuanos. The festival features a grand parade with colorful costumes, street dancing, and loud drumbeats.",
           "image1": "https://www.rappler.com/tachyon/r3-assets/DFFEC1A7C6674877B1EE700EAD46CD3F/img/55A27B8BD8FC4F95AF8D0A37F427BCEC/Sinulog-Festival-parade-1-January-20-2019-38.jpg",
-          "image2": "https://www.rappler.com/tachyon/2023/01/Sinulog-Launching-Parade03_Cebu010623_JHernandez-scaled.jpg"
+          "alt1": "Sinulog Festival",
+          "image2": "https://www.rappler.com/tachyon/2023/01/Sinulog-Launching-Parade03_Cebu010623_JHernandez-scaled.jpg",
+          "alt2": "Sinulog Festival"
         },
         {
-          "name": "Kadaugan sa Mactan",
-          "description": "Held every April 27, this festival commemorates the victory of Lapu-Lapu, a native chieftain, over Portuguese explorer Ferdinand Magellan in the Battle of Mactan in 1521.",
+          "name": "Feast of Sto. Niño",
+          "description": "The annual dancing feast of Sinulog is held on the 3rd Sunday of January every year in its honor. Today, the original image is permanently encased behind bulletproof glass inside its chapel within the Basilica del Santo Niño.",
           "image1": "http://3.bp.blogspot.com/-f4onO9Gum-E/VQl8nRU54XI/AAAAAAAAAAc/BBNtG30Ui7o/s1600/kadaugan.jpg",
-          "image2": "https://res.cloudinary.com/rebbix/image/youtube/f_auto,q_auto,fl_progressive.force_strip,w_1200,h_630,c_fill/76P-pb3GBTU"
+          "image2": "https://res.cloudinary.com/rebbix/image/youtube/f_auto,q_auto,fl_progressive.force_strip,w_1200,h_630,c_fill/76P-pb3GBTU",
+          "alt1": "Kadaugan sa Mactan",
+          "alt2": "Kadaugan sa Mactan"
         },
         {
           "name": "Pintos Festival",
           "description": "Celebrated every third week of October in Bogo City, Cebu, this festival showcases the city's agricultural heritage. The festival features colorful street dances and parades where participants wear costumes made of rice stalks and other agricultural products.",
           "image1": "https://madmonkeyhostels.com/wp-content/uploads/2019/06/Mad-Monkey-Hostels-5-Festivals-in-Cebu-you-shouldnt-miss-1.jpg",
-          "image2": "https://2.bp.blogspot.com/-PfwHrMtaJ-4/XF6iPjrLDtI/AAAAAAAAQIY/yuDaXEgBasYv1q5Y_ecnUlSjZUo0v2ORgCLcBGAs/s640/sinulog%2Bfestival.jpg"
+          "image2": "https://2.bp.blogspot.com/-PfwHrMtaJ-4/XF6iPjrLDtI/AAAAAAAAQIY/yuDaXEgBasYv1q5Y_ecnUlSjZUo0v2ORgCLcBGAs/s640/sinulog%2Bfestival.jpg",
+          "alt1": "Pintos Festival",
+          "alt2": "Pintos Festival"
         },
         {
           "name": "Halad Inasal Festival",
           "description": "Held every October in Talisay City, this festival is a celebration of the city's famous dish, inasal (grilled chicken). The festival features a grand street parade, food fair, and cultural shows.",
           "image1": "https://media.philstar.com/photos/2019/10/21/suroy-suroy-sugbo_2019-10-21_00-50-41.jpg",
-          "image2": "https://www.hlimg.com/images/events/738X538/mm_1528960286e.jpg"
+          "image2": "https://www.hlimg.com/images/events/738X538/mm_1528960286e.jpg",
+          "alt1": "Halad Inasal",
+          "alt2": "Halad Inasal"
         }
       ]
     },
     {
       "month": "February",
       "featureImg": "https://cebuinsights.com/wp-content/uploads/2021/06/Cebu-City-Hall.webp",
+      "altFeatured": "Cebu City Charter Festival",
       "festivals": [
         {
           "name": "Cebu City Charter Day",
