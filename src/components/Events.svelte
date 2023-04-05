@@ -1,7 +1,8 @@
 <script>
   import eventsJson from "../../data/events.json";
   let month = "January";
-  let selectedData = eventsJson.contents.find((item) => item.month == month);
+  $: selectedData = eventsJson.contents.find((item) => item.month === month);
+  $: console.log(selectedData);
   const months = [
     "January",
     "February",
@@ -26,8 +27,7 @@
   }
 
   function selectOption(option) {
-    selectedOption = option;
-    month = selectedOption;
+    month = option;
     showDropdown = false;
   }
 
@@ -73,62 +73,58 @@
 </section>
 
 <section class="relative py-6 px-8 my-6 mx-8 border-4 border-black w-50">
-  {#each eventsJson.contents as event}
-    {#if selectedOption === "January" || month === "January"}
-      <div class="flex">
-        <div class="w-1/2">
-          <img
-            src={event.featureImg}
-            alt="Sinulog"
-            class="w-full h-full object-cover rounded-lg"
-          />
-        </div>
-        <section class="w-1/2 relative">
-          <ul
-            bind:this={carousel}
-            class="flex gap-4 overflow-hidden scroll-smooth snap-x"
-          >
-            {#each event.festivals as festival}
-              <li class="snap-start justify-center mt-4 w-full shrink-0">
-                <figure class="">
-                  <div class="flex mr-4">
-                    <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                      <img
-                        src={festival.image1}
-                        alt="Sinulog"
-                        class="w-full h-full object-cover rounded-full"
-                      />
-                    </div>
-                    <div class="w-[75%] h-60 ml-4 overflow-hidden">
-                      <img
-                        src={festival.image2}
-                        alt="Sinulog"
-                        class="w-full h-full object-cover rounded-full"
-                      />
-                    </div>
-                  </div>
-                  <figcaption class="mx-4 my-16 text-left">
-                    <h1 class="pb-2 font-semibold">{festival.name}</h1>
-                    <p>{festival.description}</p>
-                  </figcaption>
-                </figure>
-              </li>
-            {/each}
-          </ul>
-          <button
-            on:click={() => nextSlide(false)}
-            class="absolute top-1/2 -translate-y-1/2 left-0"
-          >
-            Prev
-          </button>
-          <button
-            on:click={nextSlide}
-            class="absolute top-1/2 -translate-y-1/2 right-0"
-          >
-            Next
-          </button>
-        </section>
-      </div>
-    {/if}
-  {/each}
+  <div class="flex">
+    <div class="w-1/2">
+      <img
+        src={selectedData.featureImg}
+        alt="Sinulog"
+        class="w-full h-full object-cover rounded-lg"
+      />
+    </div>
+    <section class="w-1/2 relative">
+      <ul
+        bind:this={carousel}
+        class="flex gap-4 overflow-hidden scroll-smooth snap-x"
+      >
+        {#each selectedData.festivals as festival}
+          <li class="snap-start justify-center mt-4 w-full shrink-0">
+            <figure class="">
+              <div class="flex mr-4">
+                <div class="w-[75%] h-60 ml-4 overflow-hidden">
+                  <img
+                    src={festival.image1}
+                    alt="Sinulog"
+                    class="w-full h-full object-cover rounded-full"
+                  />
+                </div>
+                <div class="w-[75%] h-60 ml-4 overflow-hidden">
+                  <img
+                    src={festival.image2}
+                    alt="Sinulog"
+                    class="w-full h-full object-cover rounded-full"
+                  />
+                </div>
+              </div>
+              <figcaption class="mx-4 my-16 text-left">
+                <h1 class="pb-2 font-semibold">{festival.name}</h1>
+                <p>{festival.description}</p>
+              </figcaption>
+            </figure>
+          </li>
+        {/each}
+      </ul>
+      <button
+        on:click={() => nextSlide(false)}
+        class="absolute top-1/2 -translate-y-1/2 left-0"
+      >
+        Prev
+      </button>
+      <button
+        on:click={nextSlide}
+        class="absolute top-1/2 -translate-y-1/2 right-0"
+      >
+        Next
+      </button>
+    </section>
+  </div>
 </section>
