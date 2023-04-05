@@ -27,6 +27,7 @@
 
   function selectOption(option) {
     selectedOption = option;
+    month = selectedOption;
     showDropdown = false;
   }
 

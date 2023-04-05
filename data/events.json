@@ -1,5 +1,4 @@
 {
-  "months": [],
   "contents": [
     {
       "month": "January",
@@ -28,6 +27,18 @@
           "description": "Held every October in Talisay City, this festival is a celebration of the city's famous dish, inasal (grilled chicken). The festival features a grand street parade, food fair, and cultural shows.",
           "image1": "https://media.philstar.com/photos/2019/10/21/suroy-suroy-sugbo_2019-10-21_00-50-41.jpg",
           "image2": "https://www.hlimg.com/images/events/738X538/mm_1528960286e.jpg"
+        }
+      ]
+    },
+    {
+      "month": "February",
+      "featureImg": "https://cebuinsights.com/wp-content/uploads/2021/06/Cebu-City-Hall.webp",
+      "festivals": [
+        {
+          "name": "Cebu City Charter Day",
+          "description": "Held every February 24, this festival commemorates the founding of Cebu City in 1565. The festival features a grand parade, street dancing, and cultural shows.",
+          "image1": "https://i0.wp.com/cebufinest.com/wp-content/uploads/2017/02/cebufinest_cebucityhall_february24holidayincebucity.jpg?fit=800%2C569&ssl=1",
+          "image2": "https://www.cebucity.gov.ph/wp-content/uploads/2020/02/87416948_3002239579853264_8841982080591069184_n.jpg"
         }
       ]
     }
