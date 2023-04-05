@@ -16,26 +16,10 @@
         {
           "name": "Feast of Sto. Niño",
           "description": "The annual dancing feast of Sinulog is held on the 3rd Sunday of January every year in its honor. Today, the original image is permanently encased behind bulletproof glass inside its chapel within the Basilica del Santo Niño.",
-          "image1": "http://3.bp.blogspot.com/-f4onO9Gum-E/VQl8nRU54XI/AAAAAAAAAAc/BBNtG30Ui7o/s1600/kadaugan.jpg",
-          "image2": "https://res.cloudinary.com/rebbix/image/youtube/f_auto,q_auto,fl_progressive.force_strip,w_1200,h_630,c_fill/76P-pb3GBTU",
+          "image1": "https://www.santonino500.com/wp-content/uploads/2022/01/BMSN-Donated-Sto-Nino-de-Cebu-Sagrada-Familia-960x675.jpg",
+          "image2": "https://cbcpnews.net/cbcpnews/wp-content/uploads/2019/01/DSC_8729-01.jpeg",
           "alt1": "Kadaugan sa Mactan",
           "alt2": "Kadaugan sa Mactan"
-        },
-        {
-          "name": "Pintos Festival",
-          "description": "Celebrated every third week of October in Bogo City, Cebu, this festival showcases the city's agricultural heritage. The festival features colorful street dances and parades where participants wear costumes made of rice stalks and other agricultural products.",
-          "image1": "https://madmonkeyhostels.com/wp-content/uploads/2019/06/Mad-Monkey-Hostels-5-Festivals-in-Cebu-you-shouldnt-miss-1.jpg",
-          "image2": "https://2.bp.blogspot.com/-PfwHrMtaJ-4/XF6iPjrLDtI/AAAAAAAAQIY/yuDaXEgBasYv1q5Y_ecnUlSjZUo0v2ORgCLcBGAs/s640/sinulog%2Bfestival.jpg",
-          "alt1": "Pintos Festival",
-          "alt2": "Pintos Festival"
-        },
-        {
-          "name": "Halad Inasal Festival",
-          "description": "Held every October in Talisay City, this festival is a celebration of the city's famous dish, inasal (grilled chicken). The festival features a grand street parade, food fair, and cultural shows.",
-          "image1": "https://media.philstar.com/photos/2019/10/21/suroy-suroy-sugbo_2019-10-21_00-50-41.jpg",
-          "image2": "https://www.hlimg.com/images/events/738X538/mm_1528960286e.jpg",
-          "alt1": "Halad Inasal",
-          "alt2": "Halad Inasal"
         }
       ]
     },
@@ -48,7 +32,247 @@
           "name": "Cebu City Charter Day",
           "description": "Held every February 24, this festival commemorates the founding of Cebu City in 1565. The festival features a grand parade, street dancing, and cultural shows.",
           "image1": "https://i0.wp.com/cebufinest.com/wp-content/uploads/2017/02/cebufinest_cebucityhall_february24holidayincebucity.jpg?fit=800%2C569&ssl=1",
-          "image2": "https://www.cebucity.gov.ph/wp-content/uploads/2020/02/87416948_3002239579853264_8841982080591069184_n.jpg"
+          "image2": "https://www.cebucity.gov.ph/wp-content/uploads/2020/02/87416948_3002239579853264_8841982080591069184_n.jpg",
+          "alt1": "Cebu City Charter Day",
+          "alt2": "Cebu City Charter Day"
+        },
+        {
+          "name": "Cebu City Chinese New Year",
+          "description": "One festival that is held in the month of February in Cebu City is the Chinese New Year celebration. The date of the Chinese New Year celebration varies every year as it follows the lunar calendar, but it usually falls between January 21 and February 20. In 2022, the Chinese New Year was celebrated on February 1.",
+          "image1": "https://y101fm.com/images/articleimages/012017/2017-01-19-chinese-new-yr-cebus-best-main.jpg",
+          "image2": "https://cdn4.premiumread.com/?url=https://sunstar.com.ph/uploads/images/2023/01/20/409149.jpg&w=800&q=100&f=jpg&t=2",
+          "alt1": "Cebu City Chinese New Year",
+          "alt2": "Cebu City Chinese New Year"
+        }
+      ]
+    },
+    {
+      "month": "March",
+      "featureImg": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-soli-soli-festival-img.jpg",
+      "altFeatured": "Soli-Soli Festival",
+      "festivals": [
+        {
+          "name": "Soli-Soli Festival",
+          "description": "Named after the soli-soli plant which abounds around the lake Danao which is used for mat, bags and hat weaving and other handicrafts. its freestyle street dancing competition uses soli-soli plant as its dominant material. The festival adds color to the feast of St. Joseph the Worker.",
+          "image1": "https://www.travelingcebu.com/images/soli-soli-queens.jpg",
+          "image2": "https://live.staticflickr.com/3676/11756568126_924a769676_b.jpg",
+          "alt1": "Soli-Soli Festival",
+          "alt2": "Soli-Soli Festival"
+        }
+      ]
+    },
+    {
+      "month": "April",
+      "featureImg": "https://res.cloudinary.com/rebbix/image/youtube/f_auto,q_auto,fl_progressive.force_strip,w_1200,h_630,c_fill/76P-pb3GBTU",
+      "altFeatured": "Kadaugan sa Mactan",
+      "festivals": [
+        {
+          "name": "Kadaugan sa Mactan",
+          "description": "A weeklong commemoration of the historic battle of Mactan between the Spanish Conquistador Fernando Magallanes and Mactan Chieftain Lapu-Lapu. The festival features various activities highlighted by the series of musical productions culminating with the famous battle, food street, and live band entertainment.",
+          "image1": "https://www.travelingcebu.com/images/Kadaugan-dancers-bruce-liron.jpg",
+          "image2": "https://www.travelingcebu.com/images/kadaugan-meljorey-lagarde.jpg",
+          "alt1": "Kadaugan sa Mactan",
+          "alt2": "Kadaugan sa Mactan"
+        },
+        {
+          "name": "Tostado Festival",
+          "description": "The festival focuses on the town’s famous delicacy, the “tostado”. The street dancing which is the highlight of the festivity uses the different movements of making tostado in the dance participated in by the different barangays.",
+          "image1": "https://escophilippines.com/images/events-and-celebrations/cebu/tostado-festival-img.jpg",
+          "image2": "https://mingsworld.com/images/tostadoFest.jpg",
+          "alt1": "Tostado Festival",
+          "alt2": "Tostado Festival"
+        }
+      ]
+    },
+    {
+      "month": "May",
+      "featureImg": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-mantawi-festival-img.jpg",
+      "altFeatured": "Mantawi Festival",
+      "festivals": [
+        {
+          "name": "Mantawi Festival",
+          "description": "A showcase of the city’s historical heritage and identity promoting the city as an industrial and tourist hub, that involves the Spanish regime through street dancing, dioramas, floats, food festival, trade fair and sports event.",
+          "image1": "http://3.bp.blogspot.com/-qTlKSl0CwHI/UgScn9PvnpI/AAAAAAAAALs/BRDLTqP2HlM/s1600/2.jpg",
+          "image2": "https://www.travelingcebu.com/images/Mantawi-Festival-inewmedia-org.jpg",
+          "alt1": "Mantawi Festival",
+          "alt2": "Mantawi Festival"
+        },
+        {
+          "name": "Fiesta sa Mandaue",
+          "description": "This is a week-long fiesta celebration. The festival will starts May 8. The fiesta is celebrated in honor of Mandaue’s Patron Saint, St. Joseph.",
+          "image1": "https://i0.wp.com/cebudailynews.inquirer.net/files/2015/01/Traslacion.jpg",
+          "image2": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-fiesta-sa-mandaue-festival-img.jpg",
+          "alt1": "Fiesta sa Mandaue",
+          "alt2": "Fiesta sa Mandaue"
+        }
+      ]
+    },
+    {
+      "month": "June",
+      "featureImg": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-tartanilla-festival-img.jpg",
+      "altFeatured": "Tartanila Festival",
+      "festivals": [
+        {
+          "name": "Tartanila Festival",
+          "description": "The Tartanilla Festival is Cebu City’s way of preserving the tartanilla (horse-drawn carriage) heritage by reviving the oldest mode of transportation to ply some of the city’s streets. The festival coincides with the city’s celebration of the country’s Independence Day starting from June 1 to 12. gaily decorated tartanillas driven by kutseros ply the streets of some of the city’s barangays and compete for several awards.",
+          "image1": "http://www.traveltothephilippines.info/wp-content/uploads/2017/08/Cebu-Tartanilla-Festival7.jpg",
+          "image2": "https://proudlyfilipino.com/wp-content/uploads/2015/08/2409428594_2c0c3e397a_z.jpg",
+          "alt1": "Tartanila Festival",
+          "alt2": "Tartanila Festival"
+        },
+        {
+          "name": "Camotes Cassava Festival",
+          "description": "A yearly celebration of a bountiful harvest where farmers display their various cassava-based products, share their varied technical experiences in producing and processing cassava products. Among the activities are the Best Booth Contest, Poster-making Contest, search for new cassava food products, cultural night and the search for Miss Camotes Tourism.",
+          "image1": "https://www.travelingcebu.com/images/camotes-cassava-festival-street-dancing.jpg",
+          "image2": "https://www.travelingcebu.com/images/cassava-cake-chelle-duenas.jpg",
+          "alt1": "Camotes Cassava Festival",
+          "alt2": "Camotes Cassava Festival"
+        },
+        {
+          "name": "Palawod Festival",
+          "description": "Palawod is the fishermen’s daily toil, their means of livelihood, their life, and pride. The street dancing captures and preserves the Bantayanon’s unique traditional fishing rituals inherent to the island through dancing, music and the visual arts.",
+          "image1": "https://theamazingbantayan.files.wordpress.com/2019/09/fb_img_15690531066183841105794817535426.jpg",
+          "image2": "https://watchmendailyjournal.com/wp-content/uploads/2020/03/Celebrating-the-Palawod-Lawod-Festival-2.jpeg",
+          "alt1": "Palawod Festival",
+          "alt2": "Palawod Festival"
+        },
+        {
+          "name": "Semana Santa sa Bantayan",
+          "description": "Holy Thursday and Good Friday (Bantayan, Bantayan Island) Also known as “Pasko sa Kasakit” Celebrated in Holy Thursday and Good Friday. This is celebrated in the observance of the Holy Week on Bantayan Island with the procession and merrymaking.",
+          "image1": "https://laagsparkles.files.wordpress.com/2017/04/photogrid_1492095146317.jpg?w=720",
+          "image2": "https://laagsparkles.files.wordpress.com/2017/04/photogrid_1492095492531.jpg?w=720",
+          "alt1": "Semana Santa sa Bantayan",
+          "alt2": "Semana Santa sa Bantayan"
+        }
+      ]
+    },
+    {
+      "month": "July",
+      "featureImg": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-caballo-festival-img.jpg",
+      "altFeatured": "Caballo Festival",
+      "festivals": [
+        {
+          "name": "Caballo Festival",
+          "description": "A street dancing competition that honor’s the town’s patron saint, Señor Santiago de Apostol. History retells of a war between Christians and Muslims where the townsfolk saw and was saved by a miraculous apparition of a man riding a horse and later became known as the town’s patron saint.",
+          "image1": "https://rrhcssr.files.wordpress.com/2012/07/398514_369310286417971_1867707363_n.jpg?w=300",
+          "image2": "https://www.cebufest.com/sites/default/files/cebu_caballo_festival.jpg",
+          "alt1": "Caballo Festival",
+          "alt2": "Caballo Festival"
+        }
+      ]
+    },
+    {
+      "month": "August",
+      "featureImg": "https://allaboutfiesta.files.wordpress.com/2016/10/yuuu.jpg",
+      "altFeatured": "Dinagat Bakasi Festival",
+      "festivals": [
+        {
+          "name": "Dinagat Bakasi Festival",
+          "description": "It is a unique reinvention of the Dinagat Festival. The exotic eel locally known as “bakasi” is peculiar and abundant in Cordova. The dance replicates the gliding movement of the bakasi.",
+          "image1": "https://www.travelingcebu.com/images/dinagat-shary-sorono.jpg",
+          "image2": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-dinagat-bakasi-festival-img.jpg",
+          "alt1": "Dinagat Bakasi Festival",
+          "alt2": "Dinagat Bakasi Festival"
+        },
+        {
+          "name": "Bonga Festival",
+          "description": "Celebrated in honor of the town’s patron saint, Our Lady of Pilar and Santa Filomena. Among its highlights is the street dancing and ritual/showdown competition. “Bunga” is a Cebuano word which means fruit in English. This festival is a thanksgiving for all the blessings and graces the Sibongahalnons have received for the abundant fruits found in their town.",
+          "image1": "https://www.travelingcebu.com/images/bonga-festival.jpg",
+          "image2": "https://static.wixstatic.com/media/83d387_8731520e0d3d412d8b191d4e489ca80e~mv2.jpg/v1/fill/w_640,h_312,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/83d387_8731520e0d3d412d8b191d4e489ca80e~mv2.jpg",
+          "alt1": "Bonga Festival",
+          "alt2": "Bonga Festival"
+        },
+        {
+          "name": "Siloy Festival",
+          "description": "The festival promotes the Mag-abo forest with its famous Black Shama or Siloy, the town’s scenic white sand beaches, and dive spots and in honor of the town’s patroness Saint Rose of Lima.",
+          "image1": "https://www.hlimg.com/images/events/738X538/y_1529556512e.jpg",
+          "image2": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-siloy-festival-img.jpg",
+          "alt1": "Siloy Festival",
+          "alt2": "Siloy Festival"
+        }
+      ]
+    },
+    {
+      "month": "September",
+      "featureImg": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-karanasa-festival-img.jpg",
+      "altFeatured": "Karansa Festival",
+      "festivals": [
+        {
+          "name": "Karansa Festival",
+          "description": "The Karansa is a dance expressing one’s joy and happiness performed in four basic steps: The kiay, karag, kurug and kurahay that jibes with the Karansa official beat. It is celebrated during the city’s annual fiesta in honor of their patron saint, Sto. Tomas de Villanueva.",
+          "image1": "https://www.driftstories.com/wp-content/uploads/2019/09/IMG_4645-1.jpg",
+          "image2": "https://www.travelingcebu.com/images/karansa-festival-streetdance-aying-salupan.jpg",
+          "alt1": "Karansa Festival",
+          "alt2": "Karansa Festival"
+        },
+        {
+          "name": "Kabuhian Festival",
+          "description": "Celebrated during the town’s fiesta that features activities like trade fair, livelihood forum and a street dancing competition participated in by the different barangays with the dance movements depicting the various livelihood program of the town.",
+          "image1": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-kabuhian-festival-img.jpg",
+          "image2": "https://rrhcssr.files.wordpress.com/2012/07/cebu_tag-anitohan_festival.jpg",
+          "alt1": "Kabuhian Festival",
+          "alt2": "Kabuhian Festival"
+        }
+      ]
+    },
+    {
+      "month": "October",
+      "featureImg": "https://dumanjug.gov.ph/wp-content/uploads/2019/01/sinanggiyaw.jpg",
+      "altFeatured": "Sinanggiyaw Festival",
+      "festivals": [
+        {
+          "name": "Sinanggiyaw Festival",
+          "description": "Sinanggi-yaw is taken from two old Cebuano words, Sinanggi meaning abundance of harvested agricultural products of the local farmers and Sayaw meaning dance. Through street dancing and field presentation. Performers is focused on three aspects: planting, harvesting and thanksgiving.",
+          "image1": "https://www.cebufest.com/sites/default/files/cebu_sinanggiyaw_festival.jpg",
+          "image2": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-sinanggiyaw-festival-img.jpg",
+          "alt1": "Sinanggiyaw Festival",
+          "alt2": "Sinanggiyaw Festival"
+        },
+        {
+          "name": "Inasal Festival",
+          "description": "A showcase of Talisay City’s historical heritage and identity promoting the city as an aqua and tourist hub, through street dancing as a thanksgiving offering to the city’s patroness, Sta. Teresa de Avila. Sports fest, parade of the great personages as higantes, food festival featuring the famous “inasal” or lechon, Talisay’s roast pig being the undisputable best – golden brown, crackling crispy skin, tasty meat from secret stuffed herbs.",
+          "image1": "https://preview.redd.it/halad-inasal-festival-2022-v0-wolheosbqdu91.jpg?width=640&crop=smart&auto=webp&s=a6851c173542b1bfc60152c21caecbb4ea7889ee",
+          "image2": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-inasal-halad-festival-img.jpg",
+          "alt1": "Inasal Festival",
+          "alt2": "Inasal Festival"
+        }
+      ]
+    },
+    {
+      "month": "November",
+      "featureImg": "https://www.cebufest.com/sites/default/files/kabkaban_festival.jpg",
+      "altFeatured": "Kabkaban Festival",
+      "festivals": [
+        {
+          "name": "Kabkaban Festival",
+          "description": "Named after the soli-soli plant which abounds around the lake Danao which is used for mat, bags and hat weaving and other handicrafts. its freestyle street dancing competition uses soli-soli plant as its dominant material. The festival adds color to the feast of St. Joseph the Worker.",
+          "image1": "https://www.travelingcebu.com/images/kabkaban-festival-streetdance-fb.jpg",
+          "image2": "https://www.travelingcebu.com/images/kabkaban-festival-fb-page.jpg",
+          "alt1": "Kabkaban Festival",
+          "alt2": "Kabkaban Festival"
+        }
+      ]
+    },
+    {
+      "month": "December",
+      "featureImg": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-kawayan-festival-img.jpg",
+      "altFeatured": "Kawayan Festival",
+      "festivals": [
+        {
+          "name": "Kawayan Festival",
+          "description": "“Kawayan” is the vernacular term for bamboo and is the major source of livelihood/income in Alegria. The street dancing competition is based on the kawayan and is slated during the town’s fiesta in honor of Saint Francis Javier.",
+          "image1": "https://www.hlimg.com/images/events/738X538/3_1538043064e.jpg",
+          "image2": "https://www.travelingcebu.com/images/kawayan-festival-aileen-evelina2.jpg",
+          "alt1": "Kawayan Festival",
+          "alt2": "Kawayan Festival"
+        },
+        {
+          "name": "Sadsad Festival",
+          "description": "In celebration of the town’s annual fiesta, “sadsad” is a form of merrymaking and thanksgiving for the blessings received for the past year from the town’s patroness, the Immaculate Conception.",
+          "image1": "https://thehotelfortuna.com/wp-content/uploads/2018/03/fortunahotel-sadsad-festival-img.jpg",
+          "image2": "https://manilastandard.net/wp-content/uploads/2020/01/71180_sadsad-dancing.jpg",
+          "alt1": "Sadsad Festival",
+          "alt2": "Sadsad Festival"
         }
       ]
     }
