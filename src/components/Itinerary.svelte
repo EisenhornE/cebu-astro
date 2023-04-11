@@ -2,6 +2,8 @@
   import itineraryJson from "../../data/itinerary.json";
 </script>
 
+<!-- TODO: FINISH THIS TOMORROW -->
+
 <section>
   <!-- Header  -->
   <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
