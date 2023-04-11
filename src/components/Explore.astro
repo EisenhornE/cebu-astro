@@ -16,10 +16,20 @@ import exploreJson from "../../data/explore.json";
               alt={item.alt}
               class="w-full h-[300px] object-cover rounded-lg"
             />
-            <div class="text-center">{item.name}</div>
+            <div class="text-center mt-2">{item.name}</div>
           </div>
         );
       })
     }
   </div>
 </section>
+
+<style>
+  img {
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+</style>
