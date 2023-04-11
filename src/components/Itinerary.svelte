@@ -35,7 +35,7 @@
             />
           </div>
         </section>
-        <figcaption class="text-xs my-28 w-1/2 leading-6">
+        <figcaption class="text-base my-28 w-1/2 leading-6">
           <h1 class="font-bold">Day {itinerary.day}</h1>
           <p>{itinerary.tip}</p>
         </figcaption>
@@ -43,7 +43,7 @@
       <section
         class="absolute bg-[#718DA6] w-3/4 h-1/4 right-0 bottom-0 -z-10 mb-2 pr-8 rounded-l-full"
       >
-        <p class="pl-28 pb-6 absolute bottom-0 text-white">
+        <p class="pl-28 pb-8 absolute bottom-0 text-white text-lg font-bold">
           See More Itineraries
         </p>
       </section>
