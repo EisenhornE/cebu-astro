@@ -2,7 +2,6 @@
   import eventsJson from "../../data/events.json";
   let month = "January";
   $: selectedData = eventsJson.contents.find((item) => item.month === month);
-  $: console.log(selectedData);
   const months = [
     "January",
     "February",
@@ -74,7 +73,7 @@
   </div>
 </section>
 
-<section class="relative py-6 px-8 my-6 mx-8 border-4 border-black w-50">
+<section class="relative py-6 px-8 my-6 mx-8 w-50">
   <div class="flex">
     <div class="w-1/2 mr-4">
       <img
@@ -90,16 +89,16 @@
       >
         {#each selectedData.festivals as festival}
           <li class="snap-start justify-center mt-4 w-full shrink-0">
-            <figure class="">
-              <div class="flex mr-4">
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
+            <figure>
+              <div class="flex">
+                <div class="w-[75%] h-60 ml-4 overflow-hidden others">
                   <img
                     src={festival.image1}
                     alt={festival.alt1}
                     class="w-full h-full object-cover rounded-full"
                   />
                 </div>
-                <div class="w-[75%] h-60 ml-4 overflow-hidden">
+                <div class="w-[75%] h-60 ml-4 overflow-hidden others">
                   <img
                     src={festival.image2}
                     alt={festival.alt2}
@@ -134,3 +133,15 @@
     </section>
   </div>
 </section>
+
+<style>
+  .others {
+    transition: transform 0.2s ease-in-out;
+  }
+  .others:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    overflow: visible;
+    border-radius: 9999px;
+  }
+</style>
