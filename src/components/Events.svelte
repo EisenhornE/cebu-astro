@@ -44,15 +44,17 @@
 
 <section>
   <div class="pl-20">
-    <button class="inline-block border-b-4 ml-2" on:click={toggleDropdown}>
-      {#if selectOption == ""}
-        Upcoming Events in {month}
-      {:else if selectedOption == ""}
-        Upcoming Events in {month}
-      {:else}
-        Upcoming Events in {selectedOption}
-      {/if}
-    </button>
+    <h1 class="inline-block border-b-4 ml-2">
+      Upcoming Events in <button on:click={toggleDropdown}>
+        {#if selectOption == ""}
+          {month}
+        {:else if selectedOption == ""}
+          {month}
+        {:else}
+          {selectedOption}
+        {/if}
+      </button>
+    </h1>
     <div>
       {#if showDropdown}
         <div
