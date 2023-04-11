@@ -6,11 +6,12 @@ import Events from "../components/Events.svelte";
 // import Test from "../components/test.svelte";
 import Explore from "../components/Explore.astro";
 import Trending from "../components/Trending.astro";
+import Itinerary from "../components/Itinerary.astro";
 ---
 
 <Layout>
   <section class="relative">
-    <div class="h-[600px] relative">
+    <div class="h-[600px]">
       <img
         class="w-full h-full object-cover flex justify-center rounded-br-[350px] mb-4"
         src="https://photos.tpn.to/oi/gi/eq/jt/1600x900.webp"
@@ -34,45 +35,6 @@ import Trending from "../components/Trending.astro";
     </div>
   </section>
 
-  <section
-    class="relative w-3/4 mx-auto rounded-tl-[5rem] overflow-hidden my-24"
-  >
-    <!-- Background -->
-    <div
-      class="h-full max-h-[500px] absolute top-0 w-full right-0 bg-[#2B5F8F] z-[-1]"
-    >
-      <header class="">
-        <!-- Header -->
-        <h1 class="text-white mx-24 pl-12 pt-8 text-4xl">Trending Now</h1>
-      </header>
-    </div>
-    <section class="relative mt-24">
-      <!-- Picture -->
-      <div class="h-[500px] w-3/4 ml-36 rounded-tl-[10%]">
-        <img
-          src="https://gttp.imgix.net/198519/x/0/osmena-peak.jpg"
-          alt="Osmeña Peak"
-        />
-      </div>
-      <div
-        class="h-[900px] w-[50%] bg-[#2B5F8F] max-h-[615px] absolute z-10 top-0 right-[0.1px] text-white"
-      >
-        <div class="ml-36 mt-16 text-5xl">
-          <header>Best in 2023</header>
-        </div>
-        <div>
-          <p class="pt-12 pl-10">Osmeña Peak</p>
-          <p class="pt-8 pl-10 mr-12">
-            Osmeña Peak offers a panoramic view of the surrounding landscape,
-            which includes neighboring islands, mountains, and the sea. The view
-            is particularly stunning during sunrise and sunset, when the sky is
-            painted with vibrant colors.
-          </p>
-        </div>
-      </div>
-    </section>
-  </section>
-
   <!-- Trending -->
   <Trending />
 
@@ -88,12 +50,7 @@ import Trending from "../components/Trending.astro";
   <Videos client:load />
 
   <!-- Itinerary -->
-  <section class="py-8">
-    <!-- Header  -->
-    <header class="border-b-4 inline-block w-fit-content mb-4 ml-20">
-      <h1>Itinerary Tips</h1>
-    </header>
-  </section>
+  <Itinerary />
 
   <!-- Galleries of Cebu -->
   <Gallery />
