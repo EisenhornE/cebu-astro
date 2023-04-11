@@ -76,7 +76,7 @@
 
 <section class="relative py-6 px-8 my-6 mx-8 border-4 border-black w-50">
   <div class="flex">
-    <div class="w-1/2">
+    <div class="w-1/2 mr-4">
       <img
         src={selectedData.featureImg}
         alt={selectedData.altFeatured}
