@@ -1,5 +1,6 @@
 <script>
   import eventsJson from "../../data/events.json";
+  import Icon from "@iconify/svelte";
   let month = "January";
   $: selectedData = eventsJson.contents.find((item) => item.month === month);
   const months = [
@@ -44,7 +45,10 @@
 <section>
   <div class="pl-20">
     <h1 class="inline-block border-b-4 border-border-green ml-2">
-      Upcoming Events in <button on:click={toggleDropdown}>
+      Upcoming Events in <button
+        on:click={toggleDropdown}
+        class="text-violet-600"
+      >
         {#if selectOption == ""}
           {month}
         {:else if selectedOption == ""}
@@ -57,7 +61,7 @@
     <div>
       {#if showDropdown}
         <div
-          class="absolute z-10 left-56 mt-2 py-2 w-28 bg-white rounded-lg shadow-lg"
+          class="absolute z-10 left-56 mt-2 py-2 w-28 bg-white rounded-lg shadow-lg text-center"
         >
           {#each months as option}
             <button
@@ -117,15 +121,15 @@
       {#if selectedData.festivals.length > 1}
         <button
           on:click={() => nextSlide(false)}
-          class="absolute top-1/2 -translate-y-1/2 left-0 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1"
+          class="absolute top-1/2 -translate-y-1/2 left-0 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2 pt-1 hover:bg-fuchsia-800"
         >
-          &#8592;
+          <Icon icon="material-symbols:arrow-back-ios-new" />
         </button>
         <button
           on:click={nextSlide}
-          class="absolute top-1/2 -translate-y-1/2 right-0 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1"
+          class="absolute top-1/2 -translate-y-1/2 right-0 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2.5 pt-1 hover:bg-fuchsia-800"
         >
-          &#8594;
+          <Icon icon="material-symbols:arrow-forward-ios" />
         </button>
       {:else}
         <div class="hidden" />

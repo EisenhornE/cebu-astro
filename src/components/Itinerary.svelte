@@ -1,5 +1,6 @@
 <script>
   import itineraryJson from "../../data/itinerary.json";
+  import Icon from "@iconify/svelte";
   import { onMount } from "svelte";
   let carousel;
 
@@ -61,8 +62,8 @@
         });
         console.log(carousel);
       }}
-      class="absolute top-1/2 -translate-y-1/2 left-6 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 overflow-hidden"
-      >Previous</button
+      class="absolute top-1/2 -translate-y-1/2 left-6 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 overflow-hidden pl-2 pt-1 hover:bg-fuchsia-800"
+      ><Icon icon="material-symbols:arrow-back-ios-new" /></button
     >
     <button
       on:click={() => {
@@ -72,8 +73,8 @@
         });
         console.log(carousel);
       }}
-      class="absolute bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 right-10 top-1/2 -translate-y-1/2 overflow-hidden"
-      >Next</button
+      class="absolute bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 right-10 top-1/2 -translate-y-1/2 overflow-hidden pl-2.5 pt-1 hover:bg-fuchsia-800"
+      ><Icon icon="material-symbols:arrow-forward-ios" /></button
     >
     <section
       class="absolute bg-[#718DA6] w-3/4 h-1/4 right-0 bottom-0 -z-10 mb-2 pr-8 rounded-l-full"
