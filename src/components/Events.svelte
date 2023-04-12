@@ -117,15 +117,15 @@
       {#if selectedData.festivals.length > 1}
         <button
           on:click={() => nextSlide(false)}
-          class="absolute top-1/2 -translate-y-1/2 left-0"
+          class="absolute top-1/2 -translate-y-1/2 left-0 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1"
         >
-          Prev
+          &#8592;
         </button>
         <button
           on:click={nextSlide}
-          class="absolute top-1/2 -translate-y-1/2 right-0"
+          class="absolute top-1/2 -translate-y-1/2 right-0 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1"
         >
-          Next
+          &#8594;
         </button>
       {:else}
         <div class="hidden" />
