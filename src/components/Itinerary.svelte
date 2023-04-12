@@ -1,5 +1,11 @@
 <script>
   import itineraryJson from "../../data/itinerary.json";
+  import Carousel from "svelte-carousel";
+  let carousel;
+
+  const handleNextClick = () => {
+    carousel.goTonext();
+  };
 </script>
 
 <section>
@@ -11,7 +17,7 @@
     <ul class="flex overflow-hidden">
       {#each itineraryJson.itinerary as itinerary}
         <li class="shrink-0 w-full">
-          <figure class="flex justify-between">
+          <figure class="flex justify-between items-center">
             <div
               class="mt-4 ml-12 grid grid-cols-2 grid-rows-2 gap-2 h-full w-1/2"
             >
@@ -44,8 +50,8 @@
           </figure>
         </li>
       {/each}
-      <section />
     </ul>
+
     <section
       class="absolute bg-[#718DA6] w-3/4 h-1/4 right-0 bottom-0 -z-10 mb-2 pr-8 rounded-l-full"
     >
