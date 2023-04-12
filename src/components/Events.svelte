@@ -43,7 +43,7 @@
 
 <section>
   <div class="pl-20">
-    <h1 class="inline-block border-b-4 ml-2">
+    <h1 class="inline-block border-b-4 border-border-green ml-2">
       Upcoming Events in <button on:click={toggleDropdown}>
         {#if selectOption == ""}
           {month}
