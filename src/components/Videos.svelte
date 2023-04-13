@@ -2,7 +2,7 @@
   let selectedUrl: string = "I8zv3prp6MA";
 </script>
 
-<section class="">
+<section id="videos" class="">
   <p class="inline-block border-b-4 border-border-green ml-20 mb-8">
     Videos of Cebu
   </p>

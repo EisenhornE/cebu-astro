@@ -42,7 +42,7 @@
   }
 </script>
 
-<section>
+<section id="events">
   <div class="pl-20">
     <h1 class="inline-block border-b-4 border-border-green ml-2">
       Upcoming Events in <button
