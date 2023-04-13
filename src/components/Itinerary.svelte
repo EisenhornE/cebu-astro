@@ -9,10 +9,11 @@
   });
 </script>
 
-<section id="itinerary">
+<section>
   <!-- Header  -->
   <header
-    class="border-b-4 border-border-green inline-block w-fit-content mb-4 ml-20 mt-16"
+    class="border-b-4 border-border-green inline-block w-fit-content mb-4 ml-20 pt-16"
+    id="itinerary"
   >
     <h1>Itinerary Tips</h1>
   </header>

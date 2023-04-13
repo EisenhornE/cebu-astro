@@ -42,9 +42,9 @@
   }
 </script>
 
-<section id="events">
+<section id="events" class="pt-16">
   <div class="pl-20">
-    <h1 class="inline-block border-b-4 border-border-green ml-2 mt-20">
+    <h1 class="inline-block border-b-4 border-border-green ml-2">
       Upcoming Events in <button
         on:click={toggleDropdown}
         class="text-violet-600"
@@ -75,67 +75,67 @@
       {/if}
     </div>
   </div>
-</section>
 
-<section class="relative py-6 px-8 my-6 mx-8 w-50">
-  <div class="flex">
-    <div class="w-1/2 mr-4">
-      <img
-        src={selectedData.featureImg}
-        alt={selectedData.altFeatured}
-        class="w-full h-full object-cover rounded-lg"
-      />
+  <section class="relative py-6 px-8 my-6 mx-8 w-50">
+    <div class="flex">
+      <div class="w-1/2 mr-4">
+        <img
+          src={selectedData.featureImg}
+          alt={selectedData.altFeatured}
+          class="w-full h-full object-cover rounded-lg"
+        />
+      </div>
+      <section class="w-1/2 relative">
+        <ul
+          bind:this={carousel}
+          class="flex gap-4 overflow-hidden scroll-smooth snap-x"
+        >
+          {#each selectedData.festivals as festival}
+            <li class="snap-start justify-center mt-4 w-full shrink-0">
+              <figure>
+                <div class="flex">
+                  <div class="w-[75%] h-60 ml-4 overflow-hidden others">
+                    <img
+                      src={festival.image1}
+                      alt={festival.alt1}
+                      class="w-full h-full object-cover rounded-full"
+                    />
+                  </div>
+                  <div class="w-[75%] h-60 ml-4 overflow-hidden others">
+                    <img
+                      src={festival.image2}
+                      alt={festival.alt2}
+                      class="w-full h-full object-cover rounded-full"
+                    />
+                  </div>
+                </div>
+                <figcaption class="mx-4 my-16 text-left">
+                  <h1 class="pb-2 font-semibold">{festival.name}</h1>
+                  <p>{festival.description}</p>
+                </figcaption>
+              </figure>
+            </li>
+          {/each}
+        </ul>
+        {#if selectedData.festivals.length > 1}
+          <button
+            on:click={() => nextSlide(false)}
+            class="absolute top-1/2 -translate-y-1/2 left-0 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2 pt-1 hover:bg-fuchsia-800"
+          >
+            <Icon icon="material-symbols:arrow-back-ios-new" />
+          </button>
+          <button
+            on:click={nextSlide}
+            class="absolute top-1/2 -translate-y-1/2 right-0 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2.5 pt-1 hover:bg-fuchsia-800"
+          >
+            <Icon icon="material-symbols:arrow-forward-ios" />
+          </button>
+        {:else}
+          <div class="hidden" />
+        {/if}
+      </section>
     </div>
-    <section class="w-1/2 relative">
-      <ul
-        bind:this={carousel}
-        class="flex gap-4 overflow-hidden scroll-smooth snap-x"
-      >
-        {#each selectedData.festivals as festival}
-          <li class="snap-start justify-center mt-4 w-full shrink-0">
-            <figure>
-              <div class="flex">
-                <div class="w-[75%] h-60 ml-4 overflow-hidden others">
-                  <img
-                    src={festival.image1}
-                    alt={festival.alt1}
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-                <div class="w-[75%] h-60 ml-4 overflow-hidden others">
-                  <img
-                    src={festival.image2}
-                    alt={festival.alt2}
-                    class="w-full h-full object-cover rounded-full"
-                  />
-                </div>
-              </div>
-              <figcaption class="mx-4 my-16 text-left">
-                <h1 class="pb-2 font-semibold">{festival.name}</h1>
-                <p>{festival.description}</p>
-              </figcaption>
-            </figure>
-          </li>
-        {/each}
-      </ul>
-      {#if selectedData.festivals.length > 1}
-        <button
-          on:click={() => nextSlide(false)}
-          class="absolute top-1/2 -translate-y-1/2 left-0 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2 pt-1 hover:bg-fuchsia-800"
-        >
-          <Icon icon="material-symbols:arrow-back-ios-new" />
-        </button>
-        <button
-          on:click={nextSlide}
-          class="absolute top-1/2 -translate-y-1/2 right-0 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2.5 pt-1 hover:bg-fuchsia-800"
-        >
-          <Icon icon="material-symbols:arrow-forward-ios" />
-        </button>
-      {:else}
-        <div class="hidden" />
-      {/if}
-    </section>
-  </div>
+  </section>
 </section>
 
 <style>

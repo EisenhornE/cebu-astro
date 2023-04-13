@@ -2,8 +2,11 @@
   let selectedUrl: string = "I8zv3prp6MA";
 </script>
 
-<section id="videos" class="">
-  <p class="inline-block border-b-4 border-border-green ml-20 mb-8 mt-16">
+<section class="">
+  <p
+    class="inline-block border-b-4 border-border-green ml-20 mb-8 pt-16"
+    id="videos"
+  >
     Videos of Cebu
   </p>
   <!-- Iframe -->
