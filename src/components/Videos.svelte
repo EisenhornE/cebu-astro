@@ -20,28 +20,40 @@
   </div>
 
   <!-- Select Video -->
-  <div class="w-1/4 mx-auto pl-5 pt-3 flex gap-4">
+  <div class="w-3/4 mx-auto pl-5 pt-3 flex gap-4">
     <button
-      class="px-4 py-2 bg-blue-500"
+      class="mx-4 my-2 transition duration-500 ease-in-out transform hover:scale-110 hover:shadow-2xl"
       on:click={() => (selectedUrl = "I8zv3prp6MA")}
-      >1st
+      ><img
+        src="https://i.ytimg.com/vi/I8zv3prp6MA/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_g6AArgIigIMCAAQARhlIEsoQDAP&rs=AOn4CLBMytR1Yu-OEJKIWZY56pMudKf48Q"
+        alt="First Video"
+      />
     </button>
     <button
-      class="px-4 py-2 bg-blue-500"
+      class="mx-4 my-2 transition duration-500 ease-in-out transform hover:scale-110 hover:shadow-2xl"
       on:click={() => (selectedUrl = "gcEc0qS2pxs")}
-      >2nd
+      ><img
+        src="https://i.ytimg.com/vi/gcEc0qS2pxs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCwz6hdgqAg4ps61-ojBQ8yY5TlAA"
+        alt="Second Video"
+      />
     </button>
     <button
-      class="px-4 py-2 bg-blue-500"
+      class="mx-4 my-2 transition duration-500 ease-in-out transform hover:scale-110 hover:shadow-2xl"
       on:click={() => (selectedUrl = "S-HZDq1DWUQ")}
-      >3rd
+      ><img
+        src="https://i.ytimg.com/vi/S-HZDq1DWUQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuU8eFIQiqgTvOfeWd2Ho19R665w"
+        alt="Third Video"
+      />
     </button>
     <button
-      class="px-4 py-2 bg-blue-500"
+      class="mx-4 my-2 transition duration-500 ease-in-out transform hover:scale-110 hover:shadow-2xl"
       on:click={() => (selectedUrl = "KGzI69BGOL8")}
-      >4th
+      ><img
+        src="https://i.ytimg.com/vi/KGzI69BGOL8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpIHY-lhUnaGy6wokhakmYywpfEw"
+        alt="Fourth Video"
+      />
     </button>
   </div>
 </section>
 
-<!-- TODO: Convert every links to images. Svelte error Ln 2, 33, 38: Unknown word error -->
+<!-- TODO: Convert every links to images. -->
