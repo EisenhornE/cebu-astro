@@ -3,7 +3,7 @@
 </script>
 
 <section id="videos" class="">
-  <p class="inline-block border-b-4 border-border-green ml-20 mb-8">
+  <p class="inline-block border-b-4 border-border-green ml-20 mb-8 mt-16">
     Videos of Cebu
   </p>
   <!-- Iframe -->

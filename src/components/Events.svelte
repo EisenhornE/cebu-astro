@@ -44,7 +44,7 @@
 
 <section id="events">
   <div class="pl-20">
-    <h1 class="inline-block border-b-4 border-border-green ml-2">
+    <h1 class="inline-block border-b-4 border-border-green ml-2 mt-20">
       Upcoming Events in <button
         on:click={toggleDropdown}
         class="text-violet-600"

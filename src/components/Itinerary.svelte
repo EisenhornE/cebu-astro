@@ -12,7 +12,7 @@
 <section id="itinerary">
   <!-- Header  -->
   <header
-    class="border-b-4 border-border-green inline-block w-fit-content mb-4 ml-20"
+    class="border-b-4 border-border-green inline-block w-fit-content mb-4 ml-20 mt-16"
   >
     <h1>Itinerary Tips</h1>
   </header>
