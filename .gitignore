@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,astro,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,astro,node
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,svelte,astro
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,node,svelte,astro
 
 ### Astro ###
 # Gitignore template for Astro projects
@@ -146,6 +146,13 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+### Svelte ###
+# gitignore template for the SvelteKit, frontend web component framework
+# website: https://kit.svelte.dev/
+
+.svelte-kit/
+package
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -165,4 +172,4 @@ dist
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,astro,node
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,svelte,astro
