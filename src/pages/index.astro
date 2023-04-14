@@ -3,7 +3,6 @@ import Videos from "../components/Videos.svelte";
 import Layout from "../layouts/Layout.astro";
 import Gallery from "../components/Gallery.astro";
 import Events from "../components/Events.svelte";
-// import Test from "../components/test.svelte";
 import Explore from "../components/Explore.astro";
 import Trending from "../components/Trending.astro";
 import Itinerary from "../components/Itinerary.svelte";
@@ -11,9 +10,11 @@ import Welcome from "../components/Welcome.astro";
 ---
 
 <Layout>
+  <!-- Welcome -->
   <Welcome />
 
   <!-- Trending -->
+  <!-- TODO: CLEANUP Trending CODE TO DIRTY -->
   <Trending />
 
   <!-- Explore Cebu -->
@@ -21,7 +22,6 @@ import Welcome from "../components/Welcome.astro";
 
   <!-- Events -->
   <Events client:load />
-  <!-- <Test client:load /> -->
 
   <!-- Videos -->
   <Videos client:load />

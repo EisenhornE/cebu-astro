@@ -40,6 +40,19 @@
       carousel.scrollLeft -= carousel.offsetWidth;
     }
   }
+
+  function goToSlide(index) {
+    if (!carousel) return;
+
+    const CurrentWidth = carousel.offsetWidth;
+    const TargetWidth = CurrentWidth * index;
+
+    carousel.scrollIntoView({ behavior: "smooth", block: "start" });
+    carousel.scrollLeft = TargetWidth;
+    activeSlide = index;
+  }
+
+  let activeSlide = 0;
 </script>
 
 <section id="events" class="pt-16">
@@ -133,6 +146,17 @@
         {:else}
           <div class="hidden" />
         {/if}
+        <div class="text-center">
+          {#each selectedData.festivals as _, i}
+            <button
+              class="py-2 px-4 m-4 hover:bg-purple-500 focus:bg-purple-500 active:bg-purple-500 border-b-4 border-b-border-green {activeSlide ===
+              i
+                ? 'selected bg-purple-500 text-white'
+                : ''}"
+              on:click={() => goToSlide(i)}>{_.name}</button
+            >
+          {/each}
+        </div>
       </section>
     </div>
   </section>
