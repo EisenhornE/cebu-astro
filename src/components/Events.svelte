@@ -31,13 +31,29 @@
     showDropdown = false;
   }
 
+  let activeSlide = 0;
+
   function nextSlide(move = true) {
     if (!carousel) return;
 
     if (move) {
-      carousel.scrollLeft += carousel.offsetWidth;
+      activeSlide++;
+
+      if (activeSlide > selectedData.festivals.length - 1) {
+        activeSlide = 0;
+      }
+      // carousel.scrollLeft += carousel.offsetWidth;
+
+      goToSlide(activeSlide);
     } else {
-      carousel.scrollLeft -= carousel.offsetWidth;
+      activeSlide--;
+
+      if (activeSlide < 0) {
+        activeSlide = selectedData.festivals.length - 1;
+      }
+      // carousel.scrollLeft -= carousel.offsetWidth;
+
+      goToSlide(activeSlide);
     }
   }
 
@@ -51,8 +67,6 @@
     carousel.scrollLeft = TargetWidth;
     activeSlide = index;
   }
-
-  let activeSlide = 0;
 </script>
 
 <section id="events" class="pt-16">
