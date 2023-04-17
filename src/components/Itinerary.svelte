@@ -3,10 +3,27 @@
   import Icon from "@iconify/svelte";
   import { onMount } from "svelte";
   let carousel;
+  let activeSlide = 0;
 
-  onMount(() => {
-    carousel = document.querySelector("#itinerary-carousel");
-  });
+  function nextSlide(move = true) {
+    if (!carousel) return;
+
+    if (move) {
+      carousel.children[activeSlide + 1]?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "start",
+      });
+      activeSlide++;
+    } else {
+      carousel.children[activeSlide - 1]?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "start",
+      });
+      activeSlide--;
+    }
+  }
 </script>
 
 <section>
@@ -18,7 +35,11 @@
     <h1>Itinerary Tips</h1>
   </header>
   <section class="relative pb-16">
-    <ul id="itinerary-carousel" class="flex overflow-hidden snap-x">
+    <ul
+      id="itinerary-carousel"
+      bind:this={carousel}
+      class="flex overflow-hidden snap-x"
+    >
       {#each itineraryJson.itinerary as itinerary}
         <li class="shrink-0 w-full snap-start">
           <figure class="flex justify-between items-center">
@@ -56,27 +77,17 @@
       {/each}
     </ul>
     <button
-      on:click={() => {
-        carousel.scrollBy({
-          left: -1500,
-          behavior: "smooth",
-        });
-        console.log(carousel);
-      }}
+      on:click={() => nextSlide(false)}
       class="absolute top-1/2 -translate-y-1/2 left-6 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 overflow-hidden pl-2 pt-1 hover:bg-fuchsia-800"
-      ><Icon icon="material-symbols:arrow-back-ios-new" /></button
     >
+      <Icon icon="material-symbols:arrow-back-ios-new" />
+    </button>
     <button
-      on:click={() => {
-        carousel.scrollBy({
-          left: 1500,
-          behavior: "smooth",
-        });
-        console.log(carousel);
-      }}
+      on:click={nextSlide}
       class="absolute bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 right-10 top-1/2 -translate-y-1/2 overflow-hidden pl-2.5 pt-1 hover:bg-fuchsia-800"
-      ><Icon icon="material-symbols:arrow-forward-ios" /></button
     >
+      <Icon icon="material-symbols:arrow-forward-ios" />
+    </button>
     <section
       class="absolute bg-[#718DA6] w-3/4 h-1/4 right-0 bottom-0 -z-10 mb-2 pr-8 rounded-l-full"
     >
