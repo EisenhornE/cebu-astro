@@ -56,7 +56,7 @@
     class="border-b-4 border-border-green inline-block w-fit-content mb-4 ml-20 pt-16"
     id="itinerary"
   >
-    <h1>Itinerary Tips</h1>
+    <h1 class="text-2xl">Itinerary Tips</h1>
   </header>
   <section class="relative pb-16">
     <ul

@@ -4,7 +4,7 @@
 
 <section class="">
   <p
-    class="inline-block border-b-4 border-border-green ml-20 mb-8 pt-16"
+    class="inline-block border-b-4 border-border-green ml-20 mb-8 pt-16 text-2xl"
     id="videos"
   >
     Videos of Cebu

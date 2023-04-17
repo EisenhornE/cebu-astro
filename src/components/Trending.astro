@@ -2,7 +2,7 @@
 import trendingJSON from "../../data/trending.json";
 ---
 
-<section class="my-20 mx-12 bg-[#2B5F8F] rounded-tl-3xl h-3/4">
+<section class="my-20 mx-12 bg-[#2B5F8F] rounded-tl-[2.5rem] h-3/4">
   <h1 class="pl-16 pt-8 text-white text-3xl">Trending Now</h1>
   {
     trendingJSON.banner.map((banner) => {
@@ -13,7 +13,7 @@ import trendingJSON from "../../data/trending.json";
               <img
                 src={banner.imageUrl}
                 alt={banner.alt}
-                class="w-3/4 rounded-tl-3xl"
+                class="w-3/4 rounded-tl-[2.5rem]"
               />
             </div>
             <figcaption class="absolute top-0 right-0 mt-6 w-1/2 h-full bg-white">
