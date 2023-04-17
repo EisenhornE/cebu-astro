@@ -11,44 +11,42 @@
 
     if (move) {
       if (activeSlide === carousel.children.length - 1) {
-        carousel.children[0]?.scrollIntoView({
+        carousel.scrollBy({
+          left: -carousel.scrollWidth,
           behavior: "smooth",
-          block: "nearest",
-          inline: "start",
         });
         activeSlide = 0;
       } else {
-        carousel.children[activeSlide + 1]?.scrollIntoView({
+        carousel.scrollBy({
+          left:
+            carousel.children[activeSlide + 1].offsetLeft - carousel.scrollLeft,
           behavior: "smooth",
-          block: "nearest",
-          inline: "start",
         });
         activeSlide++;
       }
     } else {
-      event.preventDefault();
+      event.stopPropagation();
       if (activeSlide === 0) {
-        carousel.children[carousel.children.length - 1]?.scrollIntoView({
+        carousel.scrollBy({
+          left: carousel.scrollWidth,
           behavior: "smooth",
-          block: "nearest",
-          inline: "start",
         });
         activeSlide = carousel.children.length - 1;
       } else {
-        carousel.children[activeSlide - 1]?.scrollIntoView({
+        carousel.scrollBy({
+          left:
+            carousel.children[activeSlide - 1].offsetLeft - carousel.scrollLeft,
           behavior: "smooth",
-          block: "nearest",
-          inline: "start",
         });
         activeSlide--;
       }
     }
     clearTimeout(timer);
-    timer = setTimeout(() => nextSlide(true), 15000);
+    timer = setTimeout(() => nextSlide(true), 10000);
   }
 
   onMount(() => {
-    timer = setTimeout(() => nextSlide(true), 15000);
+    timer = setTimeout(() => nextSlide(true), 10000);
   });
 </script>
 
