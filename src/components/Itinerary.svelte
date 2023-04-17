@@ -43,11 +43,11 @@
       }
     }
     clearTimeout(timer);
-    timer = setTimeout(() => nextSlide(true), 8000);
+    timer = setTimeout(() => nextSlide(true), 15000);
   }
 
   onMount(() => {
-    timer = setTimeout(() => nextSlide(true), 8000);
+    timer = setTimeout(() => nextSlide(true), 15000);
   });
 </script>
 
