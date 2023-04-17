@@ -46,7 +46,9 @@
   }
 
   onMount(() => {
-    timer = setTimeout(() => nextSlide(true), 10000);
+    if (creen.width >= 1024) {
+      timer = setTimeout(() => nextSlide(true), 10000);
+    }
   });
 </script>
 
@@ -58,7 +60,7 @@
   >
     <h1 class="text-2xl">Itinerary Tips</h1>
   </header>
-  <section class="relative pb-16">
+  <section class="relative pb-16 md:pb-2">
     <ul
       id="itinerary-carousel"
       bind:this={carousel}
@@ -66,9 +68,11 @@
     >
       {#each itineraryJson.itinerary as itinerary}
         <li class="shrink-0 w-full snap-start">
-          <figure class="flex justify-between items-center">
+          <figure
+            class="flex justify-between items-center md:h-3/4 lg:h-full lg:pb-24 md:pb-12"
+          >
             <div
-              class="mt-4 ml-20 grid grid-cols-2 grid-rows-2 gap-2 h-3/4 w-1/2"
+              class="mt-4 ml-20 grid grid-cols-2 grid-rows-2 gap-2 h-3/4 w-1/2 md:h-full"
             >
               <div class="row-span-2">
                 <img
@@ -92,9 +96,11 @@
                 />
               </div>
             </div>
-            <figcaption class="text-base ml-12 mr-24 leading-6 w-1/2">
-              <h1 class="font-bold">Day {itinerary.day}</h1>
-              <p>{itinerary.tip}</p>
+            <figcaption
+              class="text-base ml-12 mr-24 leading-6 w-1/2 md:overflow-auto md:touch-pan-y lg:overflow-hidden md:max-h-full"
+            >
+              <h1 class="font-bold lg:h-full md:h-full">Day {itinerary.day}</h1>
+              <p class="">{itinerary.tip}</p>
             </figcaption>
           </figure>
         </li>
@@ -102,18 +108,18 @@
     </ul>
     <button
       on:click={() => nextSlide(false)}
-      class="absolute top-1/2 -translate-y-1/2 left-6 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 overflow-hidden pl-2 pt-1 hover:bg-fuchsia-800"
+      class="absolute top-1/2 -translate-y-1/2 left-6 bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 overflow-hidden pl-2 pt-1 lg:hover:bg-fuchsia-800"
     >
       <Icon icon="material-symbols:arrow-back-ios-new" />
     </button>
     <button
       on:click={nextSlide}
-      class="absolute bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 right-10 top-1/2 -translate-y-1/2 overflow-hidden pl-2.5 pt-1 hover:bg-fuchsia-800"
+      class="absolute bg-fuchsia-500 rounded-full text-white text-center w-10 h-10 text-xl pb-1 right-10 top-1/2 -translate-y-1/2 overflow-hidden pl-2.5 pt-1 lg:hover:bg-fuchsia-800"
     >
       <Icon icon="material-symbols:arrow-forward-ios" />
     </button>
     <section
-      class="absolute bg-[#718DA6] w-3/4 h-1/4 right-0 bottom-0 -z-10 mb-2 pr-8 rounded-l-full"
+      class="absolute bg-[#718DA6] w-3/4 h-1/4 right-0 bottom-0 -z-10 mb-2 pr-8 rounded-l-full md:bottom-20 md:h-[10%] lg:h-1/4 lg:bottom-0"
     >
       <p class="pl-28 pb-6 absolute bottom-0 text-white text-lg font-bold">
         See More Itineraries

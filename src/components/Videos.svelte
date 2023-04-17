@@ -10,11 +10,10 @@
     Videos of Cebu
   </p>
   <!-- Iframe -->
-  <div class="video-container w-1/2 mx-auto pl-16">
+  <div class="video-container mx-auto pl-16 md:pl-0 md:pr-24 md:">
     <iframe
+      class="lg:w-[50rem] h-[25rem] lg:ml-80 md:w-full md:ml-16"
       title="test"
-      width="560"
-      height="315"
       src={`https://www.youtube-nocookie.com/embed/${selectedUrl}`}
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
