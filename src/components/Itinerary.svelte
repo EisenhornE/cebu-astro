@@ -4,26 +4,51 @@
   import { onMount } from "svelte";
   let carousel;
   let activeSlide = 0;
+  let timer = null;
 
   function nextSlide(move = true) {
     if (!carousel) return;
 
     if (move) {
-      carousel.children[activeSlide + 1]?.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-        inline: "start",
-      });
-      activeSlide++;
+      if (activeSlide === carousel.children.length - 1) {
+        carousel.children[0]?.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "start",
+        });
+        activeSlide = 0;
+      } else {
+        carousel.children[activeSlide + 1]?.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "start",
+        });
+        activeSlide++;
+      }
     } else {
-      carousel.children[activeSlide - 1]?.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-        inline: "start",
-      });
-      activeSlide--;
+      if (activeSlide === 0) {
+        carousel.children[carousel.children.length - 1]?.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "start",
+        });
+        activeSlide = carousel.children.length - 1;
+      } else {
+        carousel.children[activeSlide - 1]?.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "start",
+        });
+        activeSlide--;
+      }
     }
+    clearTimeout(timer);
+    timer = setTimeout(() => nextSlide(true), 8000);
   }
+
+  onMount(() => {
+    timer = setTimeout(() => nextSlide(true), 8000);
+  });
 </script>
 
 <section>
