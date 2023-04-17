@@ -7,7 +7,7 @@
   let timer = null;
 
   function nextSlide(move = true) {
-    if (!carousel) return;
+    if (!carousel) event.preventDefault();
 
     if (move) {
       if (activeSlide === carousel.children.length - 1) {
