@@ -1,19 +1,27 @@
 {
-    "contents": [
-        {
-            "name": "Cebu Ocean Park",
-            "imageUrl": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1620,h_1080,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ukz9ogtqkfqiymk5jkkv/CebuOceanParkTicket-KlookPhilippines.jpg",
-            "alt": "Cebu Ocean park"
-          },
-          {
-            "name": "Badian Canyoneering",
-            "imageUrl": "https://res.klook.com/image/upload/c_fill,w_843,h_474/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ch1ecatcmettcu5agdcp.webp",
-            "alt": "Badian Canyoneering"
-          },
-          {
-            "name": "Anjo World",
-            "imageUrl": "https://res.klook.com/image/upload/c_fill,w_843,h_474/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ksyua98zjl4k8jxn5vsd.webp",
-            "alt": "Anjo World"
-          }
-    ]
+  "contents": [
+    {
+      "name": "Cebu Ocean Park",
+      "imageUrl": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1620,h_1080,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ukz9ogtqkfqiymk5jkkv/CebuOceanParkTicket-KlookPhilippines.jpg",
+      "alt": "Cebu Ocean park"
+    },
+    {
+      "name": "Badian Canyoneering",
+      "imageUrl": "https://res.klook.com/image/upload/c_fill,w_843,h_474/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ch1ecatcmettcu5agdcp.webp",
+      "alt": "Badian Canyoneering"
+    },
+    {
+      "name": "Anjo World",
+      "imageUrl": "https://res.klook.com/image/upload/c_fill,w_843,h_474/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ksyua98zjl4k8jxn5vsd.webp",
+      "alt": "Anjo World"
+    }
+  ],
+  "banner": [
+    {
+      "imageUrl": "https://gttp.imgix.net/198519/x/0/osmena-peak.jpg",
+      "alt": "Osmeña Peak",
+      "name": "Osmeña Peak",
+      "description": "Osmeña Peak is the highest peak in Cebu, Philippines, with an elevation of 1,013 meters above sea level. It is located in the municipality of Dalaguete and is a popular hiking destination for both locals and tourists. The trail to the summit is relatively easy and can be completed in around 20-30 minutes, offering panoramic views of the surrounding landscapes including the nearby islands of Negros and Bohol. The peak is named after the Osmeña family, one of the prominent political families in the Philippines."
+    }
+  ]
 }

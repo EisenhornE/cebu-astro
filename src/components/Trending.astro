@@ -2,41 +2,34 @@
 import trendingJSON from "../../data/trending.json";
 ---
 
-<section class="relative w-3/4 mx-auto rounded-tl-[5rem] overflow-hidden my-24">
-  <!-- Background -->
-  <div
-    class="h-full max-h-[500px] absolute top-0 w-full right-0 bg-[#2B5F8F] z-[-1]"
-  >
-    <header class="" id="trending" >
-      <!-- Header -->
-      <h1 class="text-white mx-24 pl-12 pt-8 text-4xl">Trending Now</h1>
-    </header>
-  </div>
-  <section class="relative mt-24">
-    <!-- Picture -->
-    <div class="h-[500px] w-3/4 ml-36 rounded-tl-[10%]">
-      <img
-        src="https://gttp.imgix.net/198519/x/0/osmena-peak.jpg"
-        alt="Osmeña Peak"
-      />
-    </div>
-    <div
-      class="h-[900px] w-[50%] bg-[#2B5F8F] max-h-[615px] absolute z-5 top-0 right-[0.1px] text-white"
-    >
-      <div class="ml-36 mt-16 text-5xl">
-        <header>Best in 2023</header>
-      </div>
-      <div>
-        <p class="pt-12 pl-10">Osmeña Peak</p>
-        <p class="pt-8 pl-10 mr-12">
-          Osmeña Peak offers a panoramic view of the surrounding landscape,
-          which includes neighboring islands, mountains, and the sea. The view
-          is particularly stunning during sunrise and sunset, when the sky is
-          painted with vibrant colors.
-        </p>
-      </div>
-    </div>
-  </section>
+<section class="my-20 mx-12 bg-[#2B5F8F] rounded-tl-3xl h-3/4">
+  <h1 class="pl-16 pt-8 text-white text-3xl">Trending Now</h1>
+  {
+    trendingJSON.banner.map((banner) => {
+      return (
+        <section>
+          <figure class="relative h-full">
+            <div class="relative top-6 ml-16 max-w-1/2 max-h-1/2">
+              <img
+                src={banner.imageUrl}
+                alt={banner.alt}
+                class="w-3/4 rounded-tl-3xl"
+              />
+            </div>
+            <figcaption class="absolute top-0 right-0 mt-6 w-1/2 h-full bg-white">
+              <h1 class="pl-20 pt-24 text-8xl" id="best">
+                Best in 2023
+              </h1>
+              <div class="mt-16">
+                <h2 class="px-8 pt-4 font-bold">{banner.name}</h2>
+                <p class="px-8 pt-4">{banner.description}</p>
+              </div>
+            </figcaption>
+          </figure>
+        </section>
+      );
+    })
+  }
 </section>
 
 <section class="flex gap-4 mx-32 my-8">
