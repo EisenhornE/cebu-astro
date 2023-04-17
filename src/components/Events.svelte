@@ -21,6 +21,7 @@
   let showDropdown = false;
   let selectedOption = "";
   let carousel;
+  let activeSlide = 0;
 
   function toggleDropdown() {
     showDropdown = !showDropdown;
@@ -29,9 +30,9 @@
   function selectOption(option) {
     month = option;
     showDropdown = false;
+    activeSlide = 0;
+    goToSlide(activeSlide);
   }
-
-  let activeSlide = 0;
 
   function nextSlide(move = true) {
     if (!carousel) return;
@@ -103,9 +104,9 @@
     </div>
   </div>
 
-  <section class="relative py-6 px-8 my-6 mx-8 w-50">
+  <section class="relative py-6 my-6 mx-8 w-50">
     <div class="flex">
-      <div class="w-1/2 mr-4">
+      <div class="w-1/2 mr-4 h-max-3/4">
         <img
           src={selectedData.featureImg}
           alt={selectedData.altFeatured}
@@ -115,12 +116,12 @@
       <section class="w-1/2 relative">
         <ul
           bind:this={carousel}
-          class="flex gap-4 overflow-hidden scroll-smooth snap-x"
+          class="flex gap-4 overflow-hidden scroll-smooth snap-x mr-8"
         >
           {#each selectedData.festivals as festival}
-            <li class="snap-start justify-center mt-4 w-full shrink-0">
+            <li class="snap-start justify-center mt-4 w-full shrink-0">"
               <figure>
-                <div class="flex">
+                <div class="flex mr-6">
                   <div class="w-[75%] h-60 ml-4 overflow-hidden others">
                     <img
                       src={festival.image1}
@@ -147,7 +148,7 @@
         {#if selectedData.festivals.length > 1}
           <button
             on:click={() => nextSlide(false)}
-            class="absolute top-1/2 -translate-y-1/2 left-0 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2 pt-1 hover:bg-fuchsia-800"
+            class="absolute top-1/2 -translate-y-1/2 -left-10 bg-fuchsia-500 rounded-full text-white w-10 h-10 text-xl pb-1 pl-2 pt-1 hover:bg-fuchsia-800"
           >
             <Icon icon="material-symbols:arrow-back-ios-new" />
           </button>
@@ -160,10 +161,10 @@
         {:else}
           <div class="hidden" />
         {/if}
-        <div class="text-center">
+        <div class="text-center flex justify-center">
           {#each selectedData.festivals as _, i}
             <button
-              class="py-2 px-4 m-4 hover:bg-purple-500 focus:bg-purple-500 active:bg-purple-500 border-b-4 border-b-border-green {activeSlide ===
+              class="w-max-1/2 py-2 px-4 m-4 hover:bg-purple-500 focus:bg-purple-500 active:bg-purple-500 border-b-4 border-b-border-green {activeSlide ===
               i
                 ? 'selected bg-purple-500 text-white'
                 : ''}"
