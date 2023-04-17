@@ -7,7 +7,7 @@
   let timer = null;
 
   function nextSlide(move = true) {
-    if (!carousel) event.preventDefault();
+    if (!carousel) return;
 
     if (move) {
       if (activeSlide === carousel.children.length - 1) {
@@ -26,6 +26,7 @@
         activeSlide++;
       }
     } else {
+      event.preventDefault();
       if (activeSlide === 0) {
         carousel.children[carousel.children.length - 1]?.scrollIntoView({
           behavior: "smooth",
