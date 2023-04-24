@@ -4,6 +4,21 @@
       "name": "Pic1",
       "img": "trending-pics/13.png",
       "alt": "Oslob"
+    },
+    {
+      "name": "Pic2",
+      "img": "trending-pics/5.png",
+      "alt": "Lantaw"
+    },
+    {
+      "name": "Pic3",
+      "img": "trending-pics/10.png",
+      "alt": "Kawasan Falls"
+    },
+    {
+      "name": "Pic4",
+      "img": "trending-pics/3.png",
+      "alt": "La Vie in the Sky"
     }
   ]
 }
