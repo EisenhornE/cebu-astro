@@ -1,0 +1,15 @@
+---
+import trendimgJSON from "../../../data/trend-img.json";
+---
+
+{
+  trendimgJSON.contents.map((item) => {
+    return (
+      <section class="lg:pt-24">
+        <div class="">
+          <img src={item.img} alt={item.alt} />
+        </div>
+      </section>
+    );
+  })
+}
