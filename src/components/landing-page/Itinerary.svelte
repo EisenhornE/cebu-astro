@@ -1,5 +1,5 @@
 <script>
-  import itineraryJson from "../../data/itinerary.json";
+  import itineraryJson from "../../../data/itinerary.json";
   import Icon from "@iconify/svelte";
   import { onMount } from "svelte";
   let carousel;
