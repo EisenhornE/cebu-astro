@@ -1,5 +1,5 @@
 <script>
-  import eventsJson from "../../data/events.json";
+  import eventsJson from "../../../data/events.json";
   import Icon from "@iconify/svelte";
   let month = "January";
   $: selectedData = eventsJson.contents.find((item) => item.month === month);
@@ -119,7 +119,8 @@
           class="flex gap-4 overflow-hidden scroll-smooth snap-x mr-8"
         >
           {#each selectedData.festivals as festival}
-            <li class="snap-start justify-center mt-4 w-full shrink-0">"
+            <li class="snap-start justify-center mt-4 w-full shrink-0">
+              "
               <figure>
                 <div class="flex mr-6">
                   <div class="w-[75%] h-60 ml-4 overflow-hidden others">
