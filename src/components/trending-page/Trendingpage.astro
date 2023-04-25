@@ -2,7 +2,7 @@
 import trendimgJSON from "../../../data/trend-img.json";
 ---
 
-<section class="sm:py-24">
+<section class="sm:py-8">
   <div class="relative flex h-full">
     {
       trendimgJSON.contents.map((item) => {
@@ -37,4 +37,36 @@ import trendimgJSON from "../../../data/trend-img.json";
       attractions and experiences that Cebu has to offer.
     </p>
   </div>
+</section>
+
+<section class="pl-8 pb-24">
+  {
+    trendimgJSON.locations.map((location) => {
+      return (
+        <>
+          <>
+            <div class="flex pb-12">
+              <div class="w-full">
+                <h1 class="inline-block border-b-4 border-b-border-green text-2xl">
+                  {location.name}
+                </h1>
+                <p class="w-full max-h-[300px] mt-4 sm:overflow-auto sm:touch-pan-y lg:overflow-none">
+                  {location.description}
+                </p>
+              </div>
+              <div class="bg-[#2B5F8F] w-full h-1/2 ml-16 mt-12 border-2 border-black text-center">
+                <div class="relative top-4 -left-4">
+                  <img
+                    src={location.img}
+                    alt={location.alt}
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </>
+        </>
+      );
+    })
+  }
 </section>
