@@ -1,0 +1,34 @@
+{
+  "restaurants": [
+    {
+      "name": "Rico's Lechon",
+      "img1": "/trending-pics/ricolechon.jpg",
+      "img2": "/trending-pics/ricolechon2.jpg",
+      "img3": "/trending-pics/ricolechon3.jpg",
+      "description": "If you're a fan of roasted pig, you wouldn't want to miss trying out Rico's Lechon! This popular restaurant is known for their deliciously roasted pigs, also known as lechon in Filipino, which are tender, juicy, and crispy all at the same time. At Rico's Lechon, they roast their pigs over charcoal for several hours until they are cooked to perfection. The skin is crispy and golden brown, while the meat inside is juicy and flavorful, infused with herbs and spices. Aside from their signature lechon, Rico's Lechon also offers other Filipino dishes, such as sinigang, adobo, and crispy pata, which are all worth trying out. You can enjoy your meal with a cold beer or any other refreshing beverage. So if you want to experience the ultimate Filipino dining experience, make sure to add Rico's Lechon to your food itinerary.",
+      "alt1": "RicoLechon",
+      "alt2": "RicoLechon",
+      "alt3": "RicoLechon"
+    },
+    {
+      "name": "Lantaw Native Restaurant",
+      "img1": "/trending-pics/Lantawresto.jpg",
+      "img2": "/trending-pics/lantawresto-2.jpg",
+      "img3": "/trending-pics/lantawresto3.jpg",
+      "description": "Lantaw Native Restaurant serves a wide array of Filipino dishes with a modern twist, prepared using only the freshest and finest ingredients. From classic favorites like grilled pork belly, shrimp in garlic, and crispy pata to innovative dishes like sinigang na tangigue sa calamansi and sizzling spicy squid, the restaurant's menu is a true feast for the senses. One of the highlights of dining at Lantaw Native Restaurant is its breathtaking view of the sea, which you can enjoy while savoring your meal. The restaurant is situated on a hillside overlooking the Mactan Channel, providing a panoramic view of the surrounding waters and nearby islands. It's a perfect spot to catch the sunset and relax with friends and family.",
+      "alt1": "LantawRestaurant",
+      "alt2": "LantawRestaurant",
+      "alt3": "LantawRestaurant"
+    },
+    {
+      "name": "The Pyramid",
+      "img1": "/trending-pics/thepyramid.jpg",
+      "img2": "/trending-pics/1.png",
+      "img3": "/trending-pics/thepyramid2.jpg",
+      "description": "The Pyramid restaurant in Cebu is a must-visit for anyone who loves great food and stunning views. Located at the top of the Pyramid building, this restaurant offers panoramic views of the city, which makes for a truly unforgettable dining experience. The menu features a range of delicious dishes, from traditional Filipino favorites to international cuisine, all expertly prepared by the talented chefs. Whether you're visiting Cebu for the first time or you're a seasoned traveler, the Pyramid restaurant is definitely worth checking out!",
+      "alt1": "ThePyramid",
+      "alt2": "ThePyramid",
+      "alt3": "ThePyramid"
+    }
+  ]
+}
