@@ -2,47 +2,47 @@
   "contents": [
     {
       "name": "Pic1",
-      "img": "trending-pics/13.png",
+      "img": "/trending-pics/13.png",
       "alt": "Oslob"
     },
     {
       "name": "Pic2",
-      "img": "trending-pics/5.png",
+      "img": "/trending-pics/5.png",
       "alt": "Lantaw"
     },
     {
       "name": "Pic3",
-      "img": "trending-pics/10.png",
+      "img": "/trending-pics/10.png",
       "alt": "Kawasan Falls"
     },
     {
       "name": "Pic4",
-      "img": "trending-pics/3.png",
+      "img": "/trending-pics/3.png",
       "alt": "La Vie in the Sky"
     }
   ],
   "locations": [
     {
       "name": "Osmeña Peak",
-      "img": "trending-pics/17.png",
+      "img": "/trending-pics/17.png",
       "alt": "Osmeña Peak",
       "description": "Osmeña Peak is a majestic mountain located in the southern part of Cebu island in the Philippines. At 1,013 meters (3,324 feet) above sea level, it is the highest peak in the province of Cebu and offers stunning panoramic views of the surrounding landscape. The hike to Osmeña Peak is relatively easy and takes about 20-30 minutes from the jump-off point, making it accessible to hikers of all levels of experience. The trail is well-maintained, and there are plenty of resting spots along the way to enjoy the beautiful scenery. At the summit of Osmeña Peak, hikers are treated to breathtaking views of the rolling hills, valleys, and coastal towns that surround the mountain. On a clear day, you can see as far as the neighboring islands of Bohol and Negros. The area is also known for its beautiful sunrise and sunset views, making it a popular spot for photographers."
     },
     {
       "name": "Cebu Ocean Park",
-      "img": "trending-pics/cop.jpg",
+      "img": "/trending-pics/cop.jpg",
       "alt": "Cebu Ocean Park",
       "description": "Cebu Ocean Park is a world-class marine theme park located in the heart of Cebu City, Philippines. The park features a variety of aquatic attractions, including underwater tunnels, touch pools, and feeding shows. Visitors can experience the wonders of the ocean through the park's different zones, such as the Oceanarium, Jungle Trek, and Bird Show. With over 10,000 marine animals from over 200 species, Cebu Ocean Park is a popular destination for families, tourists, and marine enthusiasts alike. Additionally, the park offers various educational and conservation programs, making it an ideal destination for learning and entertainment."
     },
     {
       "name": "Badian Canyoneering",
-      "img": "trending-pics/badian.jpg",
+      "img": "/trending-pics/badian.jpg",
       "alt": "Badian Canyoneering",
       "description": "Cebu's Badian Canyoneering is a thrilling adventure activity that takes you through the lush and scenic canyons of Badian in the southern part of Cebu island. The activity involves hiking, jumping, swimming, and rappelling through the canyons, making it a popular choice for adrenaline junkies and outdoor enthusiasts. The canyoneering experience starts with a hike through the jungle to the top of a canyon. Along the way, you'll enjoy breathtaking views of the surrounding mountains and valleys. Once you reach the top of the canyon, the fun really begins. You'll jump into clear turquoise pools, swim through narrow gorges, and rappel down waterfalls. The canyoneering experience lasts for several hours and covers a distance of around 3 kilometers."
     },
     {
       "name": "Anjo World",
-      "img": "trending-pics/anjo.jpg",
+      "img": "/trending-pics/anjo.jpg",
       "alt": "Anjo World",
       "description": "Cebu's Badian Canyoneering is a thrilling adventure activity that takes you through the lush and scenic canyons of Badian in the southern part of Cebu island. The activity involves hiking, jumping, swimming, and rappelling through the canyons, making it a popular choice for adrenaline junkies and outdoor enthusiasts. The canyoneering experience starts with a hike through the jungle to the top of a canyon. Along the way, you'll enjoy breathtaking views of the surrounding mountains and valleys. Once you reach the top of the canyon, the fun really begins. You'll jump into clear turquoise pools, swim through narrow gorges, and rappel down waterfalls. The canyoneering experience lasts for several hours and covers a distance of around 3 kilometers."
     }

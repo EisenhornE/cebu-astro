@@ -46,7 +46,7 @@
   }
 
   onMount(() => {
-    if (creen.width >= 1024) {
+    if (screen.width >= 1024) {
       timer = setTimeout(() => nextSlide(true), 10000);
     }
   });
