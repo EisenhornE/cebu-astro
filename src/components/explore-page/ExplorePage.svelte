@@ -7,7 +7,7 @@
   <div class="pt-12">
     <div class="h-1/2">
       <img
-        src="trending-pics/18.png"
+        src="/trending-pics/18.png"
         alt="Cebu Activities"
         class="w-full h-full object-cover"
       />
@@ -32,45 +32,4 @@
   </div>
 </section>
 
-<section id="foodTrip" class="pb-8">
-  <div class="text-center">
-    <h1 class="inline-block border-b-4 border-border-green">Hungry?</h1>
-  </div>
-  <div class="flex pt-4 pl-4 gap-4">
-    <div class=" border-black border-2">
-      <img
-        src="trending-pics/ricolechon.jpg"
-        alt="RicoLechon"
-        class="w-full h-full object-cover"
-      />
-    </div>
-    <div>
-      <img
-        src="trending-pics/5.png"
-        alt="Lantaw"
-        class="w-full h-full object-cover"
-      />
-    </div>
-    <div>
-      <img
-        src="trending-pics/1.png"
-        alt="FoodPork"
-        class="w-full h-full object-cover"
-      />
-    </div>
-    <div>
-      <img
-        src="trending-pics/7.png"
-        alt="FoodSushiLike"
-        class="w-full h-full object-cover"
-      />
-    </div>
-    <div>
-      <img
-        src="trending-pics/3.png"
-        alt="ChocoBread"
-        class="w-full h-full object-cover"
-      />
-    </div>
-  </div>
-</section>
+<section id="foodTrip" class="pb-8" />
