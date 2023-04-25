@@ -29,6 +29,68 @@
       "alt1": "ThePyramid",
       "alt2": "ThePyramid",
       "alt3": "ThePyramid"
+    },
+    {
+      "name": "Manna Sutikil",
+      "img1": "/trending-pics/7.png",
+      "img2": "/trending-pics/manna1.jpg",
+      "img3": "/trending-pics/manna2.jpg",
+      "description": "Manna Sutikil is a popular restaurant in Cebu that specializes in serving up traditional Filipino cuisine. The name 'sutikil' actually refers to a specific cooking method that involves grilling, boiling, and dipping the food in vinegar and soy sauce. At Manna Sutikil, you can try a range of classic Filipino dishes like grilled seafood, lechon, and adobo, all cooked using the sutikil method. The restaurant has a casual and laid-back atmosphere, making it a great spot to grab a meal with friends or family.",
+      "alt1": "Manna Sutikil",
+      "alt2": "Manna Sutikil",
+      "alt3": "Manna Sutikil"
+    },
+    {
+      "name": "La Vie in the Sky",
+      "img1": "/trending-pics/lavie2.jpg",
+      "img2": "/trending-pics/lavie1.jpg",
+      "img3": "/trending-pics/3.png",
+      "description": "La Vie in the Sky is a beautiful rooftop bar and restaurant located in Cebu, Philippines. Perched atop the Ogle Building, this venue offers stunning panoramic views of the city skyline. The bar features an extensive selection of wines and cocktails, while the restaurant serves up a range of delicious international cuisine. La Vie in the Sky is the perfect spot for a romantic night out or a fun evening with friends, and it's sure to be a highlight of any visit to Cebu.",
+      "alt1": "LaVieintheSky",
+      "alt2": "LaVieintheSky",
+      "alt3": "LaVieintheSky"
+    }
+  ],
+  "resorts": [
+    {
+      "name": "Shangri-La's Mactan Resort & Spa",
+      "img1": "/trending-pics/shangrila.jpg",
+      "img2": "/trending-pics/shangrila1.jpg",
+      "img3": "/trending-pics/shangrila2.jpg",
+      "description": "Shangri-La Hotel is a luxurious hotel chain that has a presence in many cities across the world, including Cebu in the Philippines. The hotel boasts stunning views of the Mactan Sea, which is just a stone's throw away. The rooms are spacious and elegantly designed with modern amenities to make your stay as comfortable as possible. You can choose from different room categories, from deluxe rooms to suites, depending on your preferences and needs. The hotel also features an array of facilities that cater to both leisure and business travelers. You can enjoy a dip in their outdoor swimming pool or relax in their serene spa. For those who are fitness enthusiasts, the hotel has a gym with state-of-the-art equipment. Additionally, business travelers can take advantage of their conference and meeting rooms that are equipped with the latest technology.",
+      "alt1": "ShangriLa",
+      "alt2": "ShangriLa",
+      "alt3": "ShangriLa"
+    },
+    {
+      "name": "Mövenpick Hotel Mactan Island Cebu",
+      "img1": "/trending-pics/movenpick1.jpg",
+      "img2": "/trending-pics/movenpick.jpeg",
+      "img3": "/trending-pics/movenpick2.jpg",
+      "description": "Shangri-La Hotel is a luxurious hotel chain that has a presence in many cities across the world, including Cebu in the Philippines. The hotel boasts stunning views of the Mactan Sea, which is just a stone's throw away. The rooms are spacious and elegantly designed with modern amenities to make your stay as comfortable as possible. You can choose from different room categories, from deluxe rooms to suites, depending on your preferences and needs. The hotel also features an array of facilities that cater to both leisure and business travelers. You can enjoy a dip in their outdoor swimming pool or relax in their serene spa. For those who are fitness enthusiasts, the hotel has a gym with state-of-the-art equipment. Additionally, business travelers can take advantage of their conference and meeting rooms that are equipped with the latest technology.",
+      "alt1": "Mövenpick",
+      "alt2": "Mövenpick",
+      "alt3": "Mövenpick"
+    },
+    {
+      "name": "Crimson Resort & Spa Mactan",
+      "img1": "/trending-pics/crimson.jpg",
+      "img2": "/trending-pics/crimson1.jpg",
+      "img3": "/trending-pics/crimson2.jpg",
+      "description": "Crimson Resort & Spa is a luxurious beachfront hotel situated on the picturesque Mactan Island in Cebu. The resort offers guests a tranquil escape from the hustle and bustle of city life, with its private white sand beach and crystal-clear waters perfect for swimming and water sports. The rooms and villas are elegantly designed and offer stunning ocean views, while the resort's restaurants serve a range of international cuisine. Guests can indulge in a variety of spa treatments, relax by the pool, or take part in various outdoor activities like island hopping and snorkeling. Overall, Crimson Resort & Spa offers a perfect mix of luxury, relaxation, and adventure for a memorable stay in Cebu.",
+      "alt1": "CrimsonResort",
+      "alt2": "CrimsonResort",
+      "alt3": "CrimsonResort"
+    },
+    {
+      "name": "Plantation Bay Resort and Spa",
+      "img1": "/trending-pics/plantationbay.jpg",
+      "img2": "/trending-pics/plantationbay2.jpg",
+      "img3": "/trending-pics/plantationbay3.jpg",
+      "description": "Plantation Bay Hotel is a beautiful and luxurious resort located in Mactan Island, Cebu. The resort features a stunning man-made lagoon, four freshwater swimming pools, a saltwater pool, and several private beaches. The hotel offers a range of accommodations, including deluxe rooms, suites, and villas. Guests can enjoy a variety of activities, including kayaking, diving, snorkeling, and even fishing. The resort also boasts a range of dining options, from casual beachside cafes to fine dining restaurants. Plantation Bay Hotel is a perfect place to unwind and relax in the beautiful island of Cebu.",
+      "alt1": "PlantationBay",
+      "alt2": "PlantationBay",
+      "alt3": "PlantationBay"
     }
   ]
 }
