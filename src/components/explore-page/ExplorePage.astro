@@ -1,6 +1,43 @@
 ---
+import explorePageJson from "../../../data/explorepage.json";
 ---
 
 <section>
-  <p1>Hello, bithc!</p1>
+  <div class="relative bg-blue pt-28 h-1/2">
+    {
+      explorePageJson.banner.map((img) => {
+        return (
+          <div class="border-2 border-black">
+            <img
+              src={img.imgURL}
+              alt={img.alt}
+              class="h-full w-full object-cover"
+            />
+          </div>
+        );
+      })
+    }
+    <div
+      class="absolute top-20 left-16 bg-[#2B5F8F] py-3 px-8 text-5xl text-white rounded-tr-[3.25rem]"
+    >
+      Explore
+    </div>
+  </div>
+</section>
+
+<section class="mt-16">
+  <div class="text-center pb-4">
+    <h1 class="pb-2 text-3xl">Explore Cebu!</h1>
+    <p
+      class="bg-[#2B5F8F] inline-block text-white p-6 text-xl rounded-3xl mx-8"
+    >
+      First time in Cebu? Then you've come at the right place!
+    </p>
+  </div>
+</section>
+
+<section>
+  <h1 class="ml-8 inline-block border-b-4 border-b-border-green text-2xl">
+    Food Trip
+  </h1>
 </section>
