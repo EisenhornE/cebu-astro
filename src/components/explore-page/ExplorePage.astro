@@ -90,12 +90,12 @@ import explorepageJson from "../../../data/explorepage.json";
     explorepageJson.resorts.map((item) => {
       return (
         <figure class="flex py-8">
-          <div class="w-1/2 pr-4">
+          <figcaption class="w-1/2 pr-4">
             <h1 class="inline-block border-b-4 border-border-green text-2xl mb-2">
               {item.name}
             </h1>
             <p>{item.description}</p>
-          </div>
+          </figcaption>
           <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2">
             <div class="col-span-2 order-last">
               <img

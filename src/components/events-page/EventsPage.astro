@@ -1,3 +1,7 @@
+---
+import eventspageJson from "../../../data/eventspage.json";
+---
+
 <section class="py-12">
   <div class="pt-12">
     <div class="">
@@ -28,10 +32,31 @@
   </div>
 </section>
 
-<section id="January">
-  <div>
-    <h1 class="inline-block border-b-4 border-border-green mb-4 text-3xl">
-      January
-    </h1>
-  </div>
+<section>
+  {
+    eventspageJson.events.map((item) => {
+      return (
+        <figure>
+          <div class="ml-2 mb-4">
+            <h1 class="inline-block border-b-4 border-border-green text-2xl">
+              {item.month}
+            </h1>
+          </div>
+          <div class="grid grid-cols-2 grid-rows-2 gap-2">
+            {item.festivals.map((festivals) => {
+              return (
+                <div>
+                  <img
+                    src={festivals.img1}
+                    alt={festivals.alt1}
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </figure>
+      );
+    })
+  }
 </section>
