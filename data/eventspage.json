@@ -138,7 +138,12 @@
           "alt1": "KadauganSaMactanFestival",
           "alt2": "KadauganSaMactanFestival",
           "alt3": "KadauganSaMactanFestival"
-        },
+        }
+      ]
+    },
+    {
+      "month": "May",
+      "festivals": [
         {
           "name": "Mantawi Festival",
           "description": "The Mantawi Festival is an annual celebration held every May 7th in Mandaue City, Cebu. The festival celebrates the city's history and heritage as well as its progress and development. It is named after the ancient name of Mandaue, which is 'Mantawi.' During the festival, colorful street dancing performances are held, showcasing the rich culture and traditions of Mandaue City. Participants wear elaborate costumes and perform choreographed dances to the beat of drums and other traditional instruments.",
@@ -149,6 +154,22 @@
           "alt1": "MantawiFestival",
           "alt2": "MantawiFestival",
           "alt3": "MantawiFestival"
+        }
+      ]
+    },
+    {
+      "month": "June",
+      "festivals": [
+        {
+          "name": "Tartanilla Festival",
+          "description": "The Tartanilla festival is Cebu city's way of preserving the tartanilla (horse-drawn carriage) heritage by reviving the oldest mode of transportation to ply some of the city streets.",
+          "date": "June 12",
+          "img1": "/trending-pics/tartanilla.jpg",
+          "img2": "/trending-pics/tartanilla1.jpg",
+          "img3": "/trending-pics/tartanilla2.jpg",
+          "alt1": "TartanillaFestival",
+          "alt2": "TartanillaFestival",
+          "alt3": "TartanillaFestival"
         }
       ]
     }
