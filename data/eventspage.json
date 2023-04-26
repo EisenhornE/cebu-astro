@@ -184,14 +184,25 @@
         },
         {
           "name": "Palawod Festival",
-          "description": "Palawod Festival is a celebration held annually in the municipality of Bantayan, located on Bantayan Island in Cebu province, Philippines. The festival is typically held in June, and it pays tribute to the town's rich fishing heritage and its patron saint, St. Peter. The term 'palawod' is a Cebuano word that refers to the sea or ocean, which plays a significant role in the livelihood of the town's fishermen.",
-          "date": "June 29",
+          "description": "The Kinsan Festival is a yearly celebration held every June 17 in Aloguinsan, Cebu, Philippines. The festival is a commemoration of the town's patron saint, St. John the Baptist, and is known for its colorful street dance parade where participants wear vibrant costumes and perform traditional dances to the beat of drums and other instruments. The festival also features various activities such as street parties, beauty pageants, and sports competitions. The term 'kinsan' comes from the Cebuano word which means 'to merge,' as the festival is a celebration of the merging of different cultures and traditions in Aloguinsan.",
+          "date": "June 17",
           "img1": "/trending-pics/kinsan.jpg",
           "img2": "/trending-pics/kinsan1.jpg",
           "img3": "/trending-pics/kinsan2.jpg",
           "alt1": "PalawodFestival",
           "alt2": "PalawodFestival",
           "alt3": "PalawodFestival"
+        },
+        {
+          "name": "Kuyayang Festival",
+          "description": "Kuyayang refers to the dance movements conveying courtship and love characterized by the Bagohanon's cariñoso character. Kuyayang mardi gras as a cultural tourism festival manifests the cultural heritage of Bogo as a place and avenue for cultural conservancy program of the city.",
+          "date": "June",
+          "img1": "/trending-pics/kuyayang.jpg",
+          "img2": "/trending-pics/kuyayang1.jpg",
+          "img3": "/trending-pics/kuyayang2.jpg",
+          "alt1": "KuyayangFestival",
+          "alt2": "KuyayangFestival",
+          "alt3": "KuyayangFestival"
         }
       ]
     }
