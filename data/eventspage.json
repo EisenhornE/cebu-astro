@@ -13,6 +13,28 @@
           "alt1": "PanagtagboFestival",
           "alt2": "PanagtagboFestival",
           "alt3": "PanagtagboFestival"
+        },
+        {
+          "name": "Sinulog Festival",
+          "description": "Sinulog Festival is a yearly cultural and religious celebration held in Cebu City, Philippines, on the third Sunday of January. The festival honors the Santo Niño de Cebu, a revered religious icon of the Catholic faith in the Philippines. The festivities include a grand procession, street dancing, and colorful pageantry, with participants dressed in vibrant and intricate costumes.",
+          "date": "Every third Sunday of January",
+          "img1": "/trending-pics/sinulog.jpg",
+          "img2": "/trending-pics/sinulog1.jpg",
+          "img3": "/trending-pics/sinulog2.jpg",
+          "alt1": "SinulogFestival",
+          "alt2": "SinulogFestival",
+          "alt3": "SinulogFestival"
+        },
+        {
+          "name": "Tagbo Festival",
+          "description": "Tagbo Festival is an annual celebration held every January 19 in Poro, Camotes Island, Cebu, Philippines. The festival is dedicated to the town's patron saint, Sto. Niño de Poro. The word 'Tagbo' comes from the Cebuano word for 'gathering,' as the festival is a gathering of the people to celebrate their culture and traditions.",
+          "date": "January 19",
+          "img1": "/trending-pics/tagbo.jpg",
+          "img2": "/trending-pics/tagbo1.jpg",
+          "img3": "/trending-pics/tagbo2.jpg",
+          "alt1": "TagboFestival",
+          "alt2": "TagboFestival",
+          "alt3": "TagboFestival"
         }
       ]
     }

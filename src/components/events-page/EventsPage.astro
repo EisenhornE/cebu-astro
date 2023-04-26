@@ -37,45 +37,51 @@ import eventspageJson from "../../../data/eventspage.json";
     eventspageJson.january.map((item) => {
       return (
         <figure>
-          <div class="ml-4 mb-4">
+          <div class="ml-4 mb-4 text-center">
             <h1 class="inline-block border-b-4 border-border-green text-2xl">
               {item.month}
             </h1>
           </div>
-          <section class="flex border-black border-2">
-          {item.festivals.map((festivals) => {
-            return (
-              <div class="grid grid-cols-2 grid-rows-2 w-1/2 h-1/2 ml-4 mb-4 mt-8">
-                <div class="row-span-3">
-                  <img
-                    src={festivals.img1}
-                    alt={festivals.alt1}
-                    class="w-full h-full object-cover"
-                  />
+          <section class="mb-4">
+            {item.festivals.map((festivals) => {
+              return (
+                <div class="flex py-16">
+                  <div class="relative ml-4 mb-4 mt-2 bg-[#2B5F8F] w-1/2 h-1/2">
+                    <div class="relative top-4 left-4 grid grid-cols-2 grid-rows-2">
+                      <div class="row-span-3">
+                        <img
+                          src={festivals.img1}
+                          alt={festivals.alt1}
+                          class="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div>
+                        <img
+                          src={festivals.img2}
+                          alt={festivals.alt2}
+                          class="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div>
+                        <img
+                          src={festivals.img3}
+                          alt={festivals.alt3}
+                          class="w-full h-full object-cover"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <figcaption class="w-1/2 ml-8">
+                    <h1 class="inline-block border-b-4 border-border-green text-2xl">
+                      {festivals.name}
+                    </h1>
+                    <h2 class="py-2 text-sm italic">{festivals.date}</h2>
+                    <p>{festivals.description}</p>
+                  </figcaption>
                 </div>
-                <div>
-                  <img
-                    src={festivals.img2}
-                    alt={festivals.alt2}
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <img
-                    src={festivals.img3}
-                    alt={festivals.alt3}
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <figcaption class="w-1/2 ml-4">
-                  <h1 class="inline-block border-b-4 border-border-green text-2xl">{festivals.name}</h1>
-                  <h2>{festivals.date}</h2>
-                  <p>{festivals.description}</p>
-              </figcaption>
-            );
-          })}
-        </section>
+              );
+            })}
+          </section>
         </figure>
       );
     })
