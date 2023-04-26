@@ -170,6 +170,17 @@
           "alt1": "TartanillaFestival",
           "alt2": "TartanillaFestival",
           "alt3": "TartanillaFestival"
+        },
+        {
+          "name": "Camotes Cassava Festival",
+          "description": "The Camotes Cassava Festival is a celebration held every June in the Camotes Islands, which is a group of islands located in the eastern part of Cebu province, Philippines. The festival is a tribute to the abundance of cassava or kamoteng kahoy in the area, which is a staple crop of the islanders. During the festival, locals showcase different products made from cassava, such as cassava cakes, bibingka, and even cassava wine. There are also street dances, parades, and cultural shows that highlight the culture and traditions of the people of Camotes Islands. The festival is a colorful and vibrant celebration that attracts both locals and tourists to the area.",
+          "date": "2nd Week of June",
+          "img1": "/trending-pics/camcas.jpg",
+          "img2": "/trending-pics/camcas1.jpg",
+          "img3": "/trending-pics/camcas2.jpg",
+          "alt1": "CamotesCassavaFestival",
+          "alt2": "CamotesCassavaFestival",
+          "alt3": "CamotesCassavaFestival"
         }
       ]
     }
