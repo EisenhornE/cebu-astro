@@ -86,6 +86,22 @@
           "alt3": "SarokFestival"
         }
       ]
+    },
+    {
+      "month": "March",
+      "festivals": [
+        {
+          "name": "Soli-Soli Festival",
+          "description": "The Soli-Soli Festival is an annual celebration held on March 18th in San Francisco, Camotes Island, which is located in the province of Cebu in the Philippines. The festival is a colorful and vibrant celebration that honors the town's patron saint, St. Joseph. During the festival, the streets are filled with dancers in colorful and elaborate costumes, as well as performers playing traditional instruments. One of the main highlights of the festival is the street dancing competition, where different groups showcase their talents and creativity through their performances.",
+          "date": "March 14",
+          "img1": "/trending-pics/soli.jpg",
+          "img2": "/trending-pics/soli1.jpg",
+          "img3": "/trending-pics/soli2.jpg",
+          "alt1": "Soli-SoliFestival",
+          "alt2": "Soli-SoliFestival",
+          "alt3": "Soli-SoliFestival"
+        }
+      ]
     }
   ]
 }
