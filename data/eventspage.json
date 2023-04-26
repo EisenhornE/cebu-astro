@@ -1,51 +1,18 @@
 {
-  "events": [
+  "january": [
     {
       "month": "January",
       "festivals": [
         {
           "name": "Panagtagbo Festival",
-          "description": "_Translacion_ (Gathering of the Holy Family), coincidentally the patrons of Cebu are Santo Niño and Birhen ssa Guadalupe, Saint Joseph in Mandaue City. This is celebrated every January when the three statues meet in the national shrine of Saint Joseph often called the Translacion where a fluvial procession follows. There are singing and dancing competitions and street dancing that hapen during the Bibingkahan in the honor of the Sto. Niño.",
+          "description": "Translacion (Gathering of the Holy Family), coincidentally the patrons of Cebu are Santo Niño and Birhen ssa Guadalupe, Saint Joseph in Mandaue City. This is celebrated every January when the three statues meet in the national shrine of Saint Joseph often called the Translacion where a fluvial procession follows. There are singing and dancing competitions and street dancing that hapen during the Bibingkahan in the honor of the Sto. Niño.",
           "date": "Every January Before the Sinulog Festival",
           "img1": "/trending-pics/panagtagbo.jpg",
-          "img2": "",
-          "img3": "",
+          "img2": "/trending-pics/panagtagbo1.jpg",
+          "img3": "/trending-pics/panagtagbo2.jpg",
           "alt1": "PanagtagboFestival",
           "alt2": "PanagtagboFestival",
           "alt3": "PanagtagboFestival"
-        },
-        {
-          "name": "",
-          "description": "",
-          "date": "",
-          "img1": "",
-          "img2": "",
-          "img3": "",
-          "alt1": "",
-          "alt2": "",
-          "alt3": ""
-        },
-        {
-          "name": "",
-          "description": "",
-          "date": "",
-          "img1": "",
-          "img2": "",
-          "img3": "",
-          "alt1": "",
-          "alt2": "",
-          "alt3": ""
-        },
-        {
-          "name": "",
-          "description": "",
-          "date": "",
-          "img1": "",
-          "img2": "",
-          "img3": "",
-          "alt1": "",
-          "alt2": "",
-          "alt3": ""
         }
       ]
     }
