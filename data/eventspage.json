@@ -38,7 +38,7 @@
         },
         {
           "name": "Feast of St. Sebastian",
-          "description": "Translacion (Gathering of the Holy Family), coincidentally the patrons of Cebu are Santo Niño and Birhen ssa Guadalupe, Saint Joseph in Mandaue City. This is celebrated every January when the three statues meet in the national shrine of Saint Joseph often called the Translacion where a fluvial procession follows. There are singing and dancing competitions and street dancing that hapen during the Bibingkahan in the honor of the Sto. Niño.",
+          "description": "The Feast of St. Sebastian is marked by processions, street dancing, and other cultural activities. It is a time for the community to come together and celebrate their faith and heritage. The festival usually culminates with a Mass in honor of St. Sebastian, followed by a grand fiesta with plenty of food, music, and revelry.",
           "date": "Every January 20",
           "img1": "/trending-pics/silmugi.jpg",
           "img2": "/trending-pics/silmugi1.jpg",
@@ -46,6 +46,22 @@
           "alt1": "SilmugiFestival",
           "alt2": "SilmugiFestival",
           "alt3": "SilmugiFestival"
+        }
+      ]
+    },
+    {
+      "month": "February",
+      "festivals": [
+        {
+          "name": "Budbod Kabog Festival",
+          "description": "The Budbud Kabog Festival is an annual cultural event celebrated in the city of Tudela, Misamis Occidental in the Philippines. The festival is held in honor of the patron saint of the city, St. Vincent Ferrer. It is usually celebrated every 3rd week of April. The festival features a street dance competition where participants wear colorful and creative costumes made of rice stalks or 'kabog' in the local dialect. The dancers also carry props that represent the agricultural traditions and practices of the city. The festival is also highlighted by the cooking and sharing of the local delicacy called 'budbud kabog,' which is made from glutinous rice mixed with kabog or millet, wrapped in banana leaves and then steamed.",
+          "date": "February 10",
+          "img1": "/trending-pics/budbud.jpg",
+          "img2": "/trending-pics/budbud1.jpg",
+          "img3": "/trending-pics/budbud2.jpg",
+          "alt1": "BudbodKabogFestival",
+          "alt2": "BudbodKabogFestival",
+          "alt3": "BudbodKabogFestival"
         }
       ]
     }
