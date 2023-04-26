@@ -216,6 +216,22 @@
           "alt3": "CaballoFestival"
         }
       ]
+    },
+    {
+      "month": "August",
+      "festivals": [
+        {
+          "name": "Dinagat 'Bakasi' Festival",
+          "description": "The Caballo Festival is a celebration held every July 25 in Compostela, Cebu, Philippines. The festival is a tribute to the town's patron saint, St. James the Apostle, and is highlighted by a colorful parade featuring horses and riders in elaborate costumes. The festival is also an opportunity for the community to showcase their equestrian skills and knowledge of horses, as well as to promote their local horse industry. The festival's name 'caballo' is the Spanish word for horse, reflecting the town's Spanish colonial history.",
+          "date": "2nd Week of August",
+          "img1": "/trending-pics/dinagatbkasi.jpg",
+          "img2": "/trending-pics/dinagatbkasi1.jpg",
+          "img3": "/trending-pics/dinagatbkasi2.jpg",
+          "alt1": "DinagatBakasiFestival",
+          "alt2": "DinagatBakasiFestival",
+          "alt3": "DinagatBakasiFestival"
+        }
+      ]
     }
   ]
 }
