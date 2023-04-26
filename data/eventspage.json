@@ -1,5 +1,5 @@
 {
-  "january": [
+  "contents": [
     {
       "month": "January",
       "festivals": [
@@ -35,6 +35,17 @@
           "alt1": "TagboFestival",
           "alt2": "TagboFestival",
           "alt3": "TagboFestival"
+        },
+        {
+          "name": "Feast of St. Sebastian",
+          "description": "Translacion (Gathering of the Holy Family), coincidentally the patrons of Cebu are Santo Niño and Birhen ssa Guadalupe, Saint Joseph in Mandaue City. This is celebrated every January when the three statues meet in the national shrine of Saint Joseph often called the Translacion where a fluvial procession follows. There are singing and dancing competitions and street dancing that hapen during the Bibingkahan in the honor of the Sto. Niño.",
+          "date": "Every January 20",
+          "img1": "/trending-pics/silmugi.jpg",
+          "img2": "/trending-pics/silmugi1.jpg",
+          "img3": "/trending-pics/silmugi2.jpg",
+          "alt1": "SilmugiFestival",
+          "alt2": "SilmugiFestival",
+          "alt3": "SilmugiFestival"
         }
       ]
     }
