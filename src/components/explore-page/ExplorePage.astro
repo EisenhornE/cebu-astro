@@ -31,6 +31,8 @@ import explorepageJson from "../../../data/explorepage.json";
   </div>
 </section>
 
+<!-- Restaurants -->
+
 <section id="foodTrip" class="pb-8">
   <div class="text-center">
     <h1 class="inline-block border-b-4 border-border-green mb-4 text-3xl">
@@ -76,6 +78,8 @@ import explorepageJson from "../../../data/explorepage.json";
   }
 </section>
 
+<!-- RESORTS -->
+
 <section id="resorts">
   <div class="text-center">
     <h1 class="inline-block border-b-4 border-border-green mb-4 text-3xl">
@@ -84,6 +88,53 @@ import explorepageJson from "../../../data/explorepage.json";
   </div>
   {
     explorepageJson.resorts.map((item) => {
+      return (
+        <figure class="flex py-8">
+          <div class="w-1/2 pr-4">
+            <h1 class="inline-block border-b-4 border-border-green text-2xl mb-2">
+              {item.name}
+            </h1>
+            <p>{item.description}</p>
+          </div>
+          <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2">
+            <div class="col-span-2 order-last">
+              <img
+                src={item.img1}
+                alt={item.alt1}
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <img
+                src={item.img2}
+                alt={item.alt2}
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="">
+              <img
+                src={item.img3}
+                alt={item.alt3}
+                class="w-full h-full object-cover object-left"
+              />
+            </div>
+          </div>
+        </figure>
+      );
+    })
+  }
+</section>
+
+<!-- Tourist Spots -->
+
+<section id="tourspots">
+  <div class="text-center">
+    <h1 class="inline-block border-b-4 border-border-green mb-4 text-3xl">
+      Resorts
+    </h1>
+  </div>
+  {
+    explorepageJson.spots.map((item) => {
       return (
         <figure class="flex py-8">
           <div class="w-1/2 pr-4">

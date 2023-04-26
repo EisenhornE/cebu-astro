@@ -92,5 +92,47 @@
       "alt2": "PlantationBay",
       "alt3": "PlantationBay"
     }
+  ],
+  "spots": [
+    {
+      "name": "Magellan's Cross",
+      "img1": "/trending-pics/mcross.jpg",
+      "img2": "/trending-pics/mcross1.jpg",
+      "img3": "/trending-pics/mcross2.jpg",
+      "description": "Magellan's Cross is one of the most iconic landmarks in Cebu City, Philippines. It is a symbol of the city's rich history and is known as the site where the Portuguese explorer Ferdinand Magellan planted a cross on the island of Cebu in 1521, signifying the arrival of Christianity in the Philippines. The cross is housed in a small chapel, which is located just beside the Basilica del Santo Niño, one of the oldest churches in the country. Visitors can pay a visit to this historical site and marvel at the intricate details of the wooden cross, which is encased in a larger concrete cross to protect it from damage. It's a must-see attraction for anyone visiting Cebu, especially for those interested in learning more about the country's rich cultural heritage.",
+      "alt1": "MagellanCross",
+      "alt2": "MagellanCross",
+      "alt3": "MagellanCross"
+    },
+    {
+      "name": "Cebu Taoist Temple",
+      "img1": "/trending-pics/taotemp.jpg",
+      "img2": "/trending-pics/taotemp1.jpg",
+      "img3": "/trending-pics/taotemp2.jpg",
+      "description": "The Cebu Taoist Temple is a beautiful and peaceful place of worship situated in the hills of Cebu City. The temple was built by the Chinese community in Cebu in 1972 and has since become a popular attraction for tourists and locals alike. The temple features ornate architecture, intricate carvings, and colorful decorations that reflect the beliefs and practices of Taoism. Visitors are welcome to explore the temple grounds, light incense, and offer prayers and wishes to the gods. The temple also offers a stunning view of Cebu City, making it a great spot for taking photos and enjoying the scenery.",
+      "alt1": "TaoistTemple",
+      "alt2": "TaoistTemple",
+      "alt3": "TaoistTemple"
+    },
+    {
+      "name": "Mactan Island",
+      "img1": "/trending-pics/mactan.jpg",
+      "img2": "/trending-pics/mactan1.jpg",
+      "img3": "/trending-pics/mactan2.jpg",
+      "description": "Mactan Island is a popular destination in Cebu, Philippines, known for its pristine beaches, crystal-clear waters, and world-class resorts. It is a perfect place for tourists who want to experience the tropical paradise of the Philippines. Mactan Island is also a historic site where the famous Battle of Mactan occurred between Spanish explorer Ferdinand Magellan and the native chieftain Lapu-Lapu. Visitors can explore the historic landmarks and monuments that commemorate this event, as well as indulge in the island's stunning natural beauty, water sports activities, and delicious local cuisine.",
+      "alt1": "MactanIsland",
+      "alt2": "MactanIsland",
+      "alt3": "MactanIsland"
+    },
+    {
+      "name": "Osmeña Peak",
+      "img1": "/trending-pics/peak.jpg",
+      "img2": "/trending-pics/peak1.jpg",
+      "img3": "/trending-pics/peak2.jpg",
+      "description": "Osmeña Peak is the highest peak in Cebu and a popular destination for tourists and locals alike who enjoy hiking and trekking. It is located in the southwestern part of the island and boasts stunning panoramic views of the surrounding areas, including the nearby islands of Bohol and Negros. The trek up to the peak is relatively easy and takes around 30-45 minutes to complete, making it accessible to most visitors. At the summit, visitors can enjoy breathtaking views of the landscape, take photos, and relax in the cool mountain breeze.",
+      "alt1": "OsmeñaPeak",
+      "alt2": "OsmeñaPeak",
+      "alt3": "OsmeñaPeak"
+    }
   ]
 }
