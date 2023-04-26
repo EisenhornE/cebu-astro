@@ -73,6 +73,17 @@
           "alt1": "KabayoFestival",
           "alt2": "KabayoFestival",
           "alt3": "KabayoFestival"
+        },
+        {
+          "name": "Sarok Festival",
+          "description": "Sarok Festival, also called as Adlaw sa Consolacion by the locals, is celebrated every February 14 to celebrate 91st founding anniversary of the municipality of Consolacion, Cebu. The festival is a celebration of the town's rich cultural heritage and traditions. It is also a way for the community to come together and celebrate their unity and solidarity. The festival features a parade of colorful floats and street dancing, as well as various cultural performances and activities.",
+          "date": "February 14",
+          "img1": "/trending-pics/sarok.jpg",
+          "img2": "/trending-pics/sarok1.jpg",
+          "img3": "/trending-pics/sarok2.jpg",
+          "alt1": "SarokFestival",
+          "alt2": "SarokFestival",
+          "alt3": "SarokFestival"
         }
       ]
     }
