@@ -138,6 +138,17 @@
           "alt1": "KadauganSaMactanFestival",
           "alt2": "KadauganSaMactanFestival",
           "alt3": "KadauganSaMactanFestival"
+        },
+        {
+          "name": "Mantawi Festival",
+          "description": "The Mantawi Festival is an annual celebration held every May 7th in Mandaue City, Cebu. The festival celebrates the city's history and heritage as well as its progress and development. It is named after the ancient name of Mandaue, which is 'Mantawi.' During the festival, colorful street dancing performances are held, showcasing the rich culture and traditions of Mandaue City. Participants wear elaborate costumes and perform choreographed dances to the beat of drums and other traditional instruments.",
+          "date": "May 7",
+          "img1": "/trending-pics/mantawi.jpg",
+          "img2": "/trending-pics/mantawi1.jpg",
+          "img3": "/trending-pics/mantawi2.jpg",
+          "alt1": "MantawiFestival",
+          "alt2": "MantawiFestival",
+          "alt3": "MantawiFestival"
         }
       ]
     }
