@@ -254,6 +254,22 @@
           "alt3": "SiloyFestival"
         }
       ]
+    },
+    {
+      "month": "September",
+      "festivals": [
+        {
+          "name": "Kabuhian Festival",
+          "description": "The Siloy Festival is a cultural celebration held every last Saturday of August in Alcoy, Cebu. The festival aims to promote the town's main product, which is the Siloy, a kind of bird that is known for its beautiful feathers and melodious voice. During the festival, colorful costumes are worn by the locals as they participate in street dancing and parades. There are also various activities such as trade fairs, food festivals, and beauty pageants. The Siloy Festival is a popular event that showcases the rich culture and traditions of the people of Alcoy.",
+          "date": "3rd Sunday of September",
+          "img1": "/trending-pics/kabuhian.jpg",
+          "img2": "/trending-pics/kabuhian1.jpg",
+          "img3": "/trending-pics/kabuhian2.jpg",
+          "alt1": "KabuhianFestival",
+          "alt2": "KabuhianFestival",
+          "alt3": "KabuhianFestival"
+        }
+      ]
     }
   ]
 }
