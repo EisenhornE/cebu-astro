@@ -233,7 +233,7 @@
         },
         {
           "name": "Bonga Festival",
-          "description": "The Caballo Festival is a celebration held every July 25 in Compostela, Cebu, Philippines. The festival is a tribute to the town's patron saint, St. James the Apostle, and is highlighted by a colorful parade featuring horses and riders in elaborate costumes. The festival is also an opportunity for the community to showcase their equestrian skills and knowledge of horses, as well as to promote their local horse industry. The festival's name 'caballo' is the Spanish word for horse, reflecting the town's Spanish colonial history.",
+          "description": "The Bonga Festival is a religious celebration held in Sibonga, Cebu every August 9th in honor of the town's patron saint, Nuestra Señora del Patrocinio de Sibonga (Our Lady of the Patronage of Sibonga). The festival features a street parade, cultural performances, and a grand procession of the patron saint's image. The locals also participate in a fluvial procession or a procession by sea, wherein the image of the patron saint is carried on a boat around the town's coastal waters. The festival is an important event for the locals, as it showcases their rich culture and devotion to their patron saint.",
           "date": "August 9",
           "img1": "/trending-pics/bonga.jpg",
           "img2": "/trending-pics/bonga1.jpg",
@@ -241,6 +241,17 @@
           "alt1": "BongaFestival",
           "alt2": "BongaFestival",
           "alt3": "BongaFestival"
+        },
+        {
+          "name": "Siloy Festival",
+          "description": "The Siloy Festival is a cultural celebration held every last Saturday of August in Alcoy, Cebu. The festival aims to promote the town's main product, which is the Siloy, a kind of bird that is known for its beautiful feathers and melodious voice. During the festival, colorful costumes are worn by the locals as they participate in street dancing and parades. There are also various activities such as trade fairs, food festivals, and beauty pageants. The Siloy Festival is a popular event that showcases the rich culture and traditions of the people of Alcoy.",
+          "date": "Last Saturday of August",
+          "img1": "/trending-pics/siloy.jpg",
+          "img2": "/trending-pics/siloy1.jpg",
+          "img3": "/trending-pics/siloy2.jpg",
+          "alt1": "SiloyFestival",
+          "alt2": "SiloyFestival",
+          "alt3": "SiloyFestival"
         }
       ]
     }
