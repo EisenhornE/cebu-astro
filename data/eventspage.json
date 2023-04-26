@@ -102,6 +102,22 @@
           "alt3": "Soli-SoliFestival"
         }
       ]
+    },
+    {
+      "month": "April",
+      "festivals": [
+        {
+          "name": "Tostado Festival",
+          "description": "The Tostado Festival is a religious and cultural celebration that takes place on the third Sunday of April in Cebu, Philippines. The festival is primarily centered around the Catholic faith and celebrates the feast day of the Our Lady of the Holy Rosary. During the festival, various activities are held including a street parade, a fluvial procession, and a cultural show. The street parade is the highlight of the festival and features colorful floats, dancing, and music. The fluvial procession is a religious procession that takes place on the water and involves boats carrying the image of the Our Lady of the Holy Rosary.",
+          "date": "3rd Sunday of April",
+          "img1": "/trending-pics/tostado.jpg",
+          "img2": "/trending-pics/tostado1.jpg",
+          "img3": "/trending-pics/tostado2.jpg",
+          "alt1": "TostadoFestival",
+          "alt2": "TostadoFestival",
+          "alt3": "TostadoFestival"
+        }
+      ]
     }
   ]
 }
