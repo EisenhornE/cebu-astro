@@ -127,6 +127,17 @@
           "alt1": "HaladayaFestival",
           "alt2": "HaladayaFestival",
           "alt3": "HaladayaFestival"
+        },
+        {
+          "name": "Kadaugan Sa Mactan",
+          "description": "Kadaugan sa Mactan is a festival that commemorates the Battle of Mactan, which happened on April 27, 1521. It is held every April 27 in Mactan Island, Cebu. The festival celebrates the bravery of the island's hero, Lapu-Lapu, who defeated the Portuguese explorer Ferdinand Magellan in a battle that ultimately resulted in the death of Magellan. During the festival, there are parades, street dancing, cultural shows, and reenactments of the battle. There are also food and trade fairs where visitors can sample local delicacies and buy souvenirs. The festival aims to promote the cultural heritage of Mactan Island and to honor the bravery of Lapu-Lapu, who defended his land and people against foreign invaders.",
+          "date": "April 22nd-27th",
+          "img1": "/trending-pics/kadaugan.jpg",
+          "img2": "/trending-pics/kadaugan1.jpg",
+          "img3": "/trending-pics/kadaugan2.jpg",
+          "alt1": "KadauganSaMactanFestival",
+          "alt2": "KadauganSaMactanFestival",
+          "alt3": "KadauganSaMactanFestival"
         }
       ]
     }
