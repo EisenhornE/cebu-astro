@@ -62,6 +62,17 @@
           "alt1": "BudbodKabogFestival",
           "alt2": "BudbodKabogFestival",
           "alt3": "BudbodKabogFestival"
+        },
+        {
+          "name": "Kabayo Festival",
+          "description": "The Kabayo Festival is an annual celebration held in Mandaue City, Cebu every February. The festival is a tribute to the city's patron saint, St. Joseph, and is characterized by colorful street parades and dancing. As the name suggests, the festival features horses and is centered around the equestrian culture of the city. One of the highlights of the festival is the horse parade, where beautifully decorated horses are paraded around the city's streets. The festival also features various competitions, such as horse racing, horse jumping, and horseback riding.",
+          "date": "February",
+          "img1": "/trending-pics/kabayo.jpg",
+          "img2": "/trending-pics/kabayo1.jpg",
+          "img3": "/trending-pics/kabayo2.jpg",
+          "alt1": "KabayoFestival",
+          "alt2": "KabayoFestival",
+          "alt3": "KabayoFestival"
         }
       ]
     }
