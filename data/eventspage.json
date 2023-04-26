@@ -181,6 +181,17 @@
           "alt1": "CamotesCassavaFestival",
           "alt2": "CamotesCassavaFestival",
           "alt3": "CamotesCassavaFestival"
+        },
+        {
+          "name": "Palawod Festival",
+          "description": "Palawod Festival is a celebration held annually in the municipality of Bantayan, located on Bantayan Island in Cebu province, Philippines. The festival is typically held in June, and it pays tribute to the town's rich fishing heritage and its patron saint, St. Peter. The term 'palawod' is a Cebuano word that refers to the sea or ocean, which plays a significant role in the livelihood of the town's fishermen.",
+          "date": "June 29",
+          "img1": "/trending-pics/palawod.jpg",
+          "img2": "/trending-pics/palawod1.jpg",
+          "img3": "/trending-pics/palawod2.jpg",
+          "alt1": "PalawodFestival",
+          "alt2": "PalawodFestival",
+          "alt3": "PalawodFestival"
         }
       ]
     }
