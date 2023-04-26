@@ -116,6 +116,17 @@
           "alt1": "TostadoFestival",
           "alt2": "TostadoFestival",
           "alt3": "TostadoFestival"
+        },
+        {
+          "name": "Haladaya Festival",
+          "description": "Haladaya Festival is a religious and cultural celebration held every Easter Sunday in the municipality of Daanbantayan, located in the northern part of Cebu province in the Philippines. 'Haladaya' is a Cebuano term which means 'offering of thanksgiving'. The festival is a tribute to the town's patron saint, St. Rose of Lima, and it is a way for the locals to express their gratitude for the blessings they have received throughout the year. The celebration features a grand procession of the image of St. Rose of Lima, accompanied by colorful and vibrant street dances performed by various groups in the town.",
+          "date": "Easter Sunday",
+          "img1": "/trending-pics/haladaya.jpg",
+          "img2": "/trending-pics/haladaya1.jpg",
+          "img3": "/trending-pics/haladaya2.jpg",
+          "alt1": "HaladayaFestival",
+          "alt2": "HaladayaFestival",
+          "alt3": "HaladayaFestival"
         }
       ]
     }
