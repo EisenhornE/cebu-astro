@@ -292,6 +292,49 @@
           "alt3": "PitlagongFestival"
         }
       ]
+    },
+    {
+      "month": "October",
+      "festivals": [
+        {
+          "name": "Sinanggiyaw Festival",
+          "description": "The Sinanggiyaw Festival is a cultural celebration held in Dumanjug, Cebu, on the 4th of October each year. It is a local festival that highlights the unique traditions and heritage of the town. During the Sinanggiyaw Festival, the streets come alive with vibrant parades, street dances, and various cultural presentations. Participants showcase their creativity through colorful costumes, elaborate floats, and lively performances. The festival often features dance competitions, showcasing the talents and skills of local performers.",
+          "date": "October 4",
+          "img1": "/trending-pics/sinang.jpg",
+          "img2": "/trending-pics/sinang1.jpg",
+          "img3": "/trending-pics/sinang2.jpg",
+          "alt1": "SinanggiyawFestival",
+          "alt2": "SinanggiyawFestival",
+          "alt3": "SinanggiyawFestival"
+        },
+        {
+          "name": "Inasal Festival",
+          "description": "The Inasal Festival is a culinary and cultural event that pays homage to the popular Filipino dish known as 'inasal.' Inasal is a type of grilled chicken marinated in a special blend of spices and flavors, typically cooked over hot charcoal or open flame. It is a beloved dish in the Philippines, particularly in the Visayas region. During the Inasal Festival, locals and visitors come together to celebrate the culinary heritage of Talisay City. The festival showcases various inasal dishes prepared by local restaurants and vendors. Visitors have the opportunity to indulge in the flavorful chicken inasal, along with other traditional Filipino dishes and delicacies.",
+          "date": "October 14-15",
+          "img1": "/trending-pics/inasal.jpg",
+          "img2": "/trending-pics/inasal1.jpg",
+          "img3": "/trending-pics/inasal2.jpg",
+          "alt1": "InasalFestival",
+          "alt2": "InasalFestival",
+          "alt3": "InasalFestival"
+        }
+      ]
+    },
+    {
+      "month": "November",
+      "festivals": [
+        {
+          "name": "Kabkaban Festival",
+          "description": "The Kabkaban Festival is a vibrant cultural celebration held in Carcar City, Cebu, typically in November. The festival is a showcase of the city's rich heritage, traditions, and artistic talents. During the Kabkaban Festival, the streets of Carcar City come alive with colorful parades, street dances, and various cultural performances. Participants, adorned in intricate and eye-catching costumes, dance to the rhythm of traditional music, showcasing the unique cultural identity of the city. The festival derives its name from the Cebuano word 'kabkaban,' which refers to the local tradition of decorating the streets and houses with dried banana leaves, colorful banners, and other creative materials. This practice adds to the festive atmosphere and creates a visual spectacle during the celebrations.",
+          "date": "October 24-25",
+          "img1": "/trending-pics/kabkab  .jpg",
+          "img2": "/trending-pics/kabkab  1.jpg",
+          "img3": "/trending-pics/kabkab  2.jpg",
+          "alt1": "KabkabanFestival",
+          "alt2": "KabkabanFestival",
+          "alt3": "KabkabanFestival"
+        }
+      ]
     }
   ]
 }
