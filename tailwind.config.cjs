@@ -5,8 +5,11 @@ module.exports = {
 		extend: {
 			colors:{
 				'border-green': '#5ae718'
+			},
+			backgroundImage:{
+				'water-fall': "url('/trending-pics/10.png')"
 			}
-		},
+		},	
 	},
 	plugins: [],
 }
