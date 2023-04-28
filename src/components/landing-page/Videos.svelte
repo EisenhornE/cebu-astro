@@ -57,5 +57,3 @@
     </button>
   </div>
 </section>
-
-<!-- TODO: Convert every links to images. -->
