@@ -260,7 +260,7 @@
       "festivals": [
         {
           "name": "Kabuhian Festival",
-          "description": "The Siloy Festival is a cultural celebration held every last Saturday of August in Alcoy, Cebu. The festival aims to promote the town's main product, which is the Siloy, a kind of bird that is known for its beautiful feathers and melodious voice. During the festival, colorful costumes are worn by the locals as they participate in street dancing and parades. There are also various activities such as trade fairs, food festivals, and beauty pageants. The Siloy Festival is a popular event that showcases the rich culture and traditions of the people of Alcoy.",
+          "description": "Panginabuhi is a Cebuano word that means livelihood. The festival features the different sources of income of the town of Ronda such as woodcrafting, agriculture, fishing, and native products. Celebrated during the town's fiesta that features activities like trade fair, livelihood forum and a street dancing competition participated by different barangays with a dance movements depicting the varies livelihood programs of the town.",
           "date": "3rd Sunday of September",
           "img1": "/trending-pics/kabuhian.jpg",
           "img2": "/trending-pics/kabuhian1.jpg",
@@ -268,6 +268,28 @@
           "alt1": "KabuhianFestival",
           "alt2": "KabuhianFestival",
           "alt3": "KabuhianFestival"
+        },
+        {
+          "name": "Karansa Festival",
+          "description": "The Karansa Festival is a vibrant and colorful cultural celebration held annually in the city of Danao, located in the province of Cebu, Philippines. This festival is a lively showcase of dance, music, and cultural heritage that brings together locals and visitors alike. The Karansa Festival is named after the lively and energetic 'karansa' dance, which is the highlight of the event. Participants, adorned in vibrant costumes, dance to the rhythm of traditional Cebuano music, creating a joyful and festive atmosphere. The dance is characterized by lively footwork and rhythmic movements, often accompanied by the beat of drums and other traditional instruments.",
+          "date": "3rd Sunday of September",
+          "img1": "/trending-pics/karansa.jpg",
+          "img2": "/trending-pics/karansa1.jpg",
+          "img3": "/trending-pics/karansa2.jpg",
+          "alt1": "KaransaFestival",
+          "alt2": "KaransaFestival",
+          "alt3": "KaransaFestival"
+        },
+        {
+          "name": "Pitlagong Festival",
+          "description": "The Pitlagong Festival is a cultural event that showcases the rich heritage and traditions of Argao. The festival pays tribute to the town's agricultural roots and highlights the importance of farming and farming practices in the community. During the festival, locals participate in various activities and performances that depict the agricultural life of Argao. Colorful street parades and dances take place, featuring participants in vibrant costumes and props representing farm tools and agricultural products. The festival often includes competitions, exhibits, and demonstrations related to farming and agriculture. You can expect to see displays of local produce, handicrafts, and traditional culinary delights.",
+          "date": "3rd Sunday of September",
+          "img1": "/trending-pics/pitlagong.jpg",
+          "img2": "/trending-pics/pitlagong1.jpg",
+          "img3": "/trending-pics/pitlagong2.jpg",
+          "alt1": "PitlagongFestival",
+          "alt2": "PitlagongFestival",
+          "alt3": "PitlagongFestival"
         }
       ]
     }
