@@ -327,12 +327,39 @@
           "name": "Kabkaban Festival",
           "description": "The Kabkaban Festival is a vibrant cultural celebration held in Carcar City, Cebu, typically in November. The festival is a showcase of the city's rich heritage, traditions, and artistic talents. During the Kabkaban Festival, the streets of Carcar City come alive with colorful parades, street dances, and various cultural performances. Participants, adorned in intricate and eye-catching costumes, dance to the rhythm of traditional music, showcasing the unique cultural identity of the city. The festival derives its name from the Cebuano word 'kabkaban,' which refers to the local tradition of decorating the streets and houses with dried banana leaves, colorful banners, and other creative materials. This practice adds to the festive atmosphere and creates a visual spectacle during the celebrations.",
           "date": "October 24-25",
-          "img1": "/trending-pics/kabkab  .jpg",
-          "img2": "/trending-pics/kabkab  1.jpg",
-          "img3": "/trending-pics/kabkab  2.jpg",
+          "img1": "/trending-pics/kabkab.jpg",
+          "img2": "/trending-pics/kabkab1.jpg",
+          "img3": "/trending-pics/kabkab2.jpg",
           "alt1": "KabkabanFestival",
           "alt2": "KabkabanFestival",
           "alt3": "KabkabanFestival"
+        }
+      ]
+    },
+    {
+      "month": "December",
+      "festivals": [
+        {
+          "name": "Kawayan Festival",
+          "description": "Kawayan is the vernacular term for bamboo and is the major source of livelihood and income in Alegria. The street dancing competition is based on kawayan and is slated during the town's fiesta in honor of Saint Francis Javier",
+          "date": "December 2 ",
+          "img1": "/trending-pics/kabkab.jpg",
+          "img2": "/trending-pics/kabkab1.jpg",
+          "img3": "/trending-pics/kabkab2.jpg",
+          "alt1": "KawayanFestival",
+          "alt2": "KawayanFestival",
+          "alt3": "KawayanFestival"
+        },
+        {
+          "name": "Sadsad Festival",
+          "description": "The Sadsad Festival is a vibrant cultural celebration held in Oslob, Cebu, on December 8th each year. The festival is deeply rooted in the town's religious traditions and is held in honor of the Immaculate Conception, which is also celebrated on the same day. During the Sadsad Festival, locals gather in the streets dressed in colorful traditional costumes. They form processions and perform lively and rhythmic dances known as 'sadsad,' hence the name of the festival. The sadsad dances are accompanied by the beat of drums and other traditional musical instruments, creating an energetic and festive atmosphere.",
+          "date": "December 2 ",
+          "img1": "/trending-pics/sadsad.jpg",
+          "img2": "/trending-pics/sadsad1.jpg",
+          "img3": "/trending-pics/sadsad2.jpeg",
+          "alt1": "SadsadFestival",
+          "alt2": "SadsadFestival",
+          "alt3": "SadsadFestival"
         }
       ]
     }
