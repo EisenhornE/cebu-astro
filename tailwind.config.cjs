@@ -7,7 +7,8 @@ module.exports = {
 				'border-green': '#5ae718'
 			},
 			backgroundImage:{
-				'water-fall': "url('/trending-pics/10.png')"
+				'water-fall': "url('/trending-pics/10.png')",
+				'crimson':"url('/trending-pics/crimson.jpg')",
 			}
 		},	
 	},

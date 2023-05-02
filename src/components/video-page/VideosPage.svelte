@@ -6,7 +6,7 @@
 <section class="">
   <div>
     <div class="text-center bg-water-fall bg-cover text-white">
-      <div class="border-2 border-black pt-36 backdrop-blur-sm">
+      <div class="pt-36 backdrop-blur-sm">
         <h1 class="inline-block border-b-4 border-border-green text-2xl">
           Videos from Cebu
         </h1>
