@@ -10,8 +10,36 @@
       "lunch": "For lunch, head to Larsian BBQ, a popular open-air barbecue market in Cebu City. Sample a variety of grilled meats and seafood served with traditional Filipino side dishes.",
       "afternoon1": "visit Fort San Pedro, a Spanish-era fortress located in the heart of Cebu City. Explore the museum inside the fort and learn about Cebu's colonial history.",
       "afternoon2": "take a leisurely walk along the scenic South Road Properties and enjoy the coastal views and fresh sea breeze.",
-      "dinner": "Iindulge in a delectable dinner at Casa Verde, a well-known restaurant with branches in Cebu City. Try their famous Brian's Ribs or other mouthwatering dishes from their extensive menu.",
-      "description": "After dinner, you can explore the vibrant nightlife in Cebu City, particularly around Mango Avenue and IT Park. There, you'll find a range of bars, clubs, and live music venues to enjoy. Remember to adjust the itinerary based on your preferences and the operating hours of the attractions and restaurants. Enjoy your first day in Cebu!"
+      "dinner": "Indulge in a delectable dinner at Casa Verde, a well-known restaurant with branches in Cebu City. Try their famous Brian's Ribs or other mouthwatering dishes from their extensive menu.",
+      "description": "After dinner, you can explore the vibrant nightlife in Cebu City, particularly around Mango Avenue and IT Park. There, you'll find a range of bars, clubs, and live music venues to enjoy. Remember to adjust the itinerary based on your preferences and the operating hours of the attractions and restaurants. Enjoy your first day in Cebu!",
+      "img1": "/trending-pics/stk.jpg",
+      "img2": "/trending-pics/magbasilcol.jpg",
+      "img3": "/trending-pics/larfortsrp.jpg",
+      "img4": "/trending-pics/casaverde.jpg",
+      "alt1": "STK ta Bay! in Cebu City",
+      "alt2": "Magellan's Cross, Basilica Minore del Santo Niño, and Colon Street",
+      "alt3": "Larsian BBQ, Fort San Pedro, and South Road Properties",
+      "alt4": "Casa Verde in Cebu City"
+    },
+    {
+      "package": "1",
+      "day": "Day 2",
+      "morning1": "Start your day by enjoying a leisurely breakfast at your resort in Mactan Island, such as Mövenpick Hotel Mactan Island Cebu or Bluewater Maribago Beach Resort.",
+      "morning2": "After breakfast, take some time to relax and soak up the sun on the resort's private beach or lounge by the pool. Unwind and appreciate the tranquil surroundings.",
+      "morning3": "Join a guided snorkeling tour or arrange a diving session with the resort's dive center. Explore the stunning coral reefs and vibrant marine life of Hilutungan Island Marine Sanctuary or Nalusuan Island Marine Sanctuary.",
+      "morning4": "After the diving experience, take a break and have a picnic-style lunch at a scenic spot near the resort, such as a beachfront cabana or a shaded garden area. Enjoy a selection of local delicacies and refreshing tropical fruits.",
+      "lunch": "Indulge in a delicious lunch at one of the resort's renowned restaurants. Sample a variety of fresh seafood dishes, traditional Filipino cuisine, and international favorites. Let your taste buds be delighted by the flavors of Cebu.",
+      "afternoon1": "In the afternoon, venture out to explore the nearby attractions. Visit the Magellan Shrine and Magellan's Marker in Lapu-Lapu City, commemorating the historic Battle of Mactan.",
+      "afternoon2": "Take a short boat ride to Olango Island Wildlife Sanctuary, a haven for migratory birds. Embark on a guided bird-watching tour and marvel at the diverse bird species in their natural habitat.",
+      "dinner": "Return to your resort and freshen up for an exceptional dinner experience. Enjoy a romantic dinner at one of the resort's beachfront restaurants, where you can savor gourmet cuisine while being serenaded by the soothing sound of the waves. After dinner, indulge in a relaxing beachside massage or spa treatment to unwind and rejuvenate. Let the skilled therapists melt away your stress and restore your energy. End the day with a leisurely beach walk under the moonlit sky. Take in the tranquil atmosphere and create lasting memories of your resort retreat in Cebu.",
+      "img1": "/trending-pics/food-shangrila.jpg",
+      "img2": "/trending-pics/resortsmixed.jpg",
+      "img3": "/trending-pics/larfortsrp.jpg",
+      "img4": "/trending-pics/casaverde.jpg",
+      "alt1": "STK ta Bay! in Cebu City",
+      "alt2": "Resorts in Mactan Island",
+      "alt3": "Larsian BBQ, Fort San Pedro, and South Road Properties",
+      "alt4": "Casa Verde in Cebu City"
     }
   ]
 }
