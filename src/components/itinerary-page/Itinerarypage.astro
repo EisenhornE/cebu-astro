@@ -1,3 +1,7 @@
+---
+import itineraryPageJSON from "../../../data/itinerarypage.json";
+---
+
 <section>
   <div class="pt-24 bg-crimson object-bottom pb-6 h-1/2">
     <div class="text-center mx-5 backdrop-blur-sm rounded-full text-white">
@@ -19,9 +23,81 @@
   </div>
 </section>
 
-<section class="my-20">
-  <div>
-    <h1>HELLO</h1>
-    <p>Hey!</p>
-  </div>
-</section>
+{
+  itineraryPageJSON.itinerary.map((item) => {
+    return (
+      <section class="border-b-4 border-border-green">
+        <figure>
+          <header class="inline-block border-b-4 border-border-green pt-5 ml-12 text-3xl">
+            {item.day}
+          </header>
+          <div class="flex">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+              <img
+                src="/trending-pics/stk.jpg"
+                alt="Lantaw Resto"
+                class="relative top-4 left-4"
+              />
+            </div>
+            <figcaption class="my-24 pl-8 mr-8 w-1/2">
+              <p>
+                {item.morning1}. Then, {item.morning2}
+              </p>
+            </figcaption>
+          </div>
+        </figure>
+
+        <figure>
+          <div class="flex">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+              <img
+                src="/trending-pics/magbasilcol.jpg"
+                alt="Magellan's Cross, Basilica del Sto. Niño, and Colon Street"
+                class="relative top-4 left-4"
+              />
+            </div>
+            <figcaption class="my-7 pl-8 mr-8 w-1/2">
+              <p>
+                {item.morning3}. Then, {item.morning4}. After that,{" "}
+                {item.morning5}
+              </p>
+            </figcaption>
+          </div>
+        </figure>
+
+        <figure>
+          <div class="flex">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+              <img
+                src="/trending-pics/larfortsrp.jpg"
+                alt="Lunch"
+                class="relative top-4 left-4"
+              />
+            </div>
+            <figcaption class="my-7 pl-8 mr-8 w-1/2">
+              <p>
+                {item.lunch}. Then, {item.afternoon1}. After that,{" "}
+                {item.afternoon2}
+              </p>
+            </figcaption>
+          </div>
+        </figure>
+
+        <figure>
+          <div class="flex">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+              <img
+                src="/trending-pics/casaverde.jpg"
+                alt="Casa Verde"
+                class="relative top-4 left-4"
+              />
+            </div>
+            <figcaption class="my-24 pl-8 mr-8 w-1/2">
+              <p>For dinner, {item.dinner}</p>
+            </figcaption>
+          </div>
+        </figure>
+      </section>
+    );
+  })
+}

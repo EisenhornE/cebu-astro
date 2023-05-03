@@ -5,12 +5,12 @@
 
 <section class="">
   <div>
-    <div class="text-center bg-water-fall bg-cover text-white">
-      <div class="pt-36 backdrop-blur-sm">
+    <div class="text-center bg-water-fall bg-cover text-white pt-10">
+      <div class="py-20 backdrop-blur-sm">
         <h1 class="inline-block border-b-4 border-border-green text-2xl">
           Videos from Cebu
         </h1>
-        <p class="mb-16 mt-8 mx-28 bg-[#2B5F8F] p-4 bg-opacity-60 rounded-3xl">
+        <p class="mb-10 mt-8 mx-28 bg-[#2B5F8F] p-4 bg-opacity-60 rounded-3xl">
           Welcome to our website's video gallery, where you can explore
           captivating content featuring bloggers' adventures and captivating
           tourism ads showcasing the beauty of Cebu. Immerse yourself in the
