@@ -60,6 +60,26 @@
       "alt2": "img2",
       "alt3": "img3",
       "alt4": "img4"
+    },
+    {
+      "package": "1",
+      "day": "Day 4",
+      "morning1": "Wake up early and have breakfast at the hotel/resort before checking out to return to Cebu via the same method you arrived.",
+      "morning2": "Visit the Taboan Public Market to buy souvenirs such as dried mangoes, otap, and other local delicacies. It's also a great place to buy fresh seafood to bring home.",
+      "morning3": "visit the Cebu City Museum to learn more about the city's history and culture. The museum houses various exhibits showcasing the city's rich heritage.",
+      "morning4": "check out the Carbon Market for some souvenir shopping",
+      "lunch": "Savor the flavors of Cebu with a lunch at Lantaw Native Restaurant.",
+      "afternoon1": "Go on a walking tour of Cebu's street art and murals in the city's different neighborhoods.",
+      "afternoon2": "visit the Casa Gorordo Museum, a restored 19th-century house that showcases the lifestyle and culture of Cebuano aristocracy during the Spanish colonial period.",
+      "dinner": "enjoy dinner at a local restaurant, such as Hukad sa Golden Cowrie.",
+      "img1": "/trending-pics/food-shangrila.jpg",
+      "img2": "/trending-pics/erya.jpg",
+      "img3": "/trending-pics/circlething.jpg",
+      "img4": "/trending-pics/cowrie.jpg",
+      "alt1": "img1",
+      "alt2": "img2",
+      "alt3": "img3",
+      "alt4": "img4"
     }
   ]
 }
