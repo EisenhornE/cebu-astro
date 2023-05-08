@@ -64,13 +64,11 @@
     <ul
       id="itinerary-carousel"
       bind:this={carousel}
-      class="flex overflow-hidden snap-x"
+      class="flex overflow-hidden snap-x h-1/2"
     >
       {#each itineraryJson.itinerary as itinerary}
         <li class="shrink-0 w-full snap-start">
-          <figure
-            class="flex justify-between items-center md:h-3/4 lg:h-full lg:pb-24 md:pb-12"
-          >
+          <figure class="flex justify-between items-center md:h-3/4 lg:h-full">
             <div
               class="mt-4 ml-20 grid grid-cols-2 grid-rows-2 gap-2 h-3/4 w-1/2 md:h-full"
             >
@@ -100,7 +98,7 @@
               class="text-base ml-12 mr-24 leading-6 w-1/2 md:overflow-auto md:touch-pan-y lg:overflow-hidden md:max-h-full"
             >
               <h1 class="font-bold lg:h-full md:h-full">Day {itinerary.day}</h1>
-              <p class="">{itinerary.tip}</p>
+              <p class="mb-16">{itinerary.tip}</p>
             </figcaption>
           </figure>
         </li>
@@ -119,11 +117,14 @@
       <Icon icon="material-symbols:arrow-forward-ios" />
     </button>
     <section
-      class="absolute bg-[#718DA6] w-3/4 h-1/4 right-0 bottom-0 -z-10 mb-2 pr-8 rounded-l-full md:bottom-20 md:h-[10%] lg:h-1/4 lg:bottom-0"
+      class="absolute bg-[#718DA6] w-1/2 h-1/2 right-0 z-10 mb-2 pr-8 rounded-l-full md:bottom-20 md:h-[10%] lg:h-1/4 lg:bottom-0"
     >
-      <p class="pl-28 pb-6 absolute bottom-0 text-white text-lg font-bold">
+      <a
+        href="itinerary-page"
+        class="pl-28 pb-6 absolute lg:top-14 lg:-left-16 text-white text-lg font-bold md:-left-16 md:top-5"
+      >
         See More Itineraries
-      </p>
+      </a>
     </section>
   </section>
 </section>
