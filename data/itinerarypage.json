@@ -10,7 +10,7 @@
       "lunch": "For lunch, head to Larsian BBQ, a popular open-air barbecue market in Cebu City. Sample a variety of grilled meats and seafood served with traditional Filipino side dishes.",
       "afternoon1": "visit Fort San Pedro, a Spanish-era fortress located in the heart of Cebu City. Explore the museum inside the fort and learn about Cebu's colonial history.",
       "afternoon2": "take a leisurely walk along the scenic South Road Properties and enjoy the coastal views and fresh sea breeze.",
-      "dinner": "Indulge in a delectable dinner at Casa Verde, a well-known restaurant with branches in Cebu City. Try their famous Brian's Ribs or other mouthwatering dishes from their extensive menu.",
+      "dinner": "indulge in a delectable dinner at Casa Verde, a well-known restaurant with branches in Cebu City. Try their famous Brian's Ribs or other mouthwatering dishes from their extensive menu.",
       "description": "After dinner, you can explore the vibrant nightlife in Cebu City, particularly around Mango Avenue and IT Park. There, you'll find a range of bars, clubs, and live music venues to enjoy. Remember to adjust the itinerary based on your preferences and the operating hours of the attractions and restaurants. Enjoy your first day in Cebu!",
       "img1": "/trending-pics/stk.jpg",
       "img2": "/trending-pics/magbasilcol.jpg",
@@ -31,7 +31,7 @@
       "lunch": "Indulge in a delicious lunch at one of the resort's renowned restaurants. Sample a variety of fresh seafood dishes, traditional Filipino cuisine, and international favorites. Let your taste buds be delighted by the flavors of Cebu.",
       "afternoon1": "In the afternoon, venture out to explore the nearby attractions. Visit the Magellan Shrine and Magellan's Marker in Lapu-Lapu City, commemorating the historic Battle of Mactan.",
       "afternoon2": "Take a short boat ride to Olango Island Wildlife Sanctuary, a haven for migratory birds. Embark on a guided bird-watching tour and marvel at the diverse bird species in their natural habitat.",
-      "dinner": "Return to your resort and freshen up for an exceptional dinner experience. Enjoy a romantic dinner at one of the resort's beachfront restaurants, where you can savor gourmet cuisine while being serenaded by the soothing sound of the waves. After dinner, indulge in a relaxing beachside massage or spa treatment to unwind and rejuvenate. Let the skilled therapists melt away your stress and restore your energy. End the day with a leisurely beach walk under the moonlit sky. Take in the tranquil atmosphere and create lasting memories of your resort retreat in Cebu.",
+      "dinner": "return to your resort and freshen up for an exceptional dinner experience. Enjoy a romantic dinner at one of the resort's beachfront restaurants, where you can savor gourmet cuisine while being serenaded by the soothing sound of the waves. After dinner, indulge in a relaxing beachside massage or spa treatment to unwind and rejuvenate. Let the skilled therapists melt away your stress and restore your energy. End the day with a leisurely beach walk under the moonlit sky. Take in the tranquil atmosphere and create lasting memories of your resort retreat in Cebu.",
       "img1": "/trending-pics/food-shangrila.jpg",
       "img2": "/trending-pics/resortsmixed.jpg",
       "img3": "/trending-pics/larfortsrp.jpg",
@@ -40,6 +40,26 @@
       "alt2": "Resorts in Mactan Island",
       "alt3": "Larsian BBQ, Fort San Pedro, and South Road Properties",
       "alt4": "Casa Verde in Cebu City"
+    },
+    {
+      "package": "1",
+      "day": "Day 3",
+      "morning1": "Wake up early and have a hearty breakfast at the resort.",
+      "morning2": "Head to the port and take a ferry to Olango Island, which is known for its bird sanctuary and beautiful beaches. The ferry ride takes about 30 minutes.",
+      "morning3": "upon arrival, head to the Olango Island Wildlife Sanctuary and enjoy the bird watching activity. You can also take a stroll on the beach or try other water activities such as kayaking or paddleboarding.",
+      "morning4": "take a boat to Nalusuan Island and explore its beautiful white sand beaches and clear waters then go snorkeling or scuba diving to see the island's stunning marine life",
+      "lunch": "Enjoy a seafood lunch at the island's floating restaurant",
+      "afternoon1": "Head to Hilutungan Island, another popular island destination known for its coral reefs and diverse marine life",
+      "afternoon2": "snorkel or dive in the crystal clear waters to see the colorful fish and coral formations",
+      "dinner": "enjoy a relaxing dinner at one of the many seafood restaurants in the area, such as The Abaca Group's Tavolata or The Cowrie Cove at Shangri-La Mactan Resort and Spa.",
+      "img1": "/trending-pics/food-shangrila.jpg",
+      "img2": "/trending-pics/olanna.jpg",
+      "img3": "/trending-pics/hilutungan.jpg",
+      "img4": "/trending-pics/cowrie.jpg",
+      "alt1": "img1",
+      "alt2": "img2",
+      "alt3": "img3",
+      "alt4": "img4"
     }
   ]
 }
