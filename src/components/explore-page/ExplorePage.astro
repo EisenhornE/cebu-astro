@@ -2,14 +2,17 @@
 import explorepageJson from "../../../data/explorepage.json";
 ---
 
-<section class="pt-12">
-  <div class="pt-12">
-    <div class="h-1/2">
-      <img
-        src="/trending-pics/18.png"
-        alt="Cebu Activities"
-        class="w-full h-full object-cover"
-      />
+<section class="pt-12 lg:px-8">
+  <div class="pt-12 h-1/2">
+    <div class="">
+      <picture>
+        <source media="(max-width:768px)" srcset="/trending-pics/18.png" />
+        <img
+          src="/trending-pics/cebuwallpaper.jpg"
+          alt="Cebu Landscape"
+          class="w-full h-[25%] object-cover"
+        />
+      </picture>
     </div>
     <div>
       <h1
@@ -33,7 +36,7 @@ import explorepageJson from "../../../data/explorepage.json";
 
 <!-- Restaurants -->
 
-<section id="foodTrip" class="pb-8 pt-24">
+<section id="foodTrip" class="pb-8 pt-24 lg:px-4">
   <div class="text-center">
     <h1 class="inline-block border-b-4 border-border-green mb-4 text-3xl">
       Food Trip
@@ -42,14 +45,14 @@ import explorepageJson from "../../../data/explorepage.json";
   {
     explorepageJson.restaurants.map((item) => {
       return (
-        <figure class="flex py-8">
-          <div class="w-1/2 pr-4">
+        <figure class="flex py-8 lg:justify-center lg:mx-4">
+          <figcaption class="w-1/2 pr-4 lg:p-0">
             <h1 class="inline-block border-b-4 border-border-green text-2xl mb-2">
               {item.name}
             </h1>
-            <p>{item.description}</p>
-          </div>
-          <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2">
+            <p class="lg:w-3/4">{item.description}</p>
+          </figcaption>
+          <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2 lg:w-1/4 lg:h-1/3">
             <div class="col-span-2 order-last">
               <img
                 src={item.img1}
@@ -64,7 +67,7 @@ import explorepageJson from "../../../data/explorepage.json";
                 class="w-full h-full object-cover"
               />
             </div>
-            <div class="">
+            <div>
               <img
                 src={item.img3}
                 alt={item.alt3}
@@ -80,7 +83,7 @@ import explorepageJson from "../../../data/explorepage.json";
 
 <!-- RESORTS -->
 
-<section id="resorts" class="pt-24">
+<section id="resorts" class="pt-24 lg:px-4">
   <div class="text-center">
     <h1 class="inline-block border-b-4 border-border-green mb-4 text-3xl">
       Resorts
@@ -89,14 +92,14 @@ import explorepageJson from "../../../data/explorepage.json";
   {
     explorepageJson.resorts.map((item) => {
       return (
-        <figure class="flex py-8">
-          <figcaption class="w-1/2 pr-4">
+        <figure class="flex py-8 lg:justify-center lg:mx-4">
+          <figcaption class="w-1/2 pr-4 lg:p-0">
             <h1 class="inline-block border-b-4 border-border-green text-2xl mb-2">
               {item.name}
             </h1>
-            <p>{item.description}</p>
+            <p class="lg:w-3/4">{item.description}</p>
           </figcaption>
-          <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2">
+          <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2 lg:w-1/4 lg:h-1/3">
             <div class="col-span-2 order-last">
               <img
                 src={item.img1}
@@ -127,7 +130,7 @@ import explorepageJson from "../../../data/explorepage.json";
 
 <!-- Tourist Spots -->
 
-<section id="tourspots" class="pt-24">
+<section id="tourspots" class="pt-24 lg:px-4">
   <div class="text-center">
     <h1 class="inline-block border-b-4 border-border-green mb-4 text-3xl">
       Tourist Spots
@@ -136,14 +139,14 @@ import explorepageJson from "../../../data/explorepage.json";
   {
     explorepageJson.spots.map((item) => {
       return (
-        <figure class="flex py-8">
-          <div class="w-1/2 pr-4">
+        <figure class="flex py-8 lg:justify-center lg:mx-4">
+          <figcaption class="w-1/2 pr-4 lg:p-0">
             <h1 class="inline-block border-b-4 border-border-green text-2xl mb-2">
               {item.name}
             </h1>
-            <p>{item.description}</p>
-          </div>
-          <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2">
+            <p class="lg:w-3/4">{item.description}</p>
+          </figcaption>
+          <div class="grid grid-cols-2 grid-rows-2 gap-2 w-1/2 h-1/2 lg:w-1/4 lg:h-1/3">
             <div class="col-span-2 order-last">
               <img
                 src={item.img1}
