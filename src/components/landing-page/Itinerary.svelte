@@ -117,11 +117,11 @@
       <Icon icon="material-symbols:arrow-forward-ios" />
     </button>
     <section
-      class="absolute bg-[#718DA6] w-1/2 h-1/2 right-0 z-10 mb-2 pr-8 rounded-l-full md:bottom-20 md:h-[10%] lg:h-1/4 lg:bottom-0"
+      class="absolute bg-[#718DA6] w-1/2 h-1/2 right-0 mb-2 pr-8 rounded-l-full md:bottom-20 md:h-[10%] lg:h-1/4 lg:-bottom-16"
     >
       <a
         href="itinerary-page"
-        class="pl-28 pb-6 absolute lg:top-14 lg:-left-16 text-white text-lg font-bold md:-left-16 md:top-5"
+        class="pl-28 pb-2 absolute lg:top-[3.5rem] lg:-left-16 text-white text-lg font-bold md:-left-16 md:top-5"
       >
         See More Itineraries
       </a>
