@@ -30,7 +30,7 @@
     <div class="flex py-12">
       <div class="w-1/2">
         <!-- Iframe -->
-        <div class="video-container mx-auto p-0 w-fit-content">
+        <div class="video-container mx-auto p-0 w-fit-content pl-2">
           <iframe
             class="lg:w-[50rem] h-[25rem] sm:w-full"
             title="test"
