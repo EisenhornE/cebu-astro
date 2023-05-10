@@ -26,32 +26,32 @@ import itineraryPageJSON from "../../../data/itinerarypage.json";
 {
   itineraryPageJSON.itinerary.map((item) => {
     return (
-      <section class="border-b-4 border-border-green pb-4">
+      <section class="border-b-4 border-border-green pb-4 lg:pb-16 lg:ml-6">
         <figure>
-          <header class="inline-block border-b-4 border-border-green pt-5 ml-12 text-3xl">
+          <header class="inline-block border-b-4 border-border-green pt-5 ml-12 text-3xl lg:mt-16 lg:ml-[6.7rem]">
             {item.day}
           </header>
-          <div class="flex">
-            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+          <div class="flex lg:my-0 lg:justify-center">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8 lg:w-[500px] lg:h-[250px]">
               <img
                 src={item.img1}
                 alt={item.alt1}
-                class="relative top-4 left-4"
+                class="relative top-4 left-4 w-full h-full object-cover"
               />
             </div>
-            <figcaption class="py-28 pl-8 mr-8 w-1/2">
+            <figcaption class="py-8 pl-8 mr-8 w-1/2">
               <p>{item.morning1}</p>
             </figcaption>
           </div>
         </figure>
 
         <figure>
-          <div class="flex">
-            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+          <div class="flex lg:my-0 lg:justify-center">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8 lg:w-[500px] lg:h-[250px]">
               <img
                 src={item.img2}
                 alt={item.alt2}
-                class="relative top-4 left-4"
+                class="relative top-4 left-4 lg:h-full lg:w-full object-cover"
               />
             </div>
             <figcaption class="py-7 pl-8 mr-8 w-1/2">
@@ -64,12 +64,12 @@ import itineraryPageJSON from "../../../data/itinerarypage.json";
         </figure>
 
         <figure>
-          <div class="flex">
-            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+          <div class="flex lg:my-0 lg:justify-center">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8 lg:w-[500px] lg:h-[250px]">
               <img
                 src={item.img3}
                 alt={item.alt3}
-                class="relative top-4 left-4"
+                class="relative top-4 left-4 lg:h-full lg:w-full object-cover"
               />
             </div>
             <figcaption class="py-10 pl-8 mr-8 w-1/2">
@@ -82,12 +82,12 @@ import itineraryPageJSON from "../../../data/itinerarypage.json";
         </figure>
 
         <figure>
-          <div class="flex">
-            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8">
+          <div class="flex lg:my-0 lg:justify-center">
+            <div class="bg-[#2B5F8F] w-1/2 h-1/2 my-8 lg:w-[500px] lg:h-[250px]">
               <img
                 src={item.img4}
                 alt={item.alt4}
-                class="relative top-4 left-4"
+                class="relative top-4 left-4 lg:h-full lg:w-full object-cover"
               />
             </div>
             <figcaption class="py-10 pl-8 mr-8 w-1/2">
