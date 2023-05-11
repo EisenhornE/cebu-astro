@@ -120,7 +120,6 @@
         >
           {#each selectedData.festivals as festival}
             <li class="snap-start justify-center mt-4 w-full shrink-0">
-              "
               <figure>
                 <div class="flex mr-6">
                   <div class="w-[75%] h-60 ml-4 overflow-hidden others">
