@@ -2,7 +2,6 @@
   "contents": [
     {
       "month": "January",
-      "altFeatured": "Sinulog Festival",
       "festivals": [
         {
           "name": "Sinulog Festival",
@@ -28,8 +27,6 @@
     },
     {
       "month": "February",
-      "featureImg": "https://cebuinsights.com/wp-content/uploads/2021/06/Cebu-City-Hall.webp",
-      "altFeatured": "Cebu City Charter Festival",
       "festivals": [
         {
           "name": "Cebu City Charter Day",
@@ -37,7 +34,9 @@
           "image1": "https://i0.wp.com/cebufinest.com/wp-content/uploads/2017/02/cebufinest_cebucityhall_february24holidayincebucity.jpg?fit=800%2C569&ssl=1",
           "image2": "https://www.cebucity.gov.ph/wp-content/uploads/2020/02/87416948_3002239579853264_8841982080591069184_n.jpg",
           "alt1": "Cebu City Charter Day",
-          "alt2": "Cebu City Charter Day"
+          "alt2": "Cebu City Charter Day",
+          "featureimg": "/trending-pics/charterfeature.jpg",
+          "featurealt": "Cebu City Charter Day"
         },
         {
           "name": "Cebu City Chinese New Year",
@@ -45,7 +44,9 @@
           "image1": "https://y101fm.com/images/articleimages/012017/2017-01-19-chinese-new-yr-cebus-best-main.jpg",
           "image2": "https://cdn4.premiumread.com/?url=https://sunstar.com.ph/uploads/images/2023/01/20/409149.jpg&w=800&q=100&f=jpg&t=2",
           "alt1": "Cebu City Chinese New Year",
-          "alt2": "Cebu City Chinese New Year"
+          "alt2": "Cebu City Chinese New Year",
+          "featureimg": "/trending-pics/chinesefeature.jpg",
+          "featurealt": "Cebu City Chinese New Year"
         }
       ]
     },
