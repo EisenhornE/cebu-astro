@@ -131,7 +131,7 @@
           "image2": "http://www.traveltothephilippines.info/wp-content/uploads/2017/08/Cebu-Tartanilla-Festival7.jpg",
           "alt1": "Tartanila Festival",
           "alt2": "Tartanila Festival",
-          "featureimg": "/trending-pics/tartanilafeature.jpg",
+          "featureimg": "/trending-pics/tartanillafeature.jpg",
           "featurealt": "Tartanila Festival"
         },
         {
@@ -177,7 +177,9 @@
           "image1": "https://rrhcssr.files.wordpress.com/2012/07/398514_369310286417971_1867707363_n.jpg?w=300",
           "image2": "https://www.cebufest.com/sites/default/files/cebu_caballo_festival.jpg",
           "alt1": "Caballo Festival",
-          "alt2": "Caballo Festival"
+          "alt2": "Caballo Festival",
+          "featureimg": "/trending-pics/caballofeature.jpg",
+          "featurealt": "Caballo Festival"
         }
       ]
     },
