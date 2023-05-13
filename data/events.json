@@ -178,7 +178,7 @@
           "image2": "https://www.cebufest.com/sites/default/files/cebu_caballo_festival.jpg",
           "alt1": "Caballo Festival",
           "alt2": "Caballo Festival",
-          "featureimg": "/trending-pics/caballofeature.jpg",
+          "featureimg": "/trending-pics/cabllofeature.jpg",
           "featurealt": "Caballo Festival"
         }
       ]
@@ -194,7 +194,9 @@
           "image1": "https://www.travelingcebu.com/images/dinagat-shary-sorono.jpg",
           "image2": "https://www.hlimg.com/images/events/738X538/event_1538545387m2.jpg?w=480&dpr=2.6",
           "alt1": "Dinagat Bakasi Festival",
-          "alt2": "Dinagat Bakasi Festival"
+          "alt2": "Dinagat Bakasi Festival",
+          "featureimg": "/trending-pics/dinagatbkasifeature.jpg",
+          "featurealt": "Dinagat Bakasi Festival"
         },
         {
           "name": "Bonga Festival",
@@ -202,7 +204,9 @@
           "image1": "https://www.travelingcebu.com/images/bonga-festival.jpg",
           "image2": "https://static.wixstatic.com/media/83d387_8731520e0d3d412d8b191d4e489ca80e~mv2.jpg/v1/fill/w_640,h_312,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/83d387_8731520e0d3d412d8b191d4e489ca80e~mv2.jpg",
           "alt1": "Bonga Festival",
-          "alt2": "Bonga Festival"
+          "alt2": "Bonga Festival",
+          "featureimg": "/trending-pics/bongafeature.jpg",
+          "featurealt": "Bonga Festival"
         },
         {
           "name": "Siloy Festival",
@@ -210,7 +214,9 @@
           "image1": "https://www.hlimg.com/images/events/738X538/y_1529556512e.jpg",
           "image2": "https://live.staticflickr.com/2491/3964871563_e9439a80f9_z.jpg",
           "alt1": "Siloy Festival",
-          "alt2": "Siloy Festival"
+          "alt2": "Siloy Festival",
+          "featureimg": "/trending-pics/siloyfeature.jpg",
+          "featurealt": "Siloy Festival"
         }
       ]
     },
