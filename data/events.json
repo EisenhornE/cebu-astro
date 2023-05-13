@@ -123,8 +123,6 @@
     },
     {
       "month": "June",
-      "featureImg": "https://proudlyfilipino.com/wp-content/uploads/2015/08/2409428594_2c0c3e397a_z.jpg",
-      "altFeatured": "Tartanila Festival",
       "festivals": [
         {
           "name": "Tartanila Festival",
@@ -132,7 +130,9 @@
           "image1": "https://escophilippines.com/images/events-and-celebrations/cebu/kabayo-festival-img.jpg",
           "image2": "http://www.traveltothephilippines.info/wp-content/uploads/2017/08/Cebu-Tartanilla-Festival7.jpg",
           "alt1": "Tartanila Festival",
-          "alt2": "Tartanila Festival"
+          "alt2": "Tartanila Festival",
+          "featureimg": "/trending-pics/tartanilafeature.jpg",
+          "featurealt": "Tartanila Festival"
         },
         {
           "name": "Camotes Cassava Festival",
@@ -140,7 +140,9 @@
           "image1": "https://www.travelingcebu.com/images/camotes-cassava-festival-street-dancing.jpg",
           "image2": "https://www.travelingcebu.com/images/cassava-cake-chelle-duenas.jpg",
           "alt1": "Camotes Cassava Festival",
-          "alt2": "Camotes Cassava Festival"
+          "alt2": "Camotes Cassava Festival",
+          "featureimg": "/trending-pics/camotesfeature.jpg",
+          "featurealt": "Camotes Cassava Festival"
         },
         {
           "name": "Palawod Festival",
@@ -148,7 +150,9 @@
           "image1": "https://theamazingbantayan.files.wordpress.com/2019/09/fb_img_15690531066183841105794817535426.jpg",
           "image2": "https://watchmendailyjournal.com/wp-content/uploads/2020/03/Celebrating-the-Palawod-Lawod-Festival-2.jpeg",
           "alt1": "Palawod Festival",
-          "alt2": "Palawod Festival"
+          "alt2": "Palawod Festival",
+          "featureimg": "/trending-pics/palawodfeature.jpg",
+          "featurealt": "Palawod Festival"
         },
         {
           "name": "Semana Santa sa Bantayan",
@@ -156,7 +160,9 @@
           "image1": "https://laagsparkles.files.wordpress.com/2017/04/photogrid_1492095146317.jpg?w=720",
           "image2": "https://laagsparkles.files.wordpress.com/2017/04/photogrid_1492095492531.jpg?w=720",
           "alt1": "Semana Santa sa Bantayan",
-          "alt2": "Semana Santa sa Bantayan"
+          "alt2": "Semana Santa sa Bantayan",
+          "featureimg": "/trending-pics/semantafeature.jpg",
+          "featurealt": "Semana Santa sa Bantayan"
         }
       ]
     },
