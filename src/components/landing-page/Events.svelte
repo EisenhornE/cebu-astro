@@ -59,6 +59,9 @@
       function updateFeatureImg(index) {
         activeSlide = index;
       }
+      if (showDropdown) {
+        showDropdown = false;
+      }
     }
   }
 
@@ -75,12 +78,10 @@
 </script>
 
 <section id="events" class="pt-16">
-  <div class="pl-20">
+  <div class="pl-20 relative">
     <h1 class="inline-block border-b-4 border-border-green ml-2">
-      Upcoming Events in <button
-        on:click={toggleDropdown}
-        class="text-violet-600"
-      >
+      Upcoming Events in
+      <button on:click={toggleDropdown} class="text-violet-600">
         {#if selectOption == ""}
           {month}
         {:else if selectedOption == ""}
@@ -93,7 +94,7 @@
     <div>
       {#if showDropdown}
         <div
-          class="absolute z-10 left-56 mt-2 py-2 w-28 bg-white rounded-lg shadow-lg text-center"
+          class="dropdown-menu absolute z-10 left-56 mt-2 py-2 w-28 bg-white rounded-lg shadow-lg text-center"
         >
           {#each months as option}
             <button
@@ -105,6 +106,17 @@
           {/each}
         </div>
       {/if}
+
+      <button
+        on:click={toggleDropdown}
+        class=" absolute top-[7px] left-[19.3%] bg-purple-500 rounded-full text-white hover:bg-purple-600 focus:bg-purple-800"
+      >
+        {#if showDropdown}
+          <Icon icon="material-symbols:arrow-drop-down-rounded" rotate={2} />
+        {:else}
+          <Icon icon="material-symbols:arrow-drop-down-rounded" />
+        {/if}
+      </button>
     </div>
   </div>
 
