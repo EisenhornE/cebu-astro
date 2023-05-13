@@ -231,7 +231,9 @@
           "image1": "https://www.driftstories.com/wp-content/uploads/2019/09/IMG_4645-1.jpg",
           "image2": "https://www.travelingcebu.com/images/karansa-festival-streetdance-aying-salupan.jpg",
           "alt1": "Karansa Festival",
-          "alt2": "Karansa Festival"
+          "alt2": "Karansa Festival",
+          "featureimg": "/trending-pics/karansafeature.jpg",
+          "featurealt": "Karansa Festival"
         },
         {
           "name": "Kabuhian Festival",
@@ -239,7 +241,9 @@
           "image1": "http://www.ronda.gov.ph/imagesu/articles/panginabuhi.jpg",
           "image2": "https://rrhcssr.files.wordpress.com/2012/07/cebu_tag-anitohan_festival.jpg",
           "alt1": "Kabuhian Festival",
-          "alt2": "Kabuhian Festival"
+          "alt2": "Kabuhian Festival",
+          "featureimg": "/trending-pics/kabuhianfeature.jpg",
+          "featurealt": "Kabuhian Festival"
         }
       ]
     },
@@ -252,9 +256,11 @@
           "name": "Sinanggiyaw Festival",
           "description": "Sinanggi-yaw is taken from two old Cebuano words, Sinanggi meaning abundance of harvested agricultural products of the local farmers and Sayaw meaning dance. Through street dancing and field presentation. Performers is focused on three aspects: planting, harvesting and thanksgiving.",
           "image1": "https://www.cebufest.com/sites/default/files/cebu_sinanggiyaw_festival.jpg",
-          "image2": "https://3.bp.blogspot.com/-bw35GWuQ9bw/TaULNF8nAZI/AAAAAAAAAOQ/xvAWM6Kt1IM/s1600/singaw.jpg",
+          "image2": "/trending-pics/sinanggiyaw2.jpg",
           "alt1": "Sinanggiyaw Festival",
-          "alt2": "Sinanggiyaw Festival"
+          "alt2": "Sinanggiyaw Festival",
+          "featureimg": "/trending-pics/sinanggiyawfeature.jpg",
+          "featurealt": "Sinanggiyaw Festival"
         },
         {
           "name": "Inasal Festival",
@@ -262,7 +268,9 @@
           "image1": "https://preview.redd.it/halad-inasal-festival-2022-v0-wolheosbqdu91.jpg?width=640&crop=smart&auto=webp&s=a6851c173542b1bfc60152c21caecbb4ea7889ee",
           "image2": "https://talisaycitycebu.gov.ph/wp-content/uploads/2022/09/h2-768x516.jpg",
           "alt1": "Inasal Festival",
-          "alt2": "Inasal Festival"
+          "alt2": "Inasal Festival",
+          "featureimg": "/trending-pics/haladfeature.jpg",
+          "featurealt": "Inasal Festival"
         }
       ]
     },
