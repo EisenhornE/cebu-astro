@@ -105,7 +105,9 @@
           "image1": "http://3.bp.blogspot.com/-qTlKSl0CwHI/UgScn9PvnpI/AAAAAAAAALs/BRDLTqP2HlM/s1600/2.jpg",
           "image2": "https://www.travelingcebu.com/images/Mantawi-Festival-inewmedia-org.jpg",
           "alt1": "Mantawi Festival",
-          "alt2": "Mantawi Festival"
+          "alt2": "Mantawi Festival",
+          "featureimg": "/trending-pics/mantawifeature.jpg",
+          "featurealt": "Mantawi Festival"
         },
         {
           "name": "Fiesta sa Mandaue",
@@ -113,7 +115,9 @@
           "image1": "https://i0.wp.com/cebudailynews.inquirer.net/files/2015/01/Traslacion.jpg",
           "image2": "https://www.travelingcebu.com/images/pasigarbo-sasugbo-2008-ermelo-villarealjr.jpg",
           "alt1": "Fiesta sa Mandaue",
-          "alt2": "Fiesta sa Mandaue"
+          "alt2": "Fiesta sa Mandaue",
+          "featureimg": "/trending-pics/mandauefeature.jpg",
+          "featurealt": "Fiesta sa Mandaue"
         }
       ]
     },
