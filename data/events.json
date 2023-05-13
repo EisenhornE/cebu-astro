@@ -61,7 +61,9 @@
           "image1": "https://www.travelingcebu.com/images/soli-soli-queens.jpg",
           "image2": "https://live.staticflickr.com/3676/11756568126_924a769676_b.jpg",
           "alt1": "Soli-Soli Festival",
-          "alt2": "Soli-Soli Festival"
+          "alt2": "Soli-Soli Festival",
+          "featureimg": "/trending-pics/solisolifeature.jpg",
+          "featurealt": "Soli-Soli Festival"
         }
       ]
     },
@@ -76,7 +78,9 @@
           "image1": "https://www.travelingcebu.com/images/Kadaugan-dancers-bruce-liron.jpg",
           "image2": "https://www.travelingcebu.com/images/kadaugan-meljorey-lagarde.jpg",
           "alt1": "Kadaugan sa Mactan",
-          "alt2": "Kadaugan sa Mactan"
+          "alt2": "Kadaugan sa Mactan",
+          "featureimg": "/trending-pics/kadauganfeature.jpg",
+          "featurealt": "Kadaugan sa Mactan"
         },
         {
           "name": "Tostado Festival",
@@ -84,7 +88,9 @@
           "image1": "https://escophilippines.com/images/events-and-celebrations/cebu/tostado-festival-img.jpg",
           "image2": "https://mingsworld.com/images/tostadoFest.jpg",
           "alt1": "Tostado Festival",
-          "alt2": "Tostado Festival"
+          "alt2": "Tostado Festival",
+          "featureimg": "/trending-pics/tostadofeature.jpg",
+          "featurealt": "Tostado Festival"
         }
       ]
     },
