@@ -168,8 +168,6 @@
     },
     {
       "month": "July",
-      "featureImg": "https://3.bp.blogspot.com/-hYuZl1A4iqQ/UBNbl_hCqHI/AAAAAAAAAD0/VUNq5j6Wt5Q/s640/034.jpg",
-      "altFeatured": "Caballo Festival",
       "festivals": [
         {
           "name": "Caballo Festival",
@@ -185,8 +183,6 @@
     },
     {
       "month": "August",
-      "featureImg": "https://allaboutfiesta.files.wordpress.com/2016/10/yuuu.jpg",
-      "altFeatured": "Dinagat Bakasi Festival",
       "festivals": [
         {
           "name": "Dinagat Bakasi Festival",
@@ -222,8 +218,6 @@
     },
     {
       "month": "September",
-      "featureImg": "https://www.travelingcebu.com/images/karansa-queen-competition.jpg",
-      "altFeatured": "Karansa Festival",
       "festivals": [
         {
           "name": "Karansa Festival",
@@ -249,8 +243,6 @@
     },
     {
       "month": "October",
-      "featureImg": "https://www.hlimg.com/images/events/738X538/z_1528957532e.jpg",
-      "altFeatured": "Sinanggiyaw Festival",
       "festivals": [
         {
           "name": "Sinanggiyaw Festival",
@@ -285,14 +277,14 @@
           "image1": "https://www.travelingcebu.com/images/kabkaban-festival-streetdance-fb.jpg",
           "image2": "https://www.travelingcebu.com/images/kabkaban-festival-fb-page.jpg",
           "alt1": "Kabkaban Festival",
-          "alt2": "Kabkaban Festival"
+          "alt2": "Kabkaban Festival",
+          "featureimg": "/trending-pics/kabkabanfeature.jpg",
+          "featurealt": "Kabkaban Festival"
         }
       ]
     },
     {
       "month": "December",
-      "featureImg": "https://www.travelingcebu.com/images/kawayan-festival-aileen-evelina.jpg",
-      "altFeatured": "Kawayan Festival",
       "festivals": [
         {
           "name": "Kawayan Festival",
@@ -300,7 +292,9 @@
           "image1": "https://www.hlimg.com/images/events/738X538/3_1538043064e.jpg",
           "image2": "https://www.travelingcebu.com/images/kawayan-festival-aileen-evelina2.jpg",
           "alt1": "Kawayan Festival",
-          "alt2": "Kawayan Festival"
+          "alt2": "Kawayan Festival",
+          "featureimg": "/trending-pics/kawayanfeature.jpg",
+          "featurealt": "Kawayan Festival"
         },
         {
           "name": "Sadsad Festival",
@@ -308,7 +302,9 @@
           "image1": "https://images.gmanews.tv/webpics/2020/01/640_Sadsad3_2020_01_25_13_15_00.jpg",
           "image2": "https://manilastandard.net/wp-content/uploads/2020/01/71180_sadsad-dancing.jpg",
           "alt1": "Sadsad Festival",
-          "alt2": "Sadsad Festival"
+          "alt2": "Sadsad Festival",
+          "featureimg": "/trending-pics/sadsadfeature.jpg",
+          "featurealt": "Sadsad Festival"
         }
       ]
     }
