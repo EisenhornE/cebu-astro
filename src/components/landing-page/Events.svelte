@@ -154,7 +154,11 @@
                   </div>
                 </div>
                 <figcaption class="mx-4 my-16 text-left">
-                  <h1 class="pb-2 font-semibold">{festival.name}</h1>
+                  <h1
+                    class="inline-block mb-2 font-semibold text-2xl border-b-4 border-b-border-green"
+                  >
+                    {festival.name}
+                  </h1>
                   <p>{festival.description}</p>
                 </figcaption>
               </figure>
