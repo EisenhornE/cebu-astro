@@ -2,7 +2,6 @@
   "contents": [
     {
       "month": "January",
-      "featureImg": "https://hicaps.com.ph/wp-content/uploads/2023/01/sinulog-festival.jpg",
       "altFeatured": "Sinulog Festival",
       "festivals": [
         {
@@ -11,7 +10,8 @@
           "image1": "https://www.rappler.com/tachyon/r3-assets/DFFEC1A7C6674877B1EE700EAD46CD3F/img/55A27B8BD8FC4F95AF8D0A37F427BCEC/Sinulog-Festival-parade-1-January-20-2019-38.jpg",
           "alt1": "Sinulog Festival",
           "image2": "https://www.rappler.com/tachyon/2023/01/Sinulog-Launching-Parade03_Cebu010623_JHernandez-scaled.jpg",
-          "alt2": "Sinulog Festival"
+          "alt2": "Sinulog Festival",
+          "featureimg": "/trending-pics/sinulogfeature.jpg"
         },
         {
           "name": "Feast of Sto. Niño",
@@ -19,7 +19,8 @@
           "image1": "https://www.santonino500.com/wp-content/uploads/2022/01/BMSN-Donated-Sto-Nino-de-Cebu-Sagrada-Familia-960x675.jpg",
           "image2": "https://cbcpnews.net/cbcpnews/wp-content/uploads/2019/01/DSC_8729-01.jpeg",
           "alt1": "Feast of Sto. Niño",
-          "alt2": "Feast of Sto. Niño"
+          "alt2": "Feast of Sto. Niño",
+          "featureimg": "/trending-pics/santocebu.jpg"
         }
       ]
     },

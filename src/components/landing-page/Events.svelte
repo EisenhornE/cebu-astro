@@ -55,6 +55,10 @@
       // carousel.scrollLeft -= carousel.offsetWidth;
 
       goToSlide(activeSlide);
+
+      function updateFeatureImg(index) {
+        activeSlide = index;
+      }
     }
   }
 
@@ -108,8 +112,8 @@
     <div class="flex">
       <div class="w-1/2 mr-4 h-max-3/4">
         <img
-          src={selectedData.featureImg}
-          alt={selectedData.altFeatured}
+          src={selectedData.festivals[activeSlide].featureimg}
+          alt={selectedData.featurealt}
           class="w-full h-full object-cover rounded-lg"
         />
       </div>
