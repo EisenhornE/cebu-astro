@@ -3,10 +3,10 @@ import trendingJSON from "../../../data/trending.json";
 ---
 
 <section
-  class="my-20 mx-12 bg-[#2B5F8F] rounded-tl-[2.5rem] h-3/4"
+  class="my-20 bg-[#2B5F8F] rounded-tl-[2.5rem] w-3/4 h-1/2 mx-auto"
   id="trending"
 >
-  <h1 class="pl-16 pt-8 text-white text-3xl">Trending Now</h1>
+  <h1 class="pl-16 pt-8 text-white text-3xl">Best in 2023</h1>
   {
     trendingJSON.banner.map((banner) => {
       return (
@@ -20,11 +20,11 @@ import trendingJSON from "../../../data/trending.json";
               />
             </div>
             <figcaption class="absolute top-0 right-0 mt-6 w-1/2 h-full bg-white md:overflow-auto md:touch-pan-y">
-              <h1 class="pl-20 pt-24 text-8xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-600 md:text-3xl md:pt-12 xl:text-8xl">
-                Best in 2023
+              <h1 class="pl-8 pt-24 lg:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-600 md:text-3xl md:pt-12">
+                Trending Now
               </h1>
               <div class="mt-16 md:mt-8">
-                <h2 class="px-8 pt-4 font-bold">{banner.name}</h2>
+                <h2 class="px-8 pt-4 font-bold text-3xl">{banner.name}</h2>
                 <p class="px-8 pt-4">{banner.description}</p>
               </div>
             </figcaption>
