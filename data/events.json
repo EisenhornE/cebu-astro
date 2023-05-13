@@ -11,7 +11,8 @@
           "alt1": "Sinulog Festival",
           "image2": "https://www.rappler.com/tachyon/2023/01/Sinulog-Launching-Parade03_Cebu010623_JHernandez-scaled.jpg",
           "alt2": "Sinulog Festival",
-          "featureimg": "/trending-pics/sinulogfeature.jpg"
+          "featureimg": "/trending-pics/sinulogfeature.jpg",
+          "featurealt": "Sinulog Festival"
         },
         {
           "name": "Feast of Sto. Niño",
@@ -20,7 +21,8 @@
           "image2": "https://cbcpnews.net/cbcpnews/wp-content/uploads/2019/01/DSC_8729-01.jpeg",
           "alt1": "Feast of Sto. Niño",
           "alt2": "Feast of Sto. Niño",
-          "featureimg": "/trending-pics/santocebu.jpg"
+          "featureimg": "/trending-pics/santocebu.jpg",
+          "featurealt": "Feast of Sto. Niño de Cebu"
         }
       ]
     },
